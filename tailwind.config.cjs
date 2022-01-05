@@ -4,7 +4,7 @@ const config = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Red Hat Text', 'Helvetica', 'Arial', 'sans-serif']
+				sans: ['Catamaran', 'Helvetica', 'Arial', 'sans-serif']
 			},
 			height: {
 				'10v': '10vh',
@@ -20,7 +20,7 @@ const config = {
 			},
 			colors: {
 				no_darkblue: {
-					DEFAULT: '#1f3947^',
+					DEFAULT: '#1f3947',
 				},
 				no_lightblue: {
 					DEFAULT: '#e6f5ff',
@@ -28,7 +28,6 @@ const config = {
 				no_brown: {
 					DEFAULT: '#9e7548',
 				}
-
 			}
 		}
 	},
