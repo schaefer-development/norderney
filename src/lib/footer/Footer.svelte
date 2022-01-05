@@ -2,7 +2,6 @@
 	import { page } from '$app/stores';
 </script>
 
-
 <footer>
-Hier ist der Footer
+	<div class="uppercase">Hier ist der Footer</div>
 </footer>
