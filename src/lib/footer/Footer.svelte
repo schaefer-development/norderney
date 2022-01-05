@@ -1,7 +1,4 @@
-<script lang="ts">
-	import { page } from '$app/stores';
-</script>
+<footer class="bg-no_darkblue">
 
-<footer>
 	<div class="uppercase">Hier ist der Footer</div>
 </footer>

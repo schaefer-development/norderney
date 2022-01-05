@@ -4,9 +4,12 @@
 	import '../app.css';
 </script>
 
+
+<div class="flex flex-col h-screen justify-between">
 <Header />
 <main>
 	<slot />
 </main>
 
 <Footer />
+</div>
