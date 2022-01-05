@@ -18,6 +18,9 @@ const config = {
 				'90v': '90vh',
 				'100v': '100vh'
 			},
+			backgroundPosition: {
+				'no_bg_hero':'50% 10%',
+			},
 			colors: {
 				no_darkblue: {
 					DEFAULT: '#1f3947',
@@ -26,7 +29,8 @@ const config = {
 					DEFAULT: '#e6f5ff',
 				},
 				no_brown: {
-					DEFAULT: '#9e7548',
+					DEFAULT: '#51402d',
+					lighter: '#9e7548',
 				}
 			}
 		}

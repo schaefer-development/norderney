@@ -1,11 +1,10 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import Logo from '$lib/logo/Logo.svelte';
 </script>
 
 <footer class="bg-no_darkblue">
-	<div class="wave w-full border h-12"></div>
-	<div class="max-w-screen-2xl mx-auto">
+	<div class="wave w-full h-12">WAVE</div>
+	<div class="max-w-screen-xl mx-auto">
 		<div class="text-no_lightblue grid grid-cols-2 gap-x-12">
 			<div class="logo col-span-full">
 				<div class="w-10/12 md:w-8/12 lg:w-4/12 pb-4 mx-auto">

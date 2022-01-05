@@ -40,12 +40,11 @@ body {
 	font-family: 'Catamaran';
 	font-size: calc(12px + 0.25vw);
 	margin: 0;
-	background-color: var(--primary-color);
 	background: linear-gradient(
 		180deg,
-		var(--primary-color) 0%,
-		var(--secondary-color) 10.45%,
-		var(--tertiary-color) 41.35%
+		var(--pure-white) 0%,
+		#faf0dd 45%,
+		#f7e6c6 100%
 	);
 }
 
