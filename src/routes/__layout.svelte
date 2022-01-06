@@ -12,28 +12,11 @@
 
 
 
-	<div class="mx-4 md:mx-10">
-	<main class="mb-auto relative z-10 bg-white w-full max-w-screen-lg mx-auto -mt-12 mb-12 px-10 pt-4 pb-16">
+	<main class="mb-auto relative z-10 w-full">
 		<slot />
 	</main>
-</div>
+
 	<Footer />
 </div>
 
 
-<style>
-main:after{
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 50px;
-	margin-top: -50px;
-	background-color: inherit;
-	-webkit-clip-path: polygon(100% 0,0 100%,100% 100%);
-	clip-path: polygon(100% 0,0 100%,100% 100%);
-}
-
-
-</style>
