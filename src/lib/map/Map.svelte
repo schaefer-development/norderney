@@ -24,9 +24,19 @@
 	onMount(async () => {
 		const L = await import('leaflet');
 		const icon = L.icon(iconOptions);
-		const map = L.map('map', { scrollWheelZoom: false }).setView(coordinates, zoom);
+		const map = L.map('map', { scrollWheelZoom: false, zoomControl: false }).setView(
+			coordinates,
+			zoom
+		);
+
 		L.tileLayer.apply(null, layerOptions).addTo(map);
 		L.marker(coordinates, { icon }).addTo(map);
+
+		L.control
+			.zoom({
+				position: 'bottomleft'
+			})
+			.addTo(map);
 
 		return () => map && map.remove();
 	});
