@@ -38,7 +38,7 @@ Write your global styles here, in PostCSS syntax
 body {
 	min-height: 100vh;
 	font-family: 'Catamaran';
-	font-size: calc(12px + 0.25vw);
+	font-size: calc(14px + 0.25vw);
 	margin: 0;
 	background: linear-gradient(
 		180deg,
@@ -64,11 +64,6 @@ body::before {
 	opacity: 0.05;
 }
 
-#svelte {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-}
 
 h1,
 h2,
@@ -86,18 +81,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	text-decoration: underline;
-}
 
-h1 {
-	font-size: 2rem;
-	text-align: center;
-}
-
-h2 {
-	font-size: 1rem;
-}
 
 pre {
 	font-size: 16px;
@@ -118,10 +102,4 @@ button {
 
 button:focus:not(:focus-visible) {
 	outline: none;
-}
-
-@media (min-width: 720px) {
-	h1 {
-		font-size: 2.4rem;
-	}
 }

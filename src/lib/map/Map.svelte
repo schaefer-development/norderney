@@ -18,7 +18,7 @@
 	export let coordinates: LatLngTuple = [53.70985, 7.14347];
 
 	export let mapAttributes = {
-		style: 'width: 100%; height: 50vh'
+		style: 'width: 100%; height: 100%'
 	};
 
 	onMount(async () => {
