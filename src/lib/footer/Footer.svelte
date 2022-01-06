@@ -40,7 +40,7 @@
 				<div class="logo col-span-full">
 					<div class="w-6/12 lg:w-4/12 mx-auto">
 						<Logo />
-						<div class="bg-no_lightblue h-0.5 w-5/12 mx-auto my-2" />
+						<div class="bg-no_lightblue h-0.5 w-5/12 mx-auto mt-6" />
 					</div>
 				</div>
 				<div class="col-span-full lg:col-span-1 text-center lg:text-right">

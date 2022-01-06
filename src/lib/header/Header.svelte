@@ -36,14 +36,10 @@
 				on:click={toggleMenu}
 				class="flex items-center px-2 py-2 mx-auto focus:border-0 text-no_brown tracking-wider hover:text-ti_blue_accent focus:ring-0 focus:outline-none focus:text-ti_blue_accent "
 			>
-				<svg
-					class="fill-current h-8 w-8"
-					viewBox="0 0 24 24"
-					xmlns="http://www.w3.org/2000/svg"
+				<svg class="fill-current h-8 w-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
 					><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg
 				>
 				<span class=" text-xl font-bold px-2 ">Menu</span>
-
 			</button>
 		</div>
 	</div>
@@ -57,8 +53,6 @@
 		? 'translate-x-0'
 		: 'translate-x-full'} transform block lg:hidden bg-no_darkblue top-0 left-0 w-full fixed h-full overflow-auto ease-in-out transition-all duration-300 z-50"
 >
-
-
 	<div class="flex flex-col flex-wrap px-6 py-4 mx-auto w-full menu_points">
 		<div class="flex justify-end w-full block">
 			<button
@@ -83,8 +77,6 @@
 		</div>
 
 		<div class="flex flex-col text-center items-center ">
-
-			
 			<div class="bg-no_lightblue h-0.5 w-full mx-auto my-2" />
 			<a
 				sveltekit:prefetch
@@ -94,20 +86,13 @@
 			>
 
 			<a
-			sveltekit:prefetch
-			href="{base}/lage"
-			class="my-2 text-white uppercase uppercase font-bold tracking-widest hover:text-ti_blue_accent text-base md:text-xl lg:text-2xl focus:ring-0 focus:outline-none focus:text-white"
-			>Lage & Ausstattung</a
-		>
-
-
-
+				sveltekit:prefetch
+				href="{base}/lage"
+				class="my-2 text-white uppercase uppercase font-bold tracking-widest hover:text-ti_blue_accent text-base md:text-xl lg:text-2xl focus:ring-0 focus:outline-none focus:text-white"
+				>Lage & Ausstattung</a
+			>
 		</div>
 	</div>
-
-
-
-
 </aside>
 
 <style>
