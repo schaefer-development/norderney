@@ -1,12 +1,23 @@
 <script lang="ts">
+		import { base } from '$app/paths';
 	import Logo from '$lib/logo/Logo.svelte';
 </script>
 
-<header class="absolute w-full">
-	<div class="relative z-50 flex flex-col justify-center">
+<header class="w-full">
 
 
-		<div class="w-10/12 md:w-8/12 lg:w-5/12 mx-auto text-no_darkblue">
+	<div
+		class="bg_layer w-full h-40v bg-cover bg-no_bg_hero "
+		style="background-image: url({base}/hero_placeholder.jpg)"
+	/>
+
+
+
+
+	<div class="absolute z-50 top-0 left-0 right-0 w-full max-w-screen-xl mx-auto ">
+
+
+		<div class="w-8/12 mx-auto text-no_darkblue mt-6">
 			<Logo />
 		</div>
 

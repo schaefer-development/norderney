@@ -10,14 +10,13 @@
 <div class="flex flex-col min-h-screen justify-between">
 	<Header />
 
-	<div
-		class="bg_layer w-full h-40v bg-cover bg-no_bg_hero "
-		style="background-image: url({base}/hero_placeholder.jpg)"
-	/>
 
-	<main class="mb-auto relative z-10 bg-white w-full max-w-screen-xl mx-auto -mt-10 mb-12 px-10 pt-4 pb-10">
+
+	<div class="mx-4 md:mx-10">
+	<main class="mb-auto relative z-10 bg-white w-full max-w-screen-lg mx-auto -mt-12 mb-12 px-10 pt-4 pb-16">
 		<slot />
 	</main>
+</div>
 	<Footer />
 </div>
 
