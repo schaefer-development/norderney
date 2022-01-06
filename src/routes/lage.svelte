@@ -4,80 +4,76 @@
 	import Map from '$lib/map/Map.svelte';
 	const mapAttributes = {
 		class: '',
-		style: 'width: 100%; height: 60vh;'
+		style: 'width: 100%; height: 40vh;'
 	};
 	export const prerender = true;
 </script>
 
-
-
 <div class="flex flex-col justify-center">
-<div class="hero">
-	<Map {mapAttributes} />
-</div>
-<div class="mx-12 lg:mx-16">
-    <div class="main max-w-screen-lg mx-auto -mt-12 bg-white px-12 lg:px-20 py-6 lg:py-16 relative z-50">
+	<div class="hero">
+		<Map {mapAttributes} />
+	</div>
+	<div class="mx-14 lg:mx-16">
+		<div
+			class="main max-w-screen-lg mx-auto -mt-12 bg-white px-12 lg:px-20 py-12 lg:py-16 relative z-50"
+		>
+			<p>
+				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+				invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+				et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+				Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+				diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+				voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+				gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+				invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+				et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+				Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+				diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+				voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+				gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+			</p>
 
-
-
-	<p>
-		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-		ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-		dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-		sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-		invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-		justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-		ipsum dolor sit amet.
-	</p>
-	<p>
-		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-		ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-		dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-		sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-		invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-		justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-		ipsum dolor sit amet.
-	</p>
-
-	<p>
-		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-		ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-		dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-		sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-		invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-		justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-		ipsum dolor sit amet.
-	</p>
-	<p>
-		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-		ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-		dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-		sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-		invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-		justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-		ipsum dolor sit amet.
-	</p>
-	<p>
-		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-		ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-		dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-		sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-		invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-		justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-		ipsum dolor sit amet.
-	</p>
-	<p>
-		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-		ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-		dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-		sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-		invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-		justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-		ipsum dolor sit amet.
-	</p>
-</div>
-</div>
-
+			<p>
+				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+				invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+				et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+				Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+				diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+				voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+				gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+				invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+				et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+				Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+				diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+				voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+				gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+				invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+				et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+				Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+				diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+				voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+				gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+				invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+				et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+				Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+				diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+				voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+				gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+			</p>
+		</div>
+	</div>
 </div>
 
 <style>
@@ -88,7 +84,7 @@
 		top: 0;
 		width: 100%;
 		height: 50px;
-		margin-top: -49px;
+		margin-top: -50px;
 		background-color: inherit;
 		-webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
 		clip-path: polygon(100% 0, 0 100%, 100% 100%);

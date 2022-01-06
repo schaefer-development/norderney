@@ -19,18 +19,18 @@ const config = {
 				'100v': '100vh'
 			},
 			backgroundPosition: {
-				'no_bg_hero':'50% 10%',
+				no_bg_hero: '50% 10%'
 			},
 			colors: {
 				no_darkblue: {
-					DEFAULT: '#1f3947',
+					DEFAULT: '#1f3947'
 				},
 				no_lightblue: {
-					DEFAULT: '#e6f5ff',
+					DEFAULT: '#e6f5ff'
 				},
 				no_brown: {
 					DEFAULT: '#51402d',
-					lighter: '#9e7548',
+					lighter: '#9e7548'
 				}
 			}
 		}

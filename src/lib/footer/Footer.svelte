@@ -3,8 +3,8 @@
 	import Logo from '$lib/logo/Logo.svelte';
 </script>
 
-<footer class="overflow-hidden ">
-	<div class="strand border">
+<footer class=" ">
+	<div class="strand grid content-end">
 		<!--- -->
 		<svg
 			version="1.1"
@@ -21,26 +21,18 @@
 				<animate
 					repeatCount="indefinite"
 					attributeName="d"
-					dur="15s"
+					dur="10s"
 					values="
-		
-		
 					M1610,24.9c-311,0-419.9,63.5-821,63.6c-400,0-510-63.6-799-63.6V110h1620C1610,110,1610,39.6,1610,24.9z;
 		
 					M1610,89c-311,0-419.9-64.1-821-64c-400,0-510,64-799,64v21h1620C1610,110,1610,103.7,1610,89z;
 
-
-
-					M1610,24.9c-311,0-419.9,63.5-821,63.6c-400,0-510-63.6-799-63.6V110h1620C1610,110,1610,39.6,1610,24.9z
-"
+					M1610,24.9c-311,0-419.9,63.5-821,63.6c-400,0-510-63.6-799-63.6V110h1620C1610,110,1610,39.6,1610,24.9z"
 				/>
 			</path>
 		</svg>
-
 		<!-- -->
 	</div>
-
-
 
 	<div class="relative w-full bg-no_darkblue ">
 		<div class="max-w-screen-xl mx-auto py-16">
@@ -76,6 +68,6 @@
 <style>
 	.strand {
 		width: 100%;
-		height: 6vh;
+		height: 100px;
 	}
 </style>

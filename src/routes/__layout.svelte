@@ -10,13 +10,9 @@
 <div class="flex flex-col min-h-screen justify-between">
 	<Header />
 
-
-
 	<main class="mb-auto relative z-10 w-full">
 		<slot />
 	</main>
 
 	<Footer />
 </div>
-
-
