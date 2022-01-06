@@ -3,27 +3,44 @@
 	import Logo from '$lib/logo/Logo.svelte';
 </script>
 
-<footer class="overflow-hidden mt-6 lg:mt-16">
-
-
-
+<footer class="overflow-hidden ">
 	<div class="strand border">
+		<!--- -->
+		<svg
+			version="1.1"
+			id="wave"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			x="0px"
+			y="0px"
+			viewBox="0 0 1600 100"
+			style="enable-background:new 0 0 1600 100;"
+			xml:space="preserve"
+		>
+			<path fill="#1f3947">
+				<animate
+					repeatCount="indefinite"
+					attributeName="d"
+					dur="15s"
+					values="
+		
+		
+					M1610,24.9c-311,0-419.9,63.5-821,63.6c-400,0-510-63.6-799-63.6V110h1620C1610,110,1610,39.6,1610,24.9z;
+		
+					M1610,89c-311,0-419.9-64.1-821-64c-400,0-510,64-799,64v21h1620C1610,110,1610,103.7,1610,89z;
 
 
 
+					M1610,24.9c-311,0-419.9,63.5-821,63.6c-400,0-510-63.6-799-63.6V110h1620C1610,110,1610,39.6,1610,24.9z
+"
+				/>
+			</path>
+		</svg>
+
+		<!-- -->
 	</div>
 
-	<!--
 
-	<div class="relative w-full border h-10v ">
-		<div class="shore  border ">
-			<div class="ocean border">
-				<div class="wave" />
-			</div>
-		</div>
-	</div>
-
-	-->
 
 	<div class="relative w-full bg-no_darkblue ">
 		<div class="max-w-screen-xl mx-auto py-16">
@@ -57,57 +74,8 @@
 </footer>
 
 <style>
-
-	.strand{
-		width:100%;
-		height:100px;
-	}
-
-.shore {
-		position:relative;
+	.strand {
 		width: 100%;
-		height: 10vh;
-	}
-
-	.ocean {
-		height: 10vh;
-		width: 100%;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-
-	}
-
-	.wave {
-		background: url('../static/wave.svg') repeat-x;
-		background-size:contain;
-		position: absolute;
-		z-index:9999;
-		width: 6400px;
-		height: 198px;
-		animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite, swell 7s ease -1.25s infinite;;
-		transform: translate3d(0, 0, 0);
-		border:1px solid blue;
-
-	}
-
-
-	@keyframes wave {
-		0% {
-			margin-left: 0;
-		}
-		100% {
-			margin-left: -1600px;
-		}
-	}
-
-	@keyframes swell {
-		0%,
-		100% {
-			transform: translate3d(0, 0, 0); /* 0, -50px, 0 */
-		}
-		50% {
-			transform: translate3d(0, 0, 0);
-		}
+		height: 6vh;
 	}
 </style>
