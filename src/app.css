@@ -95,7 +95,7 @@ li:before {
 	top: 0;
 	width: 100%;
 	height: 50px;
-	margin-top: -50px;
+	margin-top: -49px;
 	background-color: inherit;
 	-webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
 	clip-path: polygon(100% 0, 0 100%, 100% 100%);

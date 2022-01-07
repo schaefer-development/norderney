@@ -1,11 +1,11 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import hslide from './hslide';
 
 	let slides = [
-		{ content: '1', bg: 'blue' },
-		{ content: '2', bg: 'red' },
-		{ content: '3', bg: 'green' },
-		{ content: '4', bg: 'orange' }
+		{ content: '', bg: '' },
+		{ content: '', bg: '' },
+
 	];
 
 	let cur = 0;
@@ -40,19 +40,26 @@
 </script>
 
 <svelte:window on:keyup={handleShortcut} />
-
+<!--
+<div
+class="bg_layer w-full h-50v bg-cover bg-no_bg_hero "
+style="background-image: url({base}/hero_placeholder.jpg)"
+/>
+-->
 <div class="extra-outer-wrapper">
 	<div class="outer-wrapper">
 		<div class="inner-wrapper">
 			{#each slides as slide, id}
 				{#if id === cur}
 					<div
-						style="background:{slide.bg}"
-						class="slide"
+						style=""
+						class="slide w-full h-50v "
 						in:hslide={transition_args}
 						out:hslide={transition_args}
 					>
-						{slide.content}
+						<!---{slide.content}-->
+
+						<img src="{base}/hero_placeholder.jpg" alt="">
 					</div>
 				{/if}
 			{/each}
@@ -71,9 +78,10 @@
 </div>
 
 <style>
+	
 	button {
 		background: transparent;
-		color: #fff;
+		color: #ccc;
 		border-color: transparent;
 		width: 3.2rem;
 		height: 3.2rem;
@@ -139,7 +147,6 @@
 		flex: 1 0 auto;
 		width: 100%;
 		height: 100%;
-		background: red;
 		align-items: center;
 		justify-content: center;
 		display: flex;
@@ -147,6 +154,12 @@
 		font-weight: bold;
 		font-size: 2rem;
 		color: white;
+		border:1px solid #ccc;
+		overflow: hidden;
+		/*
+		background-size:cover;
+		background-repeat:no-repeat;
+		background-position: 50% 50%;*/
 	}
 
 	.controls {
