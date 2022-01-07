@@ -15,7 +15,7 @@
 	</div>
 	<div class="mx-14 lg:mx-16">
 		<div class="main">
-			<h1>Lage & Ausstattung</h1>
+			<h1>Kaiserstraße 17, 26548 Norderney</h1>
 			<h2>
 				Die Ferienwohnung "Am Meer Norderneys" (ca. 44qm) verfügt über die folgende Ausstattung:
 			</h2>

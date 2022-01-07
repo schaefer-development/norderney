@@ -4,8 +4,7 @@
 
 	let slides = [
 		{ content: '', bg: '' },
-		{ content: '', bg: '' },
-
+		{ content: '', bg: '' }
 	];
 
 	let cur = 0;
@@ -59,7 +58,7 @@ style="background-image: url({base}/hero_placeholder.jpg)"
 					>
 						<!---{slide.content}-->
 
-						<img src="{base}/hero_placeholder.jpg" alt="">
+						<img src="{base}/hero_placeholder.jpg" alt="" />
 					</div>
 				{/if}
 			{/each}
@@ -78,7 +77,6 @@ style="background-image: url({base}/hero_placeholder.jpg)"
 </div>
 
 <style>
-	
 	button {
 		background: transparent;
 		color: #ccc;
@@ -154,7 +152,7 @@ style="background-image: url({base}/hero_placeholder.jpg)"
 		font-weight: bold;
 		font-size: 2rem;
 		color: white;
-		border:1px solid #ccc;
+		border: 1px solid #ccc;
 		overflow: hidden;
 		/*
 		background-size:cover;
