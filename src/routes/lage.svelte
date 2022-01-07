@@ -4,7 +4,7 @@
 	import Map from '$lib/map/Map.svelte';
 	const mapAttributes = {
 		class: '',
-		style: 'width: 100%; height: 40vh;'
+		style: 'width: 100%; height: 50vh;'
 	};
 	export const prerender = true;
 </script>

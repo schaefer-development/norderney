@@ -21,13 +21,17 @@
 				<animate
 					repeatCount="indefinite"
 					attributeName="d"
-					dur="10s"
+					dur="11s"
 					values="
-					M1610,24.9c-311,0-419.9,63.5-821,63.6c-400,0-510-63.6-799-63.6V110h1620C1610,110,1610,39.6,1610,24.9z;
-		
 					M1610,89c-311,0-419.9-64.1-821-64c-400,0-510,64-799,64v21h1620C1610,110,1610,103.7,1610,89z;
+					M1610,79c-311,0-419.9-44.1-821-44C389,35,279,79-10,79v31h1620C1610,110,1610,93.7,1610,79z;
 
-					M1610,24.9c-311,0-419.9,63.5-821,63.6c-400,0-510-63.6-799-63.6V110h1620C1610,110,1610,39.6,1610,24.9z"
+					M1610,45.1c-311,0-419.9,23.6-821,23.7c-400,0-510-23.7-799-23.7V110h1620C1610,110,1610,59.8,1610,45.1z;
+					M1610,25.1c-311,0-419.9,63.6-821,63.7c-400,0-510-63.7-799-63.7V110h1620C1610,110,1610,39.8,1610,25.1z;
+					M1610,45.1c-311,0-419.9,23.6-821,23.7c-400,0-510-23.7-799-23.7V110h1620C1610,110,1610,59.8,1610,45.1z;
+
+					M1610,79c-311,0-419.9-44.1-821-44C389,35,279,79-10,79v31h1620C1610,110,1610,93.7,1610,79z;
+					M1610,89c-311,0-419.9-64.1-821-64c-400,0-510,64-799,64v21h1620C1610,110,1610,103.7,1610,89z"
 				/>
 			</path>
 		</svg>
@@ -38,14 +42,17 @@
 		<div class="max-w-screen-xl mx-auto py-16">
 			<div class="text-no_lightblue grid grid-cols-2 gap-10">
 				<div class="logo col-span-full">
-					<div class="w-6/12 lg:w-4/12 mx-auto">
+					<div class="w-5/12 lg:w-4/12 mx-auto">
 						<Logo />
 						<div class="bg-no_lightblue h-0.5 w-5/12 mx-auto mt-6" />
 					</div>
 				</div>
 				<div class="col-span-full lg:col-span-1 text-center lg:text-right">
-					<span class="text-sm uppercase tracking-widest">Start</span><br />
-					<span class="text-sm uppercase tracking-widest">Lage & Ausstattung</span><br />
+					<a href="{base}/" class="text-sm uppercase tracking-widest block hover:text-white"
+						>Start</a
+					>
+					<a href="{base}/lage" class="text-sm uppercase tracking-widest block">Lage & Ausbildung</a
+					>
 					<span class="text-sm uppercase tracking-widest">Bilder</span><br />
 					<span class="text-sm uppercase tracking-widest">Preise</span><br />
 					<span class="text-sm uppercase tracking-widest">Freie Termine</span><br />
@@ -57,7 +64,8 @@
 					<span class="text-sm uppercase tracking-widest">Dr. Marion Bertgen-Giesen</span><br />
 					<span class="text-sm uppercase tracking-widest">Telefon: 0228 - 23 03 90</span><br />
 					<span class="text-sm uppercase tracking-widest">Mobil: 0177 - 52 61 436</span><br />
-					<span class="text-sm uppercase tracking-widest">E-Mail: info@am-meer-norderney.de</span
+					<span class="text-sm uppercase tracking-widest"
+						>E-Mail: <a href="mailto:info@am-meer-norderney.de">info@am-meer-norderney.de</a></span
 					><br />
 				</div>
 			</div>

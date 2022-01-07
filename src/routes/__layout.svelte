@@ -7,10 +7,10 @@
 	import Index from './index.svelte';
 </script>
 
-<div class="flex flex-col min-h-screen justify-between">
+<div class="absolute flex flex-col min-h-screen justify-between w-screen overflow-hidden">
 	<Header />
 
-	<main class="mb-auto relative z-10 w-full">
+	<main class="mb-auto relative z-10 w-screen">
 		<slot />
 	</main>
 

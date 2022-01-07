@@ -3,9 +3,9 @@
 	import '../app.css';
 </script>
 
-<div class="hero h-40v border">
+<div class="hero h-50v">
 	<div
-		class="bg_layer w-full h-40v bg-cover bg-no_bg_hero "
+		class="bg_layer w-full h-50v bg-cover bg-no_bg_hero "
 		style="background-image: url({base}/hero_placeholder.jpg)"
 	/>
 </div>

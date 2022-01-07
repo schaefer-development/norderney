@@ -25,13 +25,12 @@
 		const L = await import('leaflet');
 		const icon = L.icon(iconOptions);
 		const map = L.map('map', { scrollWheelZoom: false, zoomControl: false }).setView(
-			coordinates,
+			new L.LatLng(53.715, 7.14347),
 			zoom
 		);
 
 		L.tileLayer.apply(null, layerOptions).addTo(map);
 		L.marker(coordinates, { icon }).addTo(map);
-
 		L.control
 			.zoom({
 				position: 'bottomleft'
