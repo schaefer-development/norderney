@@ -14,79 +14,58 @@
 		<Map {mapAttributes} />
 	</div>
 	<div class="mx-14 lg:mx-16">
-		<div
-			class="main max-w-screen-lg mx-auto -mt-12 bg-white px-12 lg:px-20 py-12 lg:py-16 relative z-50"
-		>
-			<p>
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-				invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-				et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-				Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-				diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-				voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-				gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-				invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-				et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-				Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-				diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-				voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-				gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-			</p>
+		<div class="main">
+			<h1>Lage & Ausstattung</h1>
+			<h2>
+				Die Ferienwohnung "Am Meer Norderneys" (ca. 44qm) verfügt über die folgende Ausstattung:
+			</h2>
 
-			<p>
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-				invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-				et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-				Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-				diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-				voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-				gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-				invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-				et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-				Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-				diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-				voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-				gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-				invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-				et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-				Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-				diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-				voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-				gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-				invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-				et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-				Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-				diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-				voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-				gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-			</p>
+			<div class="grid grid-cols-2 gap-12 pt-10">
+				<div class="left col-span-2 md:col-span-1">
+					<h3>Einbauküche</h3>
+
+					<ul>
+						<li>Spülmaschine</li>
+						<li>Kühlschrank mit Gefrierfach</li>
+						<li>Mikrowellen-Backofenkombination</li>
+						<li>Ceranfeld mit 4 Kochplatten</li>
+						<li>übliche Küchengeräte (z.B. Toaster, Wasserkocher)</li>
+					</ul>
+					<h3>Wohnbereich</h3>
+					<ul>
+						<li>Fernseher (Flat-TV mit Festplattenrecorder zum Aufzeichnen)</li>
+						<li>
+							bequemes Schlafsofa mit Lattenrost und Federkernmatratze (Liegefläche:160cmx200cm)
+						</li>
+						<li>gemütliche Essecke mit Buchen-Vollholzmöbeln und Meerblick</li>
+					</ul>
+
+					<h3>Schlafzimmer</h3>
+					<ul>
+						<li>weiterer Flat-TV</li>
+						<li>
+							zwei seperaten Komfort-Einzelbetten, allergikergeeignet, Vita_Med Holzrahmen und
+							Bonnelli-Federkernmatratze, Härte 3
+						</li>
+						<li>Meerblick vom Bett aus</li>
+					</ul>
+				</div>
+
+				<div class="right col-span-2 md:col-span-1">
+					<h3>Diele</h3>
+					<ul>
+						<li>modernisiert mit viel Stauraum für Schuhe, Jacken etc.</li>
+					</ul>
+					<h3>Bad (weiß gefliest)</h3>
+
+					<ul>
+						<li>Dusche</li>
+						<li>WC</li>
+						<li>Handtuchheizkörper</li>
+					</ul>
+					Überdachte Terrasse mit seitlichem Meerblick
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
-
-<style>
-	.main:after {
-		content: '';
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 50px;
-		margin-top: -50px;
-		background-color: inherit;
-		-webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
-		clip-path: polygon(100% 0, 0 100%, 100% 100%);
-	}
-</style>

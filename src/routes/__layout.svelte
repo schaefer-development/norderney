@@ -1,5 +1,7 @@
 <script lang="ts">
 	import '@fontsource/catamaran/400.css';
+	import '@fontsource/catamaran/600.css';
+	import '@fontsource/catamaran/700.css';
 	import Header from '$lib/header/Header.svelte';
 	import Footer from '$lib/footer/Footer.svelte';
 	import '../app.css';

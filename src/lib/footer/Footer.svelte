@@ -3,7 +3,7 @@
 	import Logo from '$lib/logo/Logo.svelte';
 </script>
 
-<footer class=" ">
+<footer class="-mt-24 z-20 ">
 	<div class="strand grid content-end">
 		<!--- -->
 		<svg
@@ -21,7 +21,7 @@
 				<animate
 					repeatCount="indefinite"
 					attributeName="d"
-					dur="11s"
+					dur="14s"
 					values="
 					M1610,89c-311,0-419.9-64.1-821-64c-400,0-510,64-799,64v21h1620C1610,110,1610,103.7,1610,89z;
 					M1610,79c-311,0-419.9-44.1-821-44C389,35,279,79-10,79v31h1620C1610,110,1610,93.7,1610,79z;
@@ -39,59 +39,59 @@
 	</div>
 
 	<div class="relative w-full bg-no_darkblue ">
-		<div class="max-w-screen-xl mx-auto py-16">
+		<div class="max-w-screen-xl mx-auto py-12">
 			<div class="text-no_lightblue grid grid-cols-2 gap-10">
 				<div class="logo col-span-full">
-					<div class="w-5/12 lg:w-4/12 mx-auto">
+					<div class="w-5/12 lg:w-4/12 mx-auto hover:opacity-60 transition-all duration-300">
 						<Logo />
 						<div class="bg-no_lightblue h-0.5 w-5/12 mx-auto mt-6" />
 					</div>
 				</div>
 				<div class="col-span-full lg:col-span-1 text-center lg:text-right">
-					<a href="{base}/" class="text-sm uppercase tracking-widest block hover:text-white py-1"
+					<a href="{base}/" class="text-xs uppercase tracking-widest block hover:opacity-60 py-1"
 						>Start</a
 					>
 					<a
 						href="{base}/lage"
-						class="text-sm uppercase tracking-widest block hover:text-white py-1"
+						class="text-xs uppercase tracking-widest block hover:opacity-60 py-1"
 						>Lage & Ausbildung</a
 					>
 
 					<a
 						href="{base}/bilder"
-						class="text-sm uppercase tracking-widest block hover:text-white py-1">Bilder</a
+						class="text-xs uppercase tracking-widest block hover:opacity-60 py-1">Bilder</a
 					>
 
 					<a
 						href="{base}/preise"
-						class="text-sm uppercase tracking-widest block hover:text-white py-1">Preise</a
+						class="text-xs uppercase tracking-widest block hover:opacity-60 py-1">Preise</a
 					>
 
 					<a
 						href="{base}/termine"
-						class="text-sm uppercase tracking-widest block hover:text-white py-1">Termine</a
+						class="text-xs uppercase tracking-widest block hover:opacity-60 py-1">Termine</a
 					>
 					<a
 						href="{base}/datenschutz"
-						class="text-sm uppercase tracking-widest block hover:text-white py-1">Datenschutz</a
+						class="text-xs uppercase tracking-widest block hover:opacity-60 py-1">Datenschutz</a
 					>
 
 					<a
 						href="{base}/impressum"
-						class="text-sm uppercase tracking-widest block hover:text-white py-1">Impressum</a
+						class="text-xs uppercase tracking-widest block hover:opacity-60 py-1">Impressum</a
 					>
 				</div>
 				<div class="col-span-full lg:col-span-1 text-center lg:text-left">
-					<span class="text-sm uppercase tracking-widest block py-1">Dr. Marion Bertgen-Giesen</span
+					<span class="text-xs uppercase tracking-widest block py-1">Dr. Marion Bertgen-Giesen</span
 					>
-					<span class="text-sm uppercase tracking-widest block  py-1">Telefon: 0228 - 23 03 90</span
+					<span class="text-xs uppercase tracking-widest block  py-1">Telefon: 0228 - 23 03 90</span
 					>
-					<span class="text-sm uppercase tracking-widest block py-1">Mobil: 0177 - 52 61 436</span>
-					<span class="text-sm uppercase tracking-widest block py-1"
+					<span class="text-xs uppercase tracking-widest block py-1">Mobil: 0177 - 52 61 436</span>
+					<span class="text-xs uppercase tracking-widest block py-1"
 						>E-Mail: <a
-							href="mailto:info@am-meer-norderney.de"
-							class="text-sm uppercase tracking-widest hover:text-white py-1"
-							>info@am-meer-norderney.de</a
+							href="mailto:m.bertgen@t-online.de"
+							class="text-xs uppercase tracking-widest hover:opacity-60 py-1"
+							>m.bertgen@t-online.de</a
 						></span
 					>
 				</div>

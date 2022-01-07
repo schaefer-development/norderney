@@ -11,8 +11,13 @@
 
 <header class="">
 	<div class="absolute z-50 top-0 left-0 right-0 w-full max-w-screen-xl mx-auto ">
-		<div class="w-7/12 mx-auto text-no_darkblue mt-6">
-			<Logo />
+		<div class="w-7/12 mx-auto  mt-6">
+			<a
+				sveltekit:prefetch
+				href="{base}/"
+				class="text-no_darkblue hover:opacity-80 focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
+				><Logo /></a
+			>
 		</div>
 
 		<div class="menu hidden lg:block">
@@ -53,7 +58,7 @@
 		<div class="menu_mobile block lg:hidden">
 			<button
 				on:click={toggleMenu}
-				class="flex items-center px-2 py-2 mx-auto focus:border-0 text-no_darkblue tracking-wider hover:text-ti_blue_accent focus:ring-0 focus:outline-none focus:text-ti_blue_accent "
+				class="flex items-center px-2 py-2 mx-auto focus:border-0 text-no_darkblue tracking-wider hover:opacity-80 focus:ring-0 focus:outline-none focus:text-no_darkblue"
 			>
 				<svg class="fill-current h-8 w-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
 					><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg
@@ -70,12 +75,12 @@
 	on:click={toggleMenu}
 	class="{open
 		? 'translate-x-0'
-		: 'translate-x-full'} transform bg-no_darkblue top-0 left-0 w-full fixed h-full overflow-auto ease-in-out transition-all duration-300 z-50"
+		: 'translate-x-full'} transform block lg:hidden bg-no_darkblue top-0 left-0 w-full fixed h-full overflow-auto ease-in-out transition-all duration-300 z-50"
 >
 	<div class="flex flex-col flex-wrap px-6 py-4 mx-auto w-full menu_points">
 		<div class="flex justify-center w-full block">
 			<button
-				class="flex items-center px-2 py-2 focus:border-0 text-white tracking-wider hover:text-ti_blue_accent focus:ring-0 focus:outline-none focus:text-ti_blue_accent "
+				class="flex items-center px-2 py-2 focus:border-0 text-white tracking-wider hover:opacity-60 focus:ring-0 focus:outline-none focus:text-ti_blue_accent "
 			>
 				<span class="text-xl px-2">Schließen</span>
 				<svg
@@ -100,16 +105,62 @@
 			<a
 				sveltekit:prefetch
 				href="{base}/"
-				class="mt-8 mb-2 text-white uppercase uppercase font-bold tracking-widest hover:text-ti_blue_accent text-base md:text-md lg:text-2xl focus:ring-0 focus:outline-none focus:text-white"
+				class="mt-8 mb-2 text-no_lightblue uppercase font-bold tracking-widest hover:opacity-60 focus:ring-0 focus:outline-none focus:text-white"
 				>Start</a
 			>
 
 			<a
 				sveltekit:prefetch
 				href="{base}/lage"
-				class="my-2 text-white uppercase uppercase font-bold tracking-widest hover:text-ti_blue_accent text-base md:text-md lg:text-2xl focus:ring-0 focus:outline-none focus:text-white"
+				class="my-2 text-white uppercase uppercase font-bold tracking-widest hover:opacity-60 text-base focus:ring-0 focus:outline-none focus:text-white"
 				>Lage & Ausstattung</a
+			>
+
+			<a
+				sveltekit:prefetch
+				href="{base}/bilder"
+				class="my-2 text-white uppercase uppercase font-bold tracking-widest hover:opacity-60 text-base focus:ring-0 focus:outline-none focus:text-white"
+				>Bilder</a
+			>
+
+			<a
+				sveltekit:prefetch
+				href="{base}/preise"
+				class="my-2 text-white uppercase uppercase font-bold tracking-widest hover:opacity-60 text-base focus:ring-0 focus:outline-none focus:text-white"
+				>Preise</a
+			>
+
+			<a
+				sveltekit:prefetch
+				href="{base}/termine"
+				class="my-2 text-white uppercase uppercase font-bold tracking-widest hover:opacity-60 text-base focus:ring-0 focus:outline-none focus:text-white"
+				>Freie Termine</a
+			>
+
+			<a
+				sveltekit:prefetch
+				href="{base}/kontakt"
+				class="my-2 text-white uppercase uppercase font-bold tracking-widest hover:opacity-60 text-base focus:ring-0 focus:outline-none focus:text-white"
+				>Kontakt</a
 			>
 		</div>
 	</div>
 </aside>
+
+<style>
+	.menupoint::after {
+		background-color: #1f3947;
+		bottom: -2px;
+		content: '';
+		display: block;
+		height: 3px;
+		position: absolute;
+		width: 0%;
+		transition: all;
+		transition-duration: 0.25s;
+	}
+
+	.menupoint:hover::after {
+		width: 100%;
+	}
+</style>
