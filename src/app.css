@@ -32,6 +32,8 @@ body {
 	font-size: calc(14px + 0.25vw);
 	margin: 0;
 	background: linear-gradient(180deg, var(--pure-white) 0%, #faf0dd 45%, #f7e6c6 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 body::before {

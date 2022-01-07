@@ -23,7 +23,8 @@ const config = {
 			},
 			colors: {
 				no_darkblue: {
-					DEFAULT: '#1f3947'
+					DEFAULT: '#1f3947',
+					lighter: ''
 				},
 				no_lightblue: {
 					DEFAULT: '#e6f5ff'

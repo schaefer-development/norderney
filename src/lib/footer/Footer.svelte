@@ -48,25 +48,52 @@
 					</div>
 				</div>
 				<div class="col-span-full lg:col-span-1 text-center lg:text-right">
-					<a href="{base}/" class="text-sm uppercase tracking-widest block hover:text-white"
+					<a href="{base}/" class="text-sm uppercase tracking-widest block hover:text-white py-1"
 						>Start</a
 					>
-					<a href="{base}/lage" class="text-sm uppercase tracking-widest block">Lage & Ausbildung</a
+					<a
+						href="{base}/lage"
+						class="text-sm uppercase tracking-widest block hover:text-white py-1"
+						>Lage & Ausbildung</a
 					>
-					<span class="text-sm uppercase tracking-widest">Bilder</span><br />
-					<span class="text-sm uppercase tracking-widest">Preise</span><br />
-					<span class="text-sm uppercase tracking-widest">Freie Termine</span><br />
-					<span class="text-sm uppercase tracking-widest">Kontakt</span><br />
-					<span class="text-sm uppercase tracking-widest">Datenschutz</span><br />
-					<span class="text-sm uppercase tracking-widest">Impressum</span><br />
+
+					<a
+						href="{base}/bilder"
+						class="text-sm uppercase tracking-widest block hover:text-white py-1">Bilder</a
+					>
+
+					<a
+						href="{base}/preise"
+						class="text-sm uppercase tracking-widest block hover:text-white py-1">Preise</a
+					>
+
+					<a
+						href="{base}/termine"
+						class="text-sm uppercase tracking-widest block hover:text-white py-1">Termine</a
+					>
+					<a
+						href="{base}/datenschutz"
+						class="text-sm uppercase tracking-widest block hover:text-white py-1">Datenschutz</a
+					>
+
+					<a
+						href="{base}/impressum"
+						class="text-sm uppercase tracking-widest block hover:text-white py-1">Impressum</a
+					>
 				</div>
 				<div class="col-span-full lg:col-span-1 text-center lg:text-left">
-					<span class="text-sm uppercase tracking-widest">Dr. Marion Bertgen-Giesen</span><br />
-					<span class="text-sm uppercase tracking-widest">Telefon: 0228 - 23 03 90</span><br />
-					<span class="text-sm uppercase tracking-widest">Mobil: 0177 - 52 61 436</span><br />
-					<span class="text-sm uppercase tracking-widest"
-						>E-Mail: <a href="mailto:info@am-meer-norderney.de">info@am-meer-norderney.de</a></span
-					><br />
+					<span class="text-sm uppercase tracking-widest block py-1">Dr. Marion Bertgen-Giesen</span
+					>
+					<span class="text-sm uppercase tracking-widest block  py-1">Telefon: 0228 - 23 03 90</span
+					>
+					<span class="text-sm uppercase tracking-widest block py-1">Mobil: 0177 - 52 61 436</span>
+					<span class="text-sm uppercase tracking-widest block py-1"
+						>E-Mail: <a
+							href="mailto:info@am-meer-norderney.de"
+							class="text-sm uppercase tracking-widest hover:text-white py-1"
+							>info@am-meer-norderney.de</a
+						></span
+					>
 				</div>
 			</div>
 		</div>
