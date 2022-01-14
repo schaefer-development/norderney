@@ -10,8 +10,8 @@
 	/>
 </div>
 
-<div class="mx-14 lg:mx-16">
-	<div class="main">
+<div class="main">
+	<section class="relative first_section bg-white px-12 py-12 edge">
 		<Slideshow />
-	</div>
+	</section>
 </div>

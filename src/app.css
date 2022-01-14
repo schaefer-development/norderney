@@ -88,14 +88,18 @@ li:before {
 	width: 2em;
 }
 
-.main:after {
+.main {
+	@apply relative z-50 w-full max-w-screen-lg px-12 py-12 mx-auto -mt-12;
+}
+
+.edge:after {
 	content: '';
 	position: absolute;
-	left: 0;
+	left: 0px;
 	top: 0;
-	width: 100%;
-	height: 50px;
-	margin-top: -49px;
+	width: 101%;
+	height: 30px;
+	margin-top: -29px;
 	background-color: inherit;
 	-webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
 	clip-path: polygon(100% 0, 0 100%, 100% 100%);
@@ -111,7 +115,7 @@ h1:after {
 	bottom: -5px;
 	content: '';
 	display: block;
-	height: 4px;
+	height: 3px;
 	position: absolute;
 	width: 100%;
 }
@@ -124,6 +128,9 @@ h3 {
 	@apply relative font-bold tracking-wider text-sm uppercase break-words text-no_brown;
 }
 
-.main {
-	@apply max-w-screen-lg mx-auto -mt-12 bg-white px-8 lg:px-20 pt-12 pb-20 lg:pb-40 relative z-50;
+.highlight {
+	border-left: 4px solid red;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	padding-left: 1em;
 }

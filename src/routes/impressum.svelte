@@ -10,10 +10,9 @@
 	/>
 </div>
 
-<div class="mx-14 lg:mx-16">
-	<div class="main">
+<div class="main">
+	<section class="relative first_section bg-white px-12 py-12 edge">
 		<h1>Impressum</h1>
-
 		<div class="grid grid-cols-2 gap-x-12">
 			<div class="left col-span-2 lg:col-span-1">
 				<!-- -->
@@ -84,5 +83,5 @@
 				<!-- -->
 			</div>
 		</div>
-	</div>
+	</section>
 </div>

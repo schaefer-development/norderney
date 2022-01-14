@@ -153,7 +153,7 @@
 		bottom: -2px;
 		content: '';
 		display: block;
-		height: 3px;
+		height: 4px;
 		position: absolute;
 		width: 0%;
 		transition: all;

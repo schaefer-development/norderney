@@ -8,6 +8,12 @@
 	import Index from './index.svelte';
 </script>
 
+<svelte:head>
+	<title>Am Meer Norderneys</title>
+	<meta name="robots" content="noindex nofollow" />
+	<html lang="de" />
+</svelte:head>
+
 <div class="flex flex-col min-h-screen justify-between w-screen overflow-hidden">
 	<Header />
 

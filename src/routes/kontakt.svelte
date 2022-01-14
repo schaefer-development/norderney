@@ -10,18 +10,18 @@
 	/>
 </div>
 
-<div class="mx-14 lg:mx-16">
-	<div class="main">
+<div class="main">
+	<section class="relative first_section bg-white px-12 py-12 edge">
 		<h1>Kontakt</h1>
 
-		<h2>
+		<h2 class="pb-2">
 			Möchten Sie uns eine Anfrage für einen bestimmten Zeitraum senden oder haben Sie noch weitere
 			Fragen zu unserer Ferienwohnung "Am Meer Norderneys"?
 		</h2>
-		<p class="text-no_darkblue font-bold pb-2">
+		<h2>
 			Dann prüfen Sie unseren Belegungskalender und schreiben Sie uns! Wir geben gerne Auskunft und
 			freuen uns auf Ihren Besuch auf Norderney!
-		</p>
+		</h2>
 
 		<h3 class="pt-12">Kontakt Vermietung</h3>
 		<p>
@@ -37,5 +37,5 @@
 				class="font-bold text-no_darkblue hover:opacity-60 py-1">m.bertgen@t-online.de</a
 			>
 		</p>
-	</div>
+	</section>
 </div>
