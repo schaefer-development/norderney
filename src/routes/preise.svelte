@@ -1,20 +1,15 @@
 <script lang="ts">
-	import { base } from '$app/paths';
+	import Hero from '$lib/hero/Hero.svelte';
 	import '../app.css';
 </script>
 
-<div class="hero h-50v">
-	<div
-		class="bg_layer w-full h-50v bg-cover bg-no_bg_hero "
-		style="background-image: url({base}/hero_placeholder.jpg)"
-	/>
-</div>
+<Hero />
 
 <div class="main">
 	<section class="relative first_section bg-white px-12 py-12 edge">
-		<h1>Preise</h1>
+		<h1 class="text-8xl text-no_darkblue">Preise</h1>
 		<h2>Ferienwohnung "am Meer Norderneys"</h2>
-		<p class="text-no_darkblue font-bold highlight">
+		<p class="text-no_red highlight">
 			Sonderpreis vom 9. bis 14. Januar 2022, für 450€ komplett inkl. aller Kosten.<br />
 			Sonderpreis 6. bis 12. März 2022, für 550€ komplett inkl. aller Kosten.<br />
 			Buchungslücke 8. bis 10. Mai 2022, 200€ komplett, inkl. aller Kosten. <br />

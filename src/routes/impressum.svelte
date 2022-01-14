@@ -1,18 +1,15 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	import Hero from '$lib/hero/Hero.svelte';
+
 	import '../app.css';
 </script>
 
-<div class="hero h-50v">
-	<div
-		class="bg_layer w-full h-50v bg-cover bg-no_bg_hero "
-		style="background-image: url({base}/hero_placeholder.jpg)"
-	/>
-</div>
+<Hero />
 
 <div class="main">
 	<section class="relative first_section bg-white px-12 py-12 edge">
-		<h1>Impressum</h1>
+		<h1 class="no_h1 text-8xl text-no_darkblue">Impressum</h1>
 		<div class="grid grid-cols-2 gap-x-12">
 			<div class="left col-span-2 lg:col-span-1">
 				<!-- -->

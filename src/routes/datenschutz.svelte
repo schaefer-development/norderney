@@ -1,18 +1,14 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import '../app.css';
+	import Hero from '$lib/hero/Hero.svelte';
 </script>
 
-<div class="hero h-50v">
-	<div
-		class="bg_layer w-full h-50v bg-cover bg-no_bg_hero "
-		style="background-image: url({base}/hero_placeholder.jpg)"
-	/>
-</div>
+<Hero />
 
 <div class="main">
 	<section class="relative first_section bg-white px-12 py-12 edge">
-		<h1>Datenschutz</h1>
+		<h1 class="no_h1 text-8xl text-no_darkblue">Datenschutz</h1>
 		<p class="pb-10">
 			Dr. Marion Bertgen-Giesen<br />
 			Gregor-Mendel-Straße 26<br />

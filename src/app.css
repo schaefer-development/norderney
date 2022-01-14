@@ -89,7 +89,7 @@ li:before {
 }
 
 .main {
-	@apply relative z-50 w-full max-w-screen-lg px-12 py-12 mx-auto -mt-12;
+	@apply relative z-50 w-full max-w-screen-lg px-12 mx-auto -mt-12;
 }
 
 .edge:after {
@@ -97,7 +97,7 @@ li:before {
 	position: absolute;
 	left: 0px;
 	top: 0;
-	width: 101%;
+	width: 100%;
 	height: 30px;
 	margin-top: -29px;
 	background-color: inherit;
@@ -105,23 +105,32 @@ li:before {
 	clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
-h1 {
-	@apply relative font-bold text-center text-4xl text-no_brown break-words inline-block mb-8;
+h1,
+.h1 {
+	font-family: 'Praise';
 }
 
-h1:after {
+h1,
+.h1 {
+	@apply relative break-words inline-block mb-8 text-center w-full;
+}
+
+.no_underline:after {
 	content: '';
-	background-color: #1f3947;
-	bottom: -5px;
+	background-color: #9e7548;
+	bottom: -8%;
 	content: '';
 	display: block;
-	height: 3px;
+	height: 4px;
 	position: absolute;
-	width: 100%;
+	width: 38%;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 
 h2 {
-	@apply relative font-semibold text-xl break-words pb-2;
+	@apply relative font-semibold text-no_brown text-2xl break-words pb-2 text-center px-6;
 }
 
 h3 {
@@ -129,8 +138,8 @@ h3 {
 }
 
 .highlight {
-	border-left: 4px solid red;
-	margin-top: 1em;
-	margin-bottom: 2em;
+	border-left: 5px solid #f92200;
+	margin-top: 2em;
+	margin-bottom: 3em;
 	padding-left: 1em;
 }

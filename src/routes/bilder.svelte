@@ -1,17 +1,14 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import Slideshow from '$lib/slideshow/Slideshow.svelte';
+	import Hero from '$lib/hero/Hero.svelte';
 </script>
 
-<div class="hero h-50v">
-	<div
-		class="bg_layer w-full h-50v bg-cover bg-no_bg_hero "
-		style="background-image: url({base}/hero_placeholder.jpg)"
-	/>
-</div>
+<Hero />
 
 <div class="main">
 	<section class="relative first_section bg-white px-12 py-12 edge">
+		<h1 class="text-8xl text-no_darkblue">Kieken</h1>
 		<Slideshow />
 	</section>
 </div>

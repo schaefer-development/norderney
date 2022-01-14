@@ -2,6 +2,8 @@
 	import '@fontsource/catamaran/400.css';
 	import '@fontsource/catamaran/600.css';
 	import '@fontsource/catamaran/700.css';
+	import '@fontsource/praise';
+
 	import Header from '$lib/header/Header.svelte';
 	import Footer from '$lib/footer/Footer.svelte';
 	import '../app.css';

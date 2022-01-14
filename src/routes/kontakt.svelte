@@ -1,26 +1,19 @@
 <script lang="ts">
-	import { base } from '$app/paths';
+	import Hero from '$lib/hero/Hero.svelte';
 	import '../app.css';
 </script>
 
-<div class="hero h-50v">
-	<div
-		class="bg_layer w-full h-50v bg-cover bg-no_bg_hero "
-		style="background-image: url({base}/hero_placeholder.jpg)"
-	/>
-</div>
+<Hero />
 
 <div class="main">
 	<section class="relative first_section bg-white px-12 py-12 edge">
-		<h1>Kontakt</h1>
+		<h1 class="text-8xl text-no_darkblue">Kontakt</h1>
 
 		<h2 class="pb-2">
 			Möchten Sie uns eine Anfrage für einen bestimmten Zeitraum senden oder haben Sie noch weitere
-			Fragen zu unserer Ferienwohnung "Am Meer Norderneys"?
-		</h2>
-		<h2>
-			Dann prüfen Sie unseren Belegungskalender und schreiben Sie uns! Wir geben gerne Auskunft und
-			freuen uns auf Ihren Besuch auf Norderney!
+			Fragen zu unserer Ferienwohnung "Am Meer Norderneys"? Dann prüfen Sie unseren
+			Belegungskalender und schreiben Sie uns! Wir geben gerne Auskunft und freuen uns auf Ihren
+			Besuch auf Norderney!
 		</h2>
 
 		<h3 class="pt-12">Kontakt Vermietung</h3>

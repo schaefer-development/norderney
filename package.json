@@ -32,6 +32,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/catamaran": "^4.5.0",
+		"@fontsource/praise": "^4.5.1",
 		"leaflet": "^1.7.1"
 	}
 }

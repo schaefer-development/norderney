@@ -4,7 +4,7 @@
 	import Map from '$lib/map/Map.svelte';
 	const mapAttributes = {
 		class: '',
-		style: 'width: 100%; height: 50vh;'
+		style: 'width: 100%; height: 70vh;'
 	};
 	export const prerender = true;
 </script>
@@ -16,19 +16,18 @@
 
 	<div class="main">
 		<section class="relative first_section bg-white px-12 py-12 edge">
-			<h1>Kaiserstraße 17, 26548 Norderney</h1>
-			<h2>
+			<h1 class="no_h1 text-8xl text-no_darkblue">Kaiserstraße 17<br />26548 Norderney</h1>
+			<h2 class="no_h2 pb-12">
 				Direkt an der Promenade, im Haus Nordseeblick A in der zweiten Etage, mit seitlichem
 				Meerblick. Das Haus hat einen Aufzug und alle Zugänge sind behindertengerecht ausgestattet.
 				Das Stadtzentrum mit allen Geschäften ist von hier aus in zwei Minuten zu erreichen, noch
 				schneller sind Sie am Meer.
-			</h2>
+				<br />
 
-			<h2>
 				Die Ferienwohnung "Am Meer Norderneys" (ca. 44qm) verfügt über die folgende Ausstattung:
 			</h2>
 
-			<div class="grid grid-cols-2 gap-12 pt-10">
+			<div class="grid grid-cols-2 gap-12">
 				<div class="left col-span-2 md:col-span-1">
 					<h3>Einbauküche</h3>
 
@@ -43,7 +42,7 @@
 					<ul>
 						<li>Fernseher (Flat-TV mit Festplattenrecorder zum Aufzeichnen)</li>
 						<li>
-							bequemes Schlafsofa mit Lattenrost und Federkernmatratze (Liegefläche:160cmx200cm)
+							bequemes Schlafsofa mit Lattenrost und Federkernmatratze (Liegefläche: 160cmx200cm)
 						</li>
 						<li>gemütliche Essecke mit Buchen-Vollholzmöbeln und Meerblick</li>
 					</ul>

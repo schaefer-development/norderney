@@ -14,7 +14,7 @@
 			maxZoom: 19
 		}
 	];
-	export let zoom = 14;
+	export let zoom = 15;
 	export let coordinates: LatLngTuple = [53.70985, 7.14347];
 
 	export let mapAttributes = {
@@ -25,7 +25,7 @@
 		const L = await import('leaflet');
 		const icon = L.icon(iconOptions);
 		const map = L.map('map', { scrollWheelZoom: false, zoomControl: false }).setView(
-			new L.LatLng(53.715, 7.14347),
+			new L.LatLng(53.7125, 7.14347), // new centered!
 			zoom
 		);
 
