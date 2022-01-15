@@ -1,15 +1,30 @@
 <script lang="ts">
-	import Slideshow from '$lib/slideshow/Slideshow.svelte';
+	import { base } from '$app/paths';
+	import '@splidejs/splide/dist/css/splide.min.css';
+	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 </script>
 
-
-
-
-
-
 <div class="realtive test w-full h-100v border-3">
-
-	<Slideshow />
+	<Splide
+		options={{
+			rewind: true,
+			width: 1000,
+			gap: '1rem'
+		}}
+	>
+		<SplideSlide>
+			<img
+				src="https://naturschutz.ch/wp-content/uploads/2018/10/cropped-Eichh%C3%B6rnchen--1068x580.jpg"
+				alt="Image 1"
+			/>
+		</SplideSlide>
+		<SplideSlide>
+			<img
+				src="https://bilder.t-online.de/b/84/93/82/46/id_84938246/920/tid_da/eichhoernchen-geert-weggen-zeigt-die-welt-der-kleinen-nager-.jpg"
+				alt="Image 1"
+			/>
+		</SplideSlide>
+	</Splide>
 </div>
 <!--
 

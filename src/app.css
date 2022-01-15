@@ -72,7 +72,8 @@ button:focus:not(:focus-visible) {
 	outline: none;
 }
 
-ul {
+/*
+ul{
 	list-style: none;
 	padding: 1em 1em 2em 0;
 }
@@ -91,7 +92,7 @@ li:before {
 	top: 0.2em;
 	width: 2em;
 }
-
+*/
 .main {
 	@apply relative z-50 w-full max-w-screen-lg px-12 mx-auto -mt-12;
 }
