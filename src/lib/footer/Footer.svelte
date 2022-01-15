@@ -3,7 +3,7 @@
 	import Logo from '$lib/logo/Logo.svelte';
 </script>
 
-<footer class="-mt-16 z-20 ">
+<footer class="z-20 -mt-12">
 	<!--- -->
 
 	<div class="beach ">
@@ -30,7 +30,7 @@
 	<!-- -->
 
 	<div class="relative w-full bg-no_darkblue ">
-		<div class="max-w-screen-xl mx-auto py-12">
+		<div class="max-w-screen-xl mx-auto pt-12 pb-20">
 			<div class="text-no_lightblue grid grid-cols-2 gap-10">
 				<div class="logo col-span-full">
 					<div class="w-5/12 lg:w-4/12 mx-auto hover:opacity-60 transition-all duration-300">
@@ -39,49 +39,49 @@
 					</div>
 				</div>
 				<div class="col-span-full lg:col-span-1 text-center lg:text-right">
-					<a href="{base}/" class="text-xs uppercase tracking-widest block hover:opacity-60 py-1"
+					<a href="{base}/" class="text-sm uppercase tracking-widest block hover:opacity-60 py-1"
 						>Start</a
 					>
 					<a
 						href="{base}/lage"
-						class="text-xs uppercase tracking-widest block hover:opacity-60 py-1"
+						class="text-sm uppercase tracking-widest block hover:opacity-60 py-1"
 						>Lage & Ausbildung</a
 					>
 
 					<a
 						href="{base}/bilder"
-						class="text-xs uppercase tracking-widest block hover:opacity-60 py-1">Bilder</a
+						class="text-sm uppercase tracking-widest block hover:opacity-60 py-1">Bilder</a
 					>
 
 					<a
 						href="{base}/preise"
-						class="text-xs uppercase tracking-widest block hover:opacity-60 py-1">Preise</a
+						class="text-sm uppercase tracking-widest block hover:opacity-60 py-1">Preise</a
 					>
 
 					<a
 						href="{base}/termine"
-						class="text-xs uppercase tracking-widest block hover:opacity-60 py-1">Termine</a
+						class="text-sm uppercase tracking-widest block hover:opacity-60 py-1">Termine</a
 					>
 					<a
 						href="{base}/datenschutz"
-						class="text-xs uppercase tracking-widest block hover:opacity-60 py-1">Datenschutz</a
+						class="text-sm uppercase tracking-widest block hover:opacity-60 py-1">Datenschutz</a
 					>
 
 					<a
 						href="{base}/impressum"
-						class="text-xs uppercase tracking-widest block hover:opacity-60 py-1">Impressum</a
+						class="text-sm uppercase tracking-widest block hover:opacity-60 py-1">Impressum</a
 					>
 				</div>
 				<div class="col-span-full lg:col-span-1 text-center lg:text-left">
-					<span class="text-xs uppercase tracking-widest block py-1">Dr. Marion Bertgen-Giesen</span
+					<span class="text-sm uppercase tracking-widest block py-1">Dr. Marion Bertgen-Giesen</span
 					>
-					<span class="text-xs uppercase tracking-widest block  py-1">Telefon: 0228 - 23 03 90</span
+					<span class="text-sm uppercase tracking-widest block  py-1">Telefon: 0228 - 23 03 90</span
 					>
-					<span class="text-xs uppercase tracking-widest block py-1">Mobil: 0177 - 52 61 436</span>
-					<span class="text-xs uppercase tracking-widest block py-1"
+					<span class="text-sm uppercase tracking-widest block py-1">Mobil: 0177 - 52 61 436</span>
+					<span class="text-sm uppercase tracking-widest block py-1"
 						>E-Mail: <a
 							href="mailto:m.bertgen@t-online.de"
-							class="text-xs uppercase tracking-widest hover:opacity-60 py-1"
+							class="text-sm uppercase tracking-widest hover:opacity-60 py-1"
 							>m.bertgen@t-online.de</a
 						></span
 					>
@@ -96,6 +96,8 @@
 		position: relative;
 		width: 100%;
 		height: 10vw;
+		bottom: -1.5vw;
+		transform: scaleY(0.75);
 	}
 
 	.wave {
@@ -103,7 +105,7 @@
 		left: 0;
 		bottom: -0.5vw;
 		width: 200%;
-		animation: wave linear 5s infinite;
+		animation: wave linear 10s infinite;
 	}
 
 	@keyframes wave {

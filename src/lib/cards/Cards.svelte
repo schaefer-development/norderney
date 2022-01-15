@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<div class="-mt-12 pt-12 pb-20 lg:pb-40 relative z-50 ">
+<div class="-mt-12 pt-12 relative z-50 ">
 	<div class="grid grid-cols-1 sm:grid-cols-2 gap-12 mt-12">
 		<!-- card -->
 		<div class="mod_card overflow-hidden w-full text-white mx-3 md:mx-0 lg:mx-0">

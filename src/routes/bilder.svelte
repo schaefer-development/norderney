@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import Slideshow from '$lib/slideshow/Slideshow.svelte';
 	import Hero from '$lib/hero/Hero.svelte';
 </script>

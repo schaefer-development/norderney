@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import '../app.css';
 	import Hero from '$lib/hero/Hero.svelte';
 </script>
