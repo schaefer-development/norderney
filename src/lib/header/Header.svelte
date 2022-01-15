@@ -99,7 +99,7 @@
 						d="M6 18L18 6M6 6l12 12"
 					/>
 				</svg>
-				<span class="text-xl uppercase px-2 tracking-wider -mb-1">Schließen</span>
+				<span class="text-xl uppercase px-2 tracking-wider -mb-1 outer_glow">Schließen</span>
 			</button>
 		</div>
 		<div class="bg-no_lightblue h-0.5 w-3/12 mx-auto mt-4" />
@@ -151,6 +151,9 @@
 </aside>
 
 <style>
+	.menupoint {
+		text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 8px #fff;
+	}
 	.menupoint::after {
 		background-color: #1f3947;
 		bottom: -2px;

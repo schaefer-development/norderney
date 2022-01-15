@@ -4,7 +4,7 @@
 	import Map from '$lib/map/Map.svelte';
 	const mapAttributes = {
 		class: '',
-		style: 'width: 100%; height: 70vh;'
+		style: 'width: 100%; height: 80vh;'
 	};
 	export const prerender = true;
 </script>
@@ -31,7 +31,7 @@
 				<div class="left col-span-2 md:col-span-1">
 					<h3>Einbauküche</h3>
 
-					<ul>
+					<ul class="no_style">
 						<li>Spülmaschine</li>
 						<li>Kühlschrank mit Gefrierfach</li>
 						<li>Mikrowellen-Backofenkombination</li>
@@ -39,7 +39,7 @@
 						<li>übliche Küchengeräte (z.B. Toaster, Wasserkocher)</li>
 					</ul>
 					<h3>Wohnbereich</h3>
-					<ul>
+					<ul class="no_style">
 						<li>Fernseher (Flat-TV mit Festplattenrecorder zum Aufzeichnen)</li>
 						<li>
 							bequemes Schlafsofa mit Lattenrost und Federkernmatratze (Liegefläche: 160cmx200cm)
@@ -48,7 +48,7 @@
 					</ul>
 
 					<h3>Schlafzimmer</h3>
-					<ul>
+					<ul class="no_style">
 						<li>weiterer Flat-TV</li>
 						<li>
 							zwei seperaten Komfort-Einzelbetten, allergikergeeignet, Vita_Med Holzrahmen und
@@ -60,12 +60,12 @@
 
 				<div class="right col-span-2 md:col-span-1">
 					<h3>Diele</h3>
-					<ul>
+					<ul class="no_style">
 						<li>modernisiert mit viel Stauraum für Schuhe, Jacken etc.</li>
 					</ul>
 					<h3>Bad (weiß gefliest)</h3>
 
-					<ul>
+					<ul class="no_style">
 						<li>Dusche</li>
 						<li>WC</li>
 						<li>Handtuchheizkörper</li>
