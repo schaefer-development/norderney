@@ -1,9 +1,17 @@
 <script lang="ts">
 	import Slideshow from '$lib/slideshow/Slideshow.svelte';
-	import Hero from '$lib/hero/Hero.svelte';
 </script>
 
-<Hero />
+
+
+
+
+
+<div class="realtive test w-full h-100v border-3">
+
+	<Slideshow />
+</div>
+<!--
 
 <div class="main">
 	<section class="relative first_section bg-white px-12 py-12 edge">
@@ -11,3 +19,4 @@
 		<Slideshow />
 	</section>
 </div>
+-->

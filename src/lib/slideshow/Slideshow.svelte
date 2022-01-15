@@ -52,13 +52,13 @@ style="background-image: url({base}/hero_placeholder.jpg)"
 				{#if id === cur}
 					<div
 						style=""
-						class="slide w-full h-50v "
+						class="slide test"
 						in:hslide={transition_args}
 						out:hslide={transition_args}
 					>
 						<!---{slide.content}-->
 
-						<img src="{base}/hero_placeholder.jpg" alt="" />
+						<img src="{base}/lage.jpg" alt="" />
 					</div>
 				{/if}
 			{/each}
@@ -77,18 +77,15 @@ style="background-image: url({base}/hero_placeholder.jpg)"
 </div>
 
 <style>
-	button {
-		background: transparent;
-		color: #ccc;
+	button {background: white;
+		font-size:2rem;
+		color: #1f3947;
 		border-color: transparent;
-		width: 3.2rem;
-		height: 3.2rem;
+		width: 5rem;
+		height: 5rem;
 	}
 
-	button:hover,
-	button:focus {
-		background: rgba(0, 0, 0, 0.5);
-	}
+
 
 	.dots {
 		display: flex;
@@ -118,7 +115,7 @@ style="background-image: url({base}/hero_placeholder.jpg)"
 
 	.outer-wrapper {
 		width: 100%;
-		padding: 0 0 56.25%;
+		padding: 0 0 100%;
 		position: relative;
 	}
 
@@ -164,5 +161,17 @@ style="background-image: url({base}/hero_placeholder.jpg)"
 		text-align: center;
 		width: 100%;
 		display: block;
+	}
+
+
+	.test{
+		
+		border:3px solid red;
+	}
+
+
+	.test img{
+		border:1px solid blue;
+		width:100%;
 	}
 </style>
