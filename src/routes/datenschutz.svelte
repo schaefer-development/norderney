@@ -6,8 +6,8 @@
 <Hero />
 
 <div class="main">
-	<section class="relative first_section bg-white px-12 py-12 edge">
-		<h1 class="no_h1 text-8xl text-no_darkblue">Datenschutz</h1>
+	<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-12 edge">
+		<h1 class="no_h1 text-no_darkblue">Datenschutz</h1>
 		<p class="pb-10">
 			Dr. Marion Bertgen-Giesen<br />
 			Gregor-Mendel-Straße 26<br />

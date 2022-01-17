@@ -74,22 +74,24 @@ button:focus:not(:focus-visible) {
 
 ul.no_style {
 	list-style: none;
-	padding: 1em 1em 2em 0;
+	padding: 0.25em 1em 2em 0;
 }
 ul.no_style li {
-	padding-left: 1.3em;
+	padding-left: 2em;
+	padding-bottom: 0.75em;
 	position: relative;
 }
 ul.no_style li:before {
-	content: '►';
-	color: #1f3947;
-	font-size: 0.8em;
+	content: '';
+	width: 21px;
+	transform: rotate(-45deg);
+	border-left: 4px solid #339d40;
+	border-bottom: 4px solid #339d40;
 	display: inline-block;
 	position: absolute;
-
-	margin-left: -1.5em;
-	top: 0.2em;
-	width: 2em;
+	margin-left: -1.75em;
+	top: 2px;
+	padding-bottom: 0.5em;
 }
 
 .main {
@@ -112,11 +114,11 @@ ul.no_style li:before {
 h1,
 .h1 {
 	font-family: 'Praise';
+	margin-bottom: 2vw;
 }
 
-h1,
-.h1 {
-	@apply relative break-words inline-block mb-8 text-center w-full;
+h1 {
+	@apply relative break-words inline-block text-center w-full text-5xl lg:text-7xl 2xl:text-8xl;
 }
 
 .no_underline:after {
@@ -134,11 +136,11 @@ h1,
 }
 
 h2 {
-	@apply relative font-semibold text-no_brown text-2xl break-words pb-2 text-center px-6;
+	@apply relative font-semibold text-no_brown text-lg lg:text-xl 2xl:text-2xl break-words pb-2 text-center lg:px-8;
 }
 
 h3 {
-	@apply relative font-bold tracking-wider text-sm uppercase break-words text-no_brown;
+	@apply relative font-bold tracking-wider text-sm uppercase break-words text-no_brown pb-3;
 }
 
 .highlight {
@@ -146,4 +148,10 @@ h3 {
 	margin-top: 2em;
 	margin-bottom: 3em;
 	padding-left: 1em;
+}
+
+.hero_height {
+	width: 100%;
+	height: 80vw;
+	max-height: 80vh;
 }

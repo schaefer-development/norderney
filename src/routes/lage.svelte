@@ -4,7 +4,7 @@
 	import Map from '$lib/map/Map.svelte';
 	const mapAttributes = {
 		class: '',
-		style: 'width: 100%; height: 80vh;'
+		style: 'width: 100%; height:80vw; max-height:80vh;'
 	};
 	export const prerender = true;
 </script>
@@ -15,8 +15,8 @@
 	</div>
 
 	<div class="main">
-		<section class="relative first_section bg-white px-12 py-12 edge">
-			<h1 class="no_h1 text-8xl text-no_darkblue">Kaiserstraße 17<br />26548 Norderney</h1>
+		<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-12 edge">
+			<h1 class="no_h1 text-no_darkblue">Kaiserstraße 17<br />26548 Norderney</h1>
 			<h2 class="no_h2 pb-12">
 				Direkt an der Promenade, im Haus Nordseeblick A in der zweiten Etage, mit seitlichem
 				Meerblick. Das Haus hat einen Aufzug und alle Zugänge sind behindertengerecht ausgestattet.
@@ -40,9 +40,10 @@
 					</ul>
 					<h3>Wohnbereich</h3>
 					<ul class="no_style">
-						<li>Fernseher (Flat-TV mit Festplattenrecorder zum Aufzeichnen)</li>
+						<li>Fernseher<br />(Flat-TV mit Festplattenrecorder zum Aufzeichnen)</li>
 						<li>
-							bequemes Schlafsofa mit Lattenrost und Federkernmatratze (Liegefläche: 160cmx200cm)
+							bequemes Schlafsofa mit Lattenrost und Federkernmatratze<br />(Liegefläche: 160cm x
+							200cm)
 						</li>
 						<li>gemütliche Essecke mit Buchen-Vollholzmöbeln und Meerblick</li>
 					</ul>
@@ -70,7 +71,11 @@
 						<li>WC</li>
 						<li>Handtuchheizkörper</li>
 					</ul>
-					Überdachte Terrasse mit seitlichem Meerblick
+
+					<h3>Außenbereich</h3>
+					<ul class="no_style">
+						<li>Überdachte Terrasse mit seitlichem Meerblick</li>
+					</ul>
 				</div>
 			</div>
 		</section>

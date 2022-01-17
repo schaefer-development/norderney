@@ -6,8 +6,8 @@
 <Hero />
 
 <div class="main">
-	<section class="relative first_section bg-white px-12 py-12 edge">
-		<h1 class="text-8xl text-no_darkblue">Preise</h1>
+	<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-12 edge">
+		<h1 class="no_h1 text-no_darkblue">Preise</h1>
 		<h2>Ferienwohnung "am Meer Norderneys"</h2>
 		<p class="text-no_red highlight">
 			Sonderpreis vom 9. bis 14. Januar 2022, für 450€ komplett inkl. aller Kosten.<br />
@@ -15,7 +15,7 @@
 			Buchungslücke 8. bis 10. Mai 2022, 200€ komplett, inkl. aller Kosten. <br />
 		</p>
 
-		<div class="grid grid-cols-2 gap-12">
+		<div class="grid grid-cols-2 gap-10">
 			<div class="left col-span-2 lg:col-span-1">
 				<!-- -->
 				<h3>Nebensaison:</h3>
@@ -32,7 +32,7 @@
 				<p class="pb-6">110€/ Tag</p>
 				<h3>Hauptsaison 2:</h3>
 				1. Juli - 31. August 2022
-				<p class="pb-6">120€/ Tag</p>
+				<p>120€/ Tag</p>
 				<!-- -->
 			</div>
 
@@ -49,7 +49,7 @@
 				<p class="pb-6">85€/ Tag</p>
 				<h3>Hauptsaison</h3>
 				23. Dezember - 6. Januar 2023
-				<p class="pb-6">110€/ Tag</p>
+				<p>110€/ Tag</p>
 				<!--  -->
 			</div>
 
@@ -62,8 +62,10 @@
 				</p>
 				<p>
 					Haben wir Ihr Interesse geweckt? Dann schauen Sie in unseren Belegungskalender, ob Ihre
-					Wunschtermine verfügbar sind und stellen Sie uns gerne ein Anfrage über das
-					Kontaktformular oder rufen einfach an.
+					Wunschtermine verfügbar sind und schreiben Sie uns gerne eine E-Mail an <a
+						href="mailto:m.bertgen@t-online.de"
+						class="font-bold text-no_darkblue hover:opacity-60 py-1">m.bertgen@t-online.de</a
+					> oder rufen einfach an.
 				</p>
 			</div>
 		</div>

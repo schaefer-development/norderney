@@ -6,8 +6,8 @@
 <Hero />
 
 <div class="main">
-	<section class="relative first_section bg-white px-12 py-12 edge">
-		<h1 class="no_h1 text-8xl text-no_darkblue">Impressum</h1>
+	<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-12 edge">
+		<h1 class="no_h1 text-no_darkblue">Impressum</h1>
 		<div class="grid grid-cols-2 gap-x-12">
 			<div class="left col-span-2 lg:col-span-1">
 				<!-- -->

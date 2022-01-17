@@ -1,14 +1,14 @@
-<div class="cite grid grid-cols-4 mx-auto max-w-screen-lg py-14">
-	<div class="left col-span-1 ">
+<div class="cite grid grid-cols-4 mx-auto max-w-screen-lg pt-8 pb-4 lg:py-16">
+	<div class="left col-span-4 md:col-span-1 ">
 		<div
 			class=" block bg-pink-800 rounded-full text-center text-white font-semibold grid content-center tracking-wide text-3xl mx-auto"
-			style="width:3.5em; height:3.5em"
+			style="width:3em; height:3em"
 		>
 			BM
 		</div>
 	</div>
 
-	<div class="right col-span-3">
+	<div class="right col-span-4 md:col-span-3">
 		<span class="font-bold block">Barbara Manthey</span>
 		<div class="py-1 flex text-amber-500">
 			<svg

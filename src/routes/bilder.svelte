@@ -8,12 +8,13 @@
 	};
 </script>
 
-<div class="relative w-full h-90v border-3 push_up_footer">
+<div class="relative w-full h-100v push_up_footer">
 	<Splide
 		options={{
 			rewind: true,
 			type: 'fade',
-			height: '100vh',
+			fixedHeight: '100vh',
+
 			gap: '1rem',
 			cover: 'true',
 			classes: {
@@ -29,9 +30,17 @@
 		</SplideSlide>
 		<SplideSlide>
 			<img src="{base}/aus_wohnung02.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<div class="textbox">
+				Bei Bedarf kann hier auch noch optionaler, bzw. erklärender Text zu einem einzelnen Bild
+				stehen.
+			</div>
 		</SplideSlide>
 		<SplideSlide>
 			<img src="{base}/aus_schlafen.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<div class="textbox">
+				Diese Slideshow ist natürlich nicht vollständig, sondern wird final noch entsprechend
+				erweitert.
+			</div>
 		</SplideSlide>
 	</Splide>
 </div>
@@ -39,26 +48,33 @@
 <style>
 	.textbox {
 		position: absolute;
-		width: 90%;
+		width: 45%;
 		height: auto;
 		left: 0;
-		right: 0;
-		bottom: 25vh;
+		bottom: 33vh;
 		margin: auto;
-		padding: 0.5em 1em;
-		/*background-color:rgba(31,57,71,0.75);*/
-		color: #fff;
-		font-family: 'Praise';
+		padding: 1em 2em;
+		background-color: rgba(255, 255, 255, 0.9);
+		/*background-color:rgba(31,57,71,0.9);*/
+		color: rgba(31, 57, 71, 1);
 		font-weight: normal;
-		font-size: 8vw;
+		font-size: 1.2em;
 		text-align: center;
 	}
 
-	.push_up_footer {
-		margin-bottom: -10vh;
+	.textbox:after {
+		content: '';
+		position: absolute;
+		right: -40px;
+		top: 0;
+		width: 40px;
+		height: 50px;
+		background-color: inherit;
+		-webkit-clip-path: polygon(100% 0, 0 0, 0 100%);
+		clip-path: polygon(100% 0, 0 0, 0 100%);
 	}
 
-	.splide__arrows.your-class-arrows {
-		border: 1px solid red;
+	.push_up_footer {
+		margin-bottom: -30vh;
 	}
 </style>
