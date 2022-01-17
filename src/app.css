@@ -118,7 +118,7 @@ h1,
 }
 
 h1 {
-	@apply relative break-words inline-block text-center w-full text-5xl lg:text-7xl 2xl:text-8xl;
+	@apply relative break-words inline-block text-center w-full text-4xl lg:text-7xl 2xl:text-8xl;
 }
 
 .no_underline:after {
@@ -136,11 +136,11 @@ h1 {
 }
 
 h2 {
-	@apply relative font-semibold text-no_brown text-lg lg:text-xl 2xl:text-2xl break-words pb-2 text-center lg:px-8;
+	@apply relative font-semibold text-no_brown text-sm lg:text-xl 2xl:text-2xl break-words pb-2 text-center lg:px-8;
 }
 
 h3 {
-	@apply relative font-bold tracking-wider text-sm uppercase break-words text-no_brown pb-3;
+	@apply relative font-bold tracking-wider text-base uppercase break-words text-no_brown pb-3;
 }
 
 .highlight {

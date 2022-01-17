@@ -26,10 +26,10 @@
 		}}
 	>
 		<SplideSlide>
-			<img src="{base}/aus_wohnung01.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img src="{base}/aus_wohnung02.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 		</SplideSlide>
 		<SplideSlide>
-			<img src="{base}/aus_wohnung02.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img src="{base}/aus_wohnung01.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 			<div class="textbox">
 				Bei Bedarf kann hier auch noch optionaler, bzw. erklärender Text zu einem einzelnen Bild
 				stehen.
