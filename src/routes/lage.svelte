@@ -9,6 +9,12 @@
 	export const prerender = true;
 </script>
 
+<svelte:head>
+	<title>Lage: Am Meer Norderneys</title>
+	<meta name="robots" content="noindex nofollow" />
+	<html lang="de" />
+</svelte:head>
+
 <div class="flex flex-col justify-center">
 	<div class="hero">
 		<Map {mapAttributes} />

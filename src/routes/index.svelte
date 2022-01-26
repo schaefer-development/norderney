@@ -2,11 +2,13 @@
 	import '../app.css';
 	import Review from '$lib/review/Review.svelte';
 	import Cards from '$lib/cards/Cards.svelte';
-
-	import Hero from '$lib/hero/Hero.svelte';
 </script>
 
-<Hero />
+<svelte:head>
+	<title>Am Meer Norderneys – Mehr Meer sehen!</title>
+	<meta name="robots" content="noindex nofollow" />
+	<html lang="de" />
+</svelte:head>
 
 <div class="main">
 	<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-16 edge">

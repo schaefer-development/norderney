@@ -3,7 +3,11 @@
 	import Hero from '$lib/hero/Hero.svelte';
 </script>
 
-<Hero />
+<svelte:head>
+	<title>Datenschutz: Am Meer Norderneys</title>
+	<meta name="robots" content="noindex nofollow" />
+	<html lang="de" />
+</svelte:head>
 
 <div class="main">
 	<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-12 edge">

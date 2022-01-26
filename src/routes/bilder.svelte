@@ -8,15 +8,20 @@
 	};
 </script>
 
+<svelte:head>
+	<title>Bilder: Am Meer Norderneys</title>
+	<meta name="robots" content="noindex nofollow" />
+	<html lang="de" />
+</svelte:head>
+
 <div class="relative w-full h-100v push_up_footer">
 	<Splide
 		options={{
 			rewind: true,
 			type: 'fade',
 			fixedHeight: '100vh',
-
 			gap: '1rem',
-			cover: 'true',
+			cover: true,
 			classes: {
 				arrows: 'splide__arrows your-class-arrows',
 				arrow: 'splide__arrow your-class-arrow',

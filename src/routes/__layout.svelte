@@ -8,23 +8,29 @@
 	import Footer from '$lib/footer/Footer.svelte';
 	import '../app.css';
 	import Index from './index.svelte';
+	import Hero from '$lib/hero/Hero.svelte';
+
+	let y;
+	let paraEffect = 0.5;
 </script>
 
-<svelte:head>
-	<title>Am Meer Norderneys</title>
-	<meta name="robots" content="noindex nofollow" />
-	<html lang="de" />
-</svelte:head>
+<svelte:window bind:scrollY={y} />
 
-<div class="flex flex-col min-h-screen justify-between w-screen overflow-hidden">
+<div class="flex flex-col w-screen justify-between min-h-screen">
 	<Header />
 
-	<main class="mb-auto relative z-10 pb-12 w-screen">
+	<Hero />
+
+	<main
+		style="transform: translate(0, {y < 2 ? y * 1 : (-y * paraEffect) / (2 - 1)}px)"
+		class="relative pb-12"
+	>
 		<slot />
-		<div class="coordinates">N53.70985, E7.14347</div>
 	</main>
 
-	<Footer />
+	<footer style="margin-top: -{y * paraEffect}px">
+		<Footer />
+	</footer>
 </div>
 
 <style>
