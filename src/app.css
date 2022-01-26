@@ -113,12 +113,33 @@ ul.no_style li:before {
 
 h1,
 .h1 {
-	font-family: 'Praise';
-	margin-bottom: 2vw;
+	font-family: 'Bad Script';
 }
 
 h1 {
-	@apply relative break-words inline-block text-center w-full text-4xl lg:text-7xl 2xl:text-8xl;
+	@apply relative break-words inline-block text-center w-full fontsize_large;
+}
+
+h2 {
+	@apply relative font-semibold text-no_brown break-words text-center lg:px-8 fontsize_small;
+}
+
+.fontsize_large {
+	font-size: calc(20px + 3vw);
+	line-height: calc(40px + 3.5vw);
+	padding-bottom: calc(10px + 1.25vw);
+}
+
+.fontsize_medium {
+	font-size: calc(15px + 1.2vw);
+	line-height: calc(15px + 1.2vw);
+	padding-bottom: calc(12px + 1.2vw);
+}
+
+.fontsize_small {
+	font-size: calc(10px + 0.7vw);
+	line-height: calc(20px + 0.7vw);
+	padding-bottom: calc(10px + 1.25vw);
 }
 
 .no_underline:after {
@@ -135,12 +156,8 @@ h1 {
 	margin: auto;
 }
 
-h2 {
-	@apply relative font-semibold text-no_brown text-sm lg:text-xl 2xl:text-2xl break-words pb-2 text-center lg:px-8;
-}
-
 h3 {
-	@apply relative font-bold tracking-wider text-base uppercase break-words text-no_brown pb-3;
+	@apply relative font-bold tracking-wider text-base uppercase break-words text-no_darkblue pb-3;
 }
 
 .highlight {

@@ -9,7 +9,7 @@
 <Hero />
 
 <div class="main">
-	<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-12 edge">
+	<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-16 edge">
 		<h1 class="no_h1 text-no_darkblue">Mehr Meer sehen!</h1>
 		<h2>
 			Ankommen und sich wohlfühlen ist das Motto unserer Ferienwohnung „Am Meer Norderneys“! In

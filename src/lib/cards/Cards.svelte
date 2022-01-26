@@ -15,7 +15,7 @@
 			</div>
 			<div class="relative text-center px-4 pt-6 pb-8 bg-no_darkblue edge ">
 				<span
-					class="h1 relative break-words inline-block mb-6 text-center w-full relative break-words inline-block mb-8 text-center w-full text-4xl lg:text-5xl 2xl:text-5xl text-no_lightblue"
+					class="h1 fontsize_medium relative break-words inline-block text-center w-full relative break-words inline-block text-center w-full text-no_lightblue"
 					>Lage & Ausstattung</span
 				>
 				<a
@@ -34,7 +34,7 @@
 			</div>
 			<div class="relative text-center px-4 pt-6 pb-8 bg-no_darkblue edge ">
 				<span
-					class="h1 relative break-words inline-block mb-6 text-center w-full relative break-words inline-block mb-8 text-center w-full text-4xl lg:text-5xl 2xl:text-5xl text-no_lightblue"
+					class="h1 fontsize_medium relative break-words inline-block text-center w-full relative break-words inline-block text-center w-full text-no_lightblue"
 					>Bilder</span
 				>
 

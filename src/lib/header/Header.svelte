@@ -11,7 +11,7 @@
 
 <header class="">
 	<div class="absolute z-50 top-0 left-0 right-0 w-full max-w-screen-xl mx-auto ">
-		<div class="w-9/12 mx-auto mt-6">
+		<div class="w-7/12 mx-auto mt-6">
 			<a
 				sveltekit:prefetch
 				href="{base}/"
@@ -152,7 +152,7 @@
 
 <style>
 	.menupoint {
-		text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 8px #fff;
+		text-shadow: 0 0 2px #fff, 0 0 4px #fff;
 	}
 	.menupoint::after {
 		background-color: #1f3947;

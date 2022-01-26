@@ -31,8 +31,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/bad-script": "^4.5.0",
 		"@fontsource/catamaran": "^4.5.0",
-		"@fontsource/praise": "^4.5.1",
 		"@splidejs/splide": "^3.6.9",
 		"@splidejs/svelte-splide": "^0.1.15",
 		"leaflet": "^1.7.1"
