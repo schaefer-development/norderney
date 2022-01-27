@@ -13,11 +13,11 @@
 					alt="Lage & Ausstattung"
 				/>
 			</div>
-			<div class="relative text-center px-4 pt-6 pb-8 bg-no_darkblue edge ">
+			<div class="relative text-center px-4 pt-6 pb-8 bg-no_darkblue-lighter edge ">
 				<span class="h1 fontsize_lg block mb-4 text-no_lightblue ">Lage & Ausstattung</span>
 				<a
 					href="{base}/lage"
-					class="border-2 border-white text-sm block w-9/12 py-2 mx-auto uppercase font-bold tracking-widest hover:bg-no_lightblue hover:text-no_darkblue transition duration-300 ease-in-out"
+					class="border-2 border-white bg-no_darkblue text-sm block w-9/12 py-2 mx-auto uppercase font-bold tracking-widest text-white no-underline hover:bg-no_lightblue hover:text-no_darkblue transition duration-300 ease-in-out"
 					>Mehr erfahren</a
 				>
 			</div>
@@ -29,12 +29,12 @@
 			<div class="overflow-hidden">
 				<img class="relative w-full bg-cover" src="{base}/lage.jpg" alt="Lage & Ausstattung" />
 			</div>
-			<div class="relative text-center px-4 pt-6 pb-8 bg-no_darkblue edge ">
+			<div class="relative text-center px-4 pt-6 pb-8 bg-no_darkblue-lighter edge">
 				<span class="h1 fontsize_lg block mb-4 text-no_lightblue">Bilder</span>
 
 				<a
 					href="{base}/bilder"
-					class="border-2 border-white text-sm block w-9/12 py-2 mx-auto uppercase font-bold tracking-widest hover:bg-no_lightblue hover:text-no_darkblue transition duration-300 ease-in-out"
+					class="border-2 border-white bg-no_darkblue text-sm block w-9/12 py-2 mx-auto uppercase font-bold tracking-widest text-white no-underline hover:bg-no_lightblue hover:text-no_darkblue transition duration-300 ease-in-out"
 					>Mehr erfahren</a
 				>
 			</div>
@@ -50,6 +50,6 @@
 		transition-duration: 0.5s;
 	}
 	.mod_card:hover div img {
-		transform: scale(1.2);
+		transform: scale(1.1);
 	}
 </style>

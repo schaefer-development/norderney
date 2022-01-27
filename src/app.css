@@ -64,7 +64,7 @@ a {
 }
 
 main a {
-	text-decoration: 2px solid underline;
+	text-decoration: 2px dotted underline #327194;
 }
 
 main a {

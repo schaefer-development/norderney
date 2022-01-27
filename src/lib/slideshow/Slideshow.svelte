@@ -16,6 +16,7 @@
 			fixedHeight: '100vh',
 			gap: '1rem',
 			cover: true,
+			pagination: false,
 			classes: {
 				arrows: 'splide__arrows your-class-arrows',
 				arrow: 'splide__arrow your-class-arrow',
@@ -42,7 +43,6 @@
 			</div>
 		</SplideSlide>
 	</Splide>
-	<p class="hidden splide__pagination"></p>
 </div>
 
 <style>
@@ -78,8 +78,7 @@
 		margin-bottom: -23vh;
 	}
 
-
-	.splide__pagination__page{
-		display:none;
+	.splide__pagination__page {
+		border: 1px solid red !important;
 	}
 </style>

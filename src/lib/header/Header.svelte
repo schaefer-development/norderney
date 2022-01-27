@@ -93,12 +93,6 @@
 		? 'translate-x-0' // translate-x-0
 		: 'translate-x-full'} transform fixed lg:hidden top-0 left-0 w-full h-full overflow-auto ease-in-out transition-all duration-300 "
 >
-	<div
-		class="absolute text-no_darkblue-lighter w-6/12 mx-auto left-0 right-0 opacity-10"
-		style="top:calc(3rem + 3vw)"
-	>
-		<Logo />
-	</div>
 	<!-- styling drawer starts here -->
 	<div class="drawer_outer h-screen grid content-center bg-no_darkblue">
 		<div class="drawer_inner mx-12 text-center">
