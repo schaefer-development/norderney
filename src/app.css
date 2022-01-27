@@ -32,9 +32,10 @@ body {
 	font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));
 	/* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
 	margin: 0;
-	background: linear-gradient(180deg, var(--pure-white) 0%, #faf0dd 45%, #f7e6c6 100%);
+	background: #fcf1e0;
+	/*background: linear-gradient(180deg, var(--pure-white) 0%, #faf0dd 45%, #f7e6c6 100%);
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 
 h1,
