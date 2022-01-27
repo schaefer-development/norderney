@@ -15,9 +15,8 @@
 		<h2>
 			Möchten Sie unsere Ferienwohnung "Am Meer Norderneys" besuchen und ein paar Tage am Meer
 			entspannen? Dann prüfen Sie bitte die Verfügbarkeit in unserem Belegungskalender und schreiben
-			Sie uns eine Anfrage via E-Mail an <a
-				href="mailto:m.bertgen@t-online.de"
-				class="font-bold text-no_darkblue hover:opacity-60 py-1">m.bertgen@t-online.de</a
+			Sie uns eine Anfrage via E-Mail an <a href="mailto:m.bertgen@t-online.de"
+				>m.bertgen@t-online.de</a
 			> mit Ihren Wunschdaten.
 		</h2>
 		<p class="text-red border-2 border-no_red text-no_red px-4 py-4 mt-6">

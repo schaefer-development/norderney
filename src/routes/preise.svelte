@@ -67,8 +67,7 @@
 				<p>
 					Haben wir Ihr Interesse geweckt? Dann schauen Sie in unseren Belegungskalender, ob Ihre
 					Wunschtermine verfügbar sind und schreiben Sie uns gerne eine E-Mail an <a
-						href="mailto:m.bertgen@t-online.de"
-						class="font-bold text-no_darkblue hover:opacity-60 py-1">m.bertgen@t-online.de</a
+						href="mailto:m.bertgen@t-online.de">m.bertgen@t-online.de</a
 					> oder rufen einfach an.
 				</p>
 			</div>

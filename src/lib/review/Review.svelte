@@ -79,7 +79,7 @@
 	<!-- row 2-->
 	<div class="flex flex-row justify-center font-bold text-no_darkblue fontsize_md py-2">
 		<a href="https://www.traum-ferienwohnungen.de/162863/?tp=1" target="_blank">
-			5.0/5 Gesamtwertung auf<svg
+			5.0/5 Gesamtwertung auf<br /><svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="h-5 w-5 inline mx-1 -mt-0.5"
 				fill="none"
@@ -92,7 +92,7 @@
 					stroke-width="2"
 					d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
 				/>
-			</svg><br />traum-ferienwohnung.de</a
+			</svg>traum-ferienwohnung.de</a
 		>
 	</div>
 	<!-- -->

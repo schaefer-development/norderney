@@ -79,13 +79,7 @@
 
 				<h3>Gestaltung und technische Umsetzung</h3>
 				<p>
-					Jo Schäfer – Digital Media Design<br />
-					<a href="mailto:mail@joschaefer.com" class="hover:text-no_darkblue-lighter"
-						>mail@joschaefer.com</a
-					><br />
-					<a href="https://joschaefer.com/" class="hover:text-no_darkblue-lighter" target="_blank"
-						>joschaefer.com</a
-					>
+					<a href="https://joschaefer.com/" target="_blank">Jo Schäfer – Digital Media Design</a>
 				</p>
 				<!-- -->
 			</div>

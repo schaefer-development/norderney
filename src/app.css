@@ -68,7 +68,7 @@ main a {
 }
 
 main a {
-	@apply text-no_darkblue hover:text-no_darkblue-lighter font-bold focus:ring-0 focus:outline-none focus:text-white;
+	@apply text-no_darkblue hover:text-no_darkblue-lighter font-bold focus:ring-0 focus:outline-none focus:text-no_darkblue-lighter;
 }
 
 input,
