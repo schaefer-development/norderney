@@ -42,6 +42,7 @@
 			</div>
 		</SplideSlide>
 	</Splide>
+	<p class="hidden splide__pagination"></p>
 </div>
 
 <style>
@@ -74,6 +75,11 @@
 	}
 
 	.push_up_footer {
-		margin-bottom: -20vh;
+		margin-bottom: -23vh;
+	}
+
+
+	.splide__pagination__page{
+		display:none;
 	}
 </style>
