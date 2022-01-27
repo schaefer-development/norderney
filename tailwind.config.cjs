@@ -24,7 +24,7 @@ const config = {
 			colors: {
 				no_darkblue: {
 					DEFAULT: '#1f3947',
-					lighter: '#3d4f65'
+					lighter: '#327194'
 				},
 				no_lightblue: {
 					DEFAULT: '#e6f5ff'

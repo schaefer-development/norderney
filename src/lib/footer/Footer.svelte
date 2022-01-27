@@ -33,9 +33,10 @@
 		<div class="max-w-screen-xl mx-auto pt-12 pb-20">
 			<div class="text-no_lightblue grid grid-cols-2 gap-10">
 				<div class="logo col-span-full">
-					<div class="w-5/12 lg:w-4/12 mx-auto hover:opacity-60 transition-all duration-300">
+					<div
+						class="w-5/12 lg:w-4/12 mx-auto text-no_darkblue-lighter transition-all duration-300"
+					>
 						<Logo />
-						<div class="bg-no_lightblue h-0.5 w-5/12 mx-auto mt-6" />
 					</div>
 				</div>
 				<div class="col-span-full lg:col-span-1 text-center lg:text-right">
@@ -105,7 +106,7 @@
 		left: 0;
 		bottom: -0.5vw;
 		width: 200%;
-		animation: wave linear 10s infinite;
+		animation: wave linear 7s infinite;
 	}
 
 	@keyframes wave {

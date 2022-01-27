@@ -4,17 +4,17 @@
 	import type { IconOptions, LatLngTuple } from 'leaflet';
 	export let iconOptions: IconOptions = {
 		iconUrl: `${base}/mapmarker.png`,
-		iconSize: [80, 100],
-		iconAnchor: [40, 100]
+		iconSize: [64, 80],
+		iconAnchor: [32, 80]
 	};
 	export let layerOptions = [
-		'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png ',
+		'https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png',
 		{
 			attribution: `&copy;<a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>, &copy;<a href="https://carto.com/attributions" target="_blank">CARTO</a>`,
 			maxZoom: 19
 		}
 	];
-	export let zoom = 15;
+	export let zoom = 13;
 	export let coordinates: LatLngTuple = [53.70985, 7.14347];
 
 	export let mapAttributes = {
@@ -25,7 +25,7 @@
 		const L = await import('leaflet');
 		const icon = L.icon(iconOptions);
 		const map = L.map('map', { scrollWheelZoom: false, zoomControl: false }).setView(
-			new L.LatLng(53.7125, 7.14347), // new centered!
+			new L.LatLng(53.716, 7.14347), // new centered!
 			zoom
 		);
 

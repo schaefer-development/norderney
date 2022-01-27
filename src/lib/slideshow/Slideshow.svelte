@@ -74,6 +74,6 @@
 	}
 
 	.push_up_footer {
-		margin-bottom: -30vh;
+		margin-bottom: -20vh;
 	}
 </style>

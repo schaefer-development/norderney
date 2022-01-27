@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import { base } from '$app/paths';
 	import Review from '$lib/review/Review.svelte';
 	import Cards from '$lib/cards/Cards.svelte';
 </script>
@@ -12,13 +13,19 @@
 
 <div class="main">
 	<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-16 edge">
-		<h1 class="no_h1 text-no_darkblue">Mehr Meer sehen!</h1>
+		<h1 class="text-no_darkblue">Mehr Meer sehen!</h1>
 		<h2>
 			Ankommen und sich wohlfühlen ist das Motto unserer Ferienwohnung „Am Meer Norderneys“! In
 			unserer vollständig sanierten und mit neuen Möbeln ausgestatteten Ferienwohnung bieten wir
-			Ihnen ganzjährig Vergünstigungen und Sonderkonditionen an. Überzeugen Sie sich gerne selbst
-			unter unserer Rubrik "Preise". Wir freuen uns auf Ihre Anfrage und machen Ihnen auch sehr
-			gerne ein individuelles Angebot.
+			Ihnen ganzjährig <a
+				sveltekit:prefetch
+				href="{base}/preise"
+				class="text-no_darkblue hover:opacity-60 focus:ring-0 focus:outline-none focus:text-white "
+				>Vergünstigungen und Sonderkonditionen</a
+			>
+			an.
+			<br />Wir freuen uns auf Ihre Anfrage und machen Ihnen auch sehr gerne ein individuelles
+			Angebot.
 		</h2>
 		<Review />
 	</section>

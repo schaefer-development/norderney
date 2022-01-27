@@ -29,7 +29,8 @@ Write your global styles here, in PostCSS syntax
 body {
 	min-height: 100vh;
 	font-family: 'Catamaran';
-	font-size: calc(14px + 0.25vw);
+	font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));
+	/* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
 	margin: 0;
 	background: linear-gradient(180deg, var(--pure-white) 0%, #faf0dd 45%, #f7e6c6 100%);
 	background-size: cover;
@@ -94,6 +95,12 @@ ul.no_style li:before {
 	padding-bottom: 0.5em;
 }
 
+.hero_height {
+	width: 100%;
+	height: 80vw;
+	max-height: 80vh;
+}
+
 .main {
 	@apply relative z-50 w-full max-w-screen-lg px-12 mx-auto -mt-12;
 }
@@ -116,30 +123,34 @@ h1,
 	font-family: 'Bad Script';
 }
 
+.bad-script {
+	font-family: 'Bad Script';
+}
+
 h1 {
 	@apply relative break-words inline-block text-center w-full fontsize_large;
 }
 
 h2 {
-	@apply relative font-semibold text-no_brown break-words text-center lg:px-8 fontsize_small;
+	@apply relative font-semibold text-no_brown break-words text-center lg:px-8 fontsize_medium;
 }
 
+h3 {
+	@apply relative font-bold tracking-wider text-base uppercase break-words text-no_darkblue pb-3 fontsize_small;
+}
+
+/* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
+
 .fontsize_large {
-	font-size: calc(20px + 3vw);
-	line-height: calc(40px + 3.5vw);
-	padding-bottom: calc(10px + 1.25vw);
+	font-size: calc(25px + (62.5 - 25) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .fontsize_medium {
-	font-size: calc(15px + 1.2vw);
-	line-height: calc(15px + 1.2vw);
-	padding-bottom: calc(12px + 1.2vw);
+	font-size: calc(14px + (28 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .fontsize_small {
-	font-size: calc(10px + 0.7vw);
-	line-height: calc(20px + 0.7vw);
-	padding-bottom: calc(10px + 1.25vw);
+	font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .no_underline:after {
@@ -156,19 +167,9 @@ h2 {
 	margin: auto;
 }
 
-h3 {
-	@apply relative font-bold tracking-wider text-base uppercase break-words text-no_darkblue pb-3;
-}
-
 .highlight {
 	border-left: 5px solid #f92200;
 	margin-top: 2em;
 	margin-bottom: 3em;
 	padding-left: 1em;
-}
-
-.hero_height {
-	width: 100%;
-	height: 80vw;
-	max-height: 80vh;
 }
