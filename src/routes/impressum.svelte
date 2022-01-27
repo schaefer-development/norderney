@@ -64,7 +64,7 @@
 				</p>
 
 				<h3>Urheberrecht</h3>
-				<p>
+				<p class="pb-10">
 					Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen
 					dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art
 					der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen
@@ -75,6 +75,17 @@
 					trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
 					entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige
 					Inhalte umgehend entfernen.
+				</p>
+
+				<h3>Gestaltung und technische Umsetzung</h3>
+				<p>
+					Jo Schäfer – Digital Media Design<br />
+					<a href="mailto:mail@joschaefer.com" class="hover:text-no_darkblue-lighter"
+						>mail@joschaefer.com</a
+					><br />
+					<a href="https://joschaefer.com/" class="hover:text-no_darkblue-lighter" target="_blank"
+						>joschaefer.com</a
+					>
 				</p>
 				<!-- -->
 			</div>
