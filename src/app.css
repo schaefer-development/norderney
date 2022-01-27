@@ -163,7 +163,7 @@ h3 {
 
 .fontsize_sm {
 	font-size: calc(11px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
-	line-height: calc(14px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(18px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .no_underline:after {

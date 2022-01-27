@@ -77,7 +77,7 @@
 	<!-- -->
 
 	<!-- row 2-->
-	<div class="flex flex-row justify-center font-bold text-no_darkblue fontsize_medium py-2">
+	<div class="flex flex-row justify-center font-bold text-no_darkblue fontsize_md py-2">
 		<a href="https://www.traum-ferienwohnungen.de/162863/?tp=1" target="_blank">
 			5.0/5 Gesamtwertung auf<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +92,7 @@
 					stroke-width="2"
 					d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
 				/>
-			</svg>traum-ferienwohnung.de</a
+			</svg><br />traum-ferienwohnung.de</a
 		>
 	</div>
 	<!-- -->
@@ -115,6 +115,11 @@
 		In wenigen Schritten ist man am Meer, im Ort und auch zahlreiche Restaurants sind fußläufig zu erreichen.
 		Besser geht es nach unserem Empfinden nicht!
 	</p>
-
-	<p class="pt-2 font-bold inline-block">– Barbara Manthey</p>
+	<div
+		class="mt-3 mb-2 block bg-pink-800 rounded-full text-center text-white font-semibold grid content-center tracking-wide mx-auto"
+		style="width:3em; height:3em"
+	>
+		BM
+	</div>
+	<p class="font-bold inline-block">Barbara Manthey</p>
 </div>

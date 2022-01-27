@@ -35,6 +35,7 @@
 				<div class="logo col-span-full">
 					<div class="w-7/12 lg:w-4/12 mx-auto ">
 						<Logo />
+						<div class="divider h-1 w-3/12 mx-auto mt-4" />
 					</div>
 				</div>
 				<div class="col-span-full lg:col-span-1 text-center lg:text-right">

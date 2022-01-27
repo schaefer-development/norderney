@@ -124,42 +124,42 @@
 				<a
 					sveltekit:prefetch
 					href="{base}/"
-					class="bad-script mt-8 mb-2 text-3xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script mt-4 mb-2 text-2xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Start</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/lage"
-					class="bad-script mt-8 mb-2 text-3xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script my-2 text-2xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Lage & Ausstattung</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/bilder"
-					class="bad-script mt-8 mb-2 text-3xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script my-2 mb-2 text-2xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Bilder</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/preise"
-					class="bad-script mt-8 mb-2 text-3xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script my-2 mb-2 text-2xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Preise</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/termine"
-					class="bad-script mt-8 mb-2 text-3xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script my-2 mb-2 text-2xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Freie Termine</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/kontakt"
-					class="bad-script mt-8 mb-2 text-3xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script mt-2 text-2xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Kontakt</a
 				>
 			</div>
