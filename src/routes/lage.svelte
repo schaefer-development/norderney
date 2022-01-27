@@ -1,12 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import '../app.css';
-	import Map from '$lib/map/Map.svelte';
-	const mapAttributes = {
-		class: '',
-		style: 'width: 100%; height:80vw; max-height:80vh;'
-	};
-	export const prerender = true;
 </script>
 
 <svelte:head>
@@ -16,10 +10,6 @@
 </svelte:head>
 
 <div class="flex flex-col justify-center">
-	<div class="hero">
-		<Map {mapAttributes} />
-	</div>
-
 	<div class="main">
 		<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-12 edge">
 			<h1 class="no_h1 text-no_darkblue">Kaiserstraße 17<br />26548 Norderney</h1>
