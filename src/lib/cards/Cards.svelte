@@ -13,7 +13,7 @@
 					alt="Lage & Ausstattung"
 				/>
 			</div>
-			<div class="relative text-center px-4 pt-6 pb-8 bg-no_darkblue-lighter edge ">
+			<div class="relative text-center px-4 pt-6 pb-8 bg-no_darkblue-lighter -mt-1">
 				<span class="h1 fontsize_lg block mb-4 text-no_lightblue ">Lage & Ausstattung</span>
 				<a
 					href="{base}/lage"
@@ -29,7 +29,7 @@
 			<div class="overflow-hidden">
 				<img class="relative w-full bg-cover" src="{base}/lage.jpg" alt="Lage & Ausstattung" />
 			</div>
-			<div class="relative text-center px-4 pt-6 pb-8 bg-no_darkblue-lighter edge">
+			<div class="relative text-center px-4 pt-6 pb-8 bg-no_darkblue-lighter -mt-1">
 				<span class="h1 fontsize_lg block mb-4 text-no_lightblue">Bilder</span>
 
 				<a
