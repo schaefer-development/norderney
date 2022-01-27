@@ -12,7 +12,7 @@
 <div class="flex flex-col justify-center">
 	<div class="main">
 		<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-12 edge">
-			<h1 class="no_h1 text-no_darkblue">Kaiserstraße 17<br />26548 Norderney</h1>
+			<h1 class="h1 text-no_darkblue pb-8">Kaiserstraße 17<br />26548 Norderney</h1>
 			<h2 class="no_h2 pb-12">
 				Direkt an der Promenade, im Haus Nordseeblick A in der zweiten Etage, mit seitlichem
 				Meerblick. Das Haus hat einen Aufzug und alle Zugänge sind behindertengerecht ausgestattet.

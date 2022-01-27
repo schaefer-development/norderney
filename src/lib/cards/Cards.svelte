@@ -14,7 +14,7 @@
 				/>
 			</div>
 			<div class="relative text-center px-4 pt-6 pb-8 bg-no_darkblue edge ">
-				<span class="h1 fontsize_medium break-words text-no_lightblue">Lage & Ausstattung</span>
+				<span class="h1 fontsize_lg block mb-4 text-no_lightblue ">Lage & Ausstattung</span>
 				<a
 					href="{base}/lage"
 					class="border-2 border-white text-sm block w-9/12 py-2 mx-auto uppercase font-bold tracking-widest hover:bg-no_lightblue hover:text-no_darkblue transition duration-300 ease-in-out"
@@ -30,7 +30,7 @@
 				<img class="relative w-full bg-cover" src="{base}/lage.jpg" alt="Lage & Ausstattung" />
 			</div>
 			<div class="relative text-center px-4 pt-6 pb-8 bg-no_darkblue edge ">
-				<span class="h1 fontsize_medium break-words text-no_lightblue">Bilder</span>
+				<span class="h1 fontsize_lg block mb-4 text-no_lightblue">Bilder</span>
 
 				<a
 					href="{base}/bilder"

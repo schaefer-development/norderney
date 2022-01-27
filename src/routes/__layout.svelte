@@ -41,7 +41,7 @@
 
 	<main
 		style="transform: translate(0, {y < 2 ? y * 1 : (-y * paraEffect) / (2 - 1)}px)"
-		class="relative pb-12 z-30"
+		class="relative pb-12 z-40"
 	>
 		<slot />
 		<!--<div class="coordinates">N53.70985, E7.14347</div>-->

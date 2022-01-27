@@ -11,7 +11,7 @@
 
 <div class="main">
 	<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-12 edge">
-		<h1 class="no_h1 text-no_darkblue">Preise</h1>
+		<h1 class="h1 text-no_darkblue pb-6">Preise</h1>
 		<h2>Ferienwohnung "am Meer Norderneys"</h2>
 		<p class="text-no_red highlight">
 			Sonderpreis vom 9. bis 14. Januar 2022, für 450€ komplett inkl. aller Kosten.<br />

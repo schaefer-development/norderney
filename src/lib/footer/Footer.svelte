@@ -33,56 +33,58 @@
 		<div class="max-w-screen-xl mx-auto pt-12 pb-20">
 			<div class="text-no_lightblue grid grid-cols-2 gap-10">
 				<div class="logo col-span-full">
-					<div
-						class="w-5/12 lg:w-4/12 mx-auto text-no_darkblue-lighter transition-all duration-300"
-					>
+					<div class="w-7/12 lg:w-4/12 mx-auto ">
 						<Logo />
 					</div>
 				</div>
 				<div class="col-span-full lg:col-span-1 text-center lg:text-right">
-					<a href="{base}/" class="text-sm uppercase tracking-widest block hover:opacity-60 py-1"
+					<a
+						href="{base}/"
+						class="text-sm uppercase tracking-widest block hover:text-no_darkblue-lighter py-1"
 						>Start</a
 					>
 					<a
 						href="{base}/lage"
-						class="text-sm uppercase tracking-widest block hover:opacity-60 py-1"
+						class="text-sm uppercase tracking-widest block hover:text-no_darkblue-lighter py-1"
 						>Lage & Ausbildung</a
 					>
 
 					<a
 						href="{base}/bilder"
-						class="text-sm uppercase tracking-widest block hover:opacity-60 py-1">Bilder</a
+						class="text-sm uppercase tracking-widest block hover:text-no_darkblue-lighter py-1"
+						>Bilder</a
 					>
 
 					<a
 						href="{base}/preise"
-						class="text-sm uppercase tracking-widest block hover:opacity-60 py-1">Preise</a
+						class="text-sm uppercase tracking-widest block hover:text-no_darkblue-lighter py-1"
+						>Preise</a
 					>
 
 					<a
 						href="{base}/termine"
-						class="text-sm uppercase tracking-widest block hover:opacity-60 py-1">Termine</a
+						class="text-sm uppercase tracking-widest block hover:text-no_darkblue-lighter py-1"
+						>Termine</a
 					>
 					<a
 						href="{base}/datenschutz"
-						class="text-sm uppercase tracking-widest block hover:opacity-60 py-1">Datenschutz</a
+						class="text-sm uppercase tracking-widest block hover:text-no_darkblue-lighter py-1"
+						>Datenschutz</a
 					>
 
 					<a
 						href="{base}/impressum"
-						class="text-sm uppercase tracking-widest block hover:opacity-60 py-1">Impressum</a
+						class="text-sm uppercase tracking-widest block hover:text-no_darkblue-lighter py-1"
+						>Impressum</a
 					>
 				</div>
 				<div class="col-span-full lg:col-span-1 text-center lg:text-left">
 					<span class="text-sm uppercase tracking-widest block py-1">Dr. Marion Bertgen-Giesen</span
 					>
-					<span class="text-sm uppercase tracking-widest block  py-1">Telefon: 0228 - 23 03 90</span
-					>
+					<span class="text-sm uppercase tracking-widest block py-1">Telefon: 0228 - 23 03 90</span>
 					<span class="text-sm uppercase tracking-widest block py-1">Mobil: 0177 - 52 61 436</span>
 					<span class="text-sm uppercase tracking-widest block py-1"
-						>E-Mail: <a
-							href="mailto:m.bertgen@t-online.de"
-							class="text-sm uppercase tracking-widest hover:opacity-60 py-1"
+						>E-Mail: <a href="mailto:m.bertgen@t-online.de" class="hover:text-no_darkblue-lighter"
 							>m.bertgen@t-online.de</a
 						></span
 					>

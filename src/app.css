@@ -63,6 +63,14 @@ a {
 	@apply transition duration-300 ease-in-out;
 }
 
+main a {
+	text-decoration: 2px solid underline;
+}
+
+main a {
+	@apply text-no_darkblue font-bold text-no_darkblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white;
+}
+
 input,
 button {
 	font-size: inherit;
@@ -128,29 +136,34 @@ h1,
 }
 
 h1 {
-	@apply relative break-words inline-block text-center w-full fontsize_large;
+	@apply block break-words text-center fontsize_xl;
 }
 
 h2 {
-	@apply relative font-semibold text-no_brown break-words text-center lg:px-8 fontsize_medium;
+	@apply font-semibold text-no_brown break-words text-center lg:px-8 fontsize_md;
 }
 
 h3 {
-	@apply relative font-bold tracking-wider text-base uppercase break-words text-no_darkblue pb-3 fontsize_small;
+	@apply font-bold tracking-wider text-base uppercase break-words text-no_darkblue pb-3 fontsize_sm;
 }
 
 /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
 
-.fontsize_large {
-	font-size: calc(25px + (62.5 - 25) * ((100vw - 300px) / (1600 - 300)));
+.fontsize_xl {
+	font-size: calc(26px + (65 - 26) * ((100vw - 300px) / (1600 - 300)));
 }
 
-.fontsize_medium {
-	font-size: calc(14px + (28 - 14) * ((100vw - 300px) / (1600 - 300)));
+.fontsize_lg {
+	font-size: calc(18px + (45 - 18) * ((100vw - 300px) / (1600 - 300)));
 }
 
-.fontsize_small {
-	font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+.fontsize_md {
+	font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.fontsize_sm {
+	font-size: calc(11px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(14px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .no_underline:after {
@@ -172,4 +185,8 @@ h3 {
 	margin-top: 2em;
 	margin-bottom: 3em;
 	padding-left: 1em;
+}
+
+.divider {
+	background-image: url('underline_pattern.svg');
 }

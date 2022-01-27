@@ -51,7 +51,7 @@
 		<div class="menu_mobile block lg:hidden mx-auto">
 			<button
 				on:click={toggleMenu}
-				class="text-white hover:opacity-80 focus:ring-0 focus:outline-none focus:text-no_darkblue ease-in-out transition-all duration-300"
+				class="text-white hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-no_darkblue ease-in-out transition-all duration-300"
 			>
 				<svg
 					class="fill-current h-6 w-6 inline"
@@ -73,11 +73,11 @@
 			class="absolute z-40 left-0 right-0 w-full max-w-screen-xl mx-auto"
 			style="top:calc(3rem + 3vw)"
 		>
-			<div class="w-7/12 mx-auto">
+			<div class="w-6/12 mx-auto">
 				<a
 					sveltekit:prefetch
 					href="{base}/"
-					class="text-no_darkblue hover:opacity-80 focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
+					class="text-no_darkblue focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
 					><Logo /></a
 				>
 			</div>
@@ -94,7 +94,7 @@
 		: 'translate-x-full'} transform fixed lg:hidden top-0 left-0 w-full h-full overflow-auto ease-in-out transition-all duration-300 "
 >
 	<div
-		class="absolute text-no_darkblue-lighter w-7/12 mx-auto left-0 right-0 opacity-10"
+		class="absolute text-no_darkblue-lighter w-6/12 mx-auto left-0 right-0 opacity-10"
 		style="top:calc(3rem + 3vw)"
 	>
 		<Logo />
@@ -103,7 +103,7 @@
 	<div class="drawer_outer h-screen grid content-center bg-no_darkblue">
 		<div class="drawer_inner mx-12 text-center">
 			<button
-				class="text-white hover:opacity-80 focus:ring-0 focus:outline-none focus:text-no_darkblue ease-in-out transition-all duration-300"
+				class="text-white hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-no_darkblue ease-in-out transition-all duration-300"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -124,48 +124,48 @@
 				>
 			</button>
 
-			<div class="divider h-0.5 w-2/3 mx-auto mt-4" />
+			<div class="divider h-1 w-1/3 mx-auto mt-4" />
 
 			<div class="flex flex-col items-center">
 				<a
 					sveltekit:prefetch
 					href="{base}/"
-					class="bad-script mt-8 mb-2 text-3xl text-no_lightblue  hover:opacity-60 focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script mt-8 mb-2 text-3xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Start</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/lage"
-					class="bad-script my-2 text-3xl text-no_lightblue  hover:opacity-60 focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script mt-8 mb-2 text-3xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Lage & Ausstattung</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/bilder"
-					class="bad-script my-3 text-3xl text-no_lightblue  hover:opacity-60 focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script mt-8 mb-2 text-3xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Bilder</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/preise"
-					class="bad-script my-3 text-3xl text-no_lightblue  hover:opacity-60 focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script mt-8 mb-2 text-3xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Preise</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/termine"
-					class="bad-script my-3 text-3xl text-no_lightblue  hover:opacity-60 focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script mt-8 mb-2 text-3xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Freie Termine</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/kontakt"
-					class="bad-script mt-3 text-3xl text-no_lightblue  hover:opacity-60 focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script mt-8 mb-2 text-3xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Kontakt</a
 				>
 			</div>

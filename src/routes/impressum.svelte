@@ -11,7 +11,7 @@
 
 <div class="main">
 	<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-12 edge">
-		<h1 class="no_h1 text-no_darkblue">Impressum</h1>
+		<h1 class="h1 text-no_darkblue pb-6">Impressum</h1>
 		<div class="grid grid-cols-2 gap-x-12">
 			<div class="left col-span-2 lg:col-span-1">
 				<!-- -->
@@ -28,10 +28,7 @@
 				<p class="pb-10">
 					Telefon: 0228 - 23 03 90<br />
 					E-Mail:
-					<a
-						href="mailto:m.bertgen@t-online.de"
-						class="font-bold text-no_darkblue hover:opacity-60 py-1">m.bertgen@t-online.de</a
-					>
+					<a href="mailto:m.bertgen@t-online.de" class="py-1">m.bertgen@t-online.de</a>
 				</p>
 				<!-- -->
 			</div>

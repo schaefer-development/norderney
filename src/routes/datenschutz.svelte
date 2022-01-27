@@ -11,7 +11,7 @@
 
 <div class="main">
 	<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-12 edge">
-		<h1 class="no_h1 text-no_darkblue">Datenschutz</h1>
+		<h1 class="h1 text-no_darkblue pb-6">Datenschutz</h1>
 		<p class="pb-10">
 			Dr. Marion Bertgen-Giesen<br />
 			Gregor-Mendel-Straße 26<br />
@@ -19,10 +19,7 @@
 
 			Telefon: 0228 - 23 03 90<br />
 			E-Mail:
-			<a
-				href="mailto:m.bertgen@t-online.de"
-				class="font-bold text-no_darkblue hover:opacity-60 py-1">m.bertgen@t-online.de</a
-			>
+			<a href="mailto:m.bertgen@t-online.de">m.bertgen@t-online.de</a>
 		</p>
 
 		<div class="grid grid-cols-2 gap-x-12">
@@ -66,10 +63,7 @@
 
 					Telefon: 0228 - 23 03 90<br />
 					E-Mail:
-					<a
-						href="mailto:m.bertgen@t-online.de"
-						class="font-bold text-no_darkblue hover:opacity-60 py-1">m.bertgen@t-online.de</a
-					>
+					<a href="mailto:m.bertgen@t-online.de">m.bertgen@t-online.de</a>
 				</p>
 				<!-- -->
 			</div>
@@ -114,10 +108,7 @@
 					Daten beantragen (Art. 17 DSGVO), sofern keine Notwendigkeit für eine Speicherung besteht.
 					<br />
 					Bitte E-Mail an:
-					<a
-						href="mailto:m.bertgen@t-online.de"
-						class="font-bold text-no_darkblue hover:opacity-60 py-1">m.bertgen@t-online.de</a
-					>
+					<a href="mailto:m.bertgen@t-online.de">m.bertgen@t-online.de</a>
 				</p>
 				<p class="font-semibold mt-6">f) Weitergabe personenbezogener Daten</p>
 				<p class="py-2">
@@ -128,10 +119,7 @@
 					Sollten Sie Fragen haben, können Sie sich jederzeit mit uns in Verbindung setzen:
 				</p>
 				<p class="py-2">
-					E-Mail: <a
-						href="mailto:m.bertgen@t-online.de"
-						class="font-bold text-no_darkblue hover:opacity-60 py-1">m.bertgen@t-online.de</a
-					>
+					E-Mail: <a href="mailto:m.bertgen@t-online.de">m.bertgen@t-online.de</a>
 					<br />
 					oder telefonisch: 0228 - 23 03 90
 				</p>
