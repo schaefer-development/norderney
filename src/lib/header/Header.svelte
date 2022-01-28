@@ -12,7 +12,7 @@
 </script>
 
 <header class="">
-	<div class="fixed z-50 w-full h-12 bg-no_darkblue grid content-center">
+	<div class="relative z-50 w-full h-12 bg-no_darkblue grid content-center">
 		<div class="menu hidden lg:block ">
 			<div class="flex flex-row justify-center">
 				<a href="{base}/" class="relative mx-3">
