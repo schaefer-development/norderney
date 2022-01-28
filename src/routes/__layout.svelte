@@ -5,10 +5,11 @@
 	import '@fontsource/bad-script';
 	import '../app.css';
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 
 	import Hero from '$lib/hero/Hero.svelte';
-
-	import Header from '$lib/header/Header.svelte';
+	import Logo from '$lib/logo/Logo.svelte';
+	import Navbar from '$lib/navbar/Navbar.svelte';
 	import Footer from '$lib/footer/Footer.svelte';
 
 	import Map from '$lib/map/Map.svelte';
@@ -21,55 +22,55 @@
 	import Slideshow from '$lib/slideshow/Slideshow.svelte';
 
 	let y;
-	let paraEffect = 0.25;
+	let paraEffect = 0.5;
+
+	let open_intro = false;
+	const toggleIntro = () => {
+		open_intro = !open_intro;
+	};
 </script>
 
 <svelte:window bind:scrollY={y} />
 
-<!--
 {#if $page.url.pathname == '/'}
-	<div class="intro absolute w-full h-screen border bg-white" style="z-index:99999">
-		sdsdfsd
-
-	</div>
+	<div class="w-full h-12 border" />
 {:else}
-
-<p></p>
+	<p />
 {/if}
 
--->
+<div class="relative flex flex-col w-screen justify-between min-h-screen">
+	<Navbar />
 
-<div id="page_wrapper" class="relative flex flex-col w-screen justify-between min-h-screen">
-	<Header />
-
-	{#if $page.url.pathname == '/lage'}
-		<Map {mapAttributes} />
-	{:else if $page.url.pathname == '/bilder'}
-		<Slideshow />
-	{:else}
-		<Hero />
-	{/if}
-
-	<main
-		style="position:relative; transform: translate(0, {y < 2
-			? y * 1
-			: (-y * paraEffect) / (2 - 1)}px)"
-		class="relative pb-12 z-40"
+	<div
+		class="relative parallax top-12"
+		style="transform: translate(0, {y < 2 ? y * 1 : y * paraEffect}px)"
 	>
+		{#if $page.url.pathname == '/lage'}
+			<Logo />
+			<Map {mapAttributes} />
+		{:else if $page.url.pathname == '/bilder'}
+			<Slideshow />
+		{:else}
+			<Logo />
+			<Hero />
+		{/if}
+	</div>
+
+	<main style="position:relative; " id="main" class="relative pb-12 z-40">
 		<slot />
 		<div class="coordinates relative z-50 max-w-screen-lg px-4 md:px-8 lg:px-12 mx-auto text-right">
 			N53.70985, E7.14347
 		</div>
 	</main>
 
-	<footer style="margin-top: -{y * paraEffect}px">
+	<footer>
 		<Footer />
 	</footer>
 </div>
 
 <style>
 	.coordinates {
-		font-size: 1vw;
+		font-size: 2vw;
 		color: #9e7548;
 		opacity: 0.1;
 	}

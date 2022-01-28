@@ -3,7 +3,7 @@
 	import Logo from '$lib/logo/Logo.svelte';
 </script>
 
-<footer class="-mt-12 w-screen overflow-x-hidden">
+<footer id="footer" class="-mt-12 w-screen overflow-x-hidden">
 	<!--- -->
 
 	<div class="beach relative z-10">

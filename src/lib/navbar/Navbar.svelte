@@ -1,9 +1,5 @@
 <script lang="ts">
-	import { page } from '$app/stores';
 	import { base } from '$app/paths';
-	import Logo from '$lib/logo/Logo.svelte';
-
-	import { page } from '$app/stores';
 
 	let open = false;
 	const toggleMenu = () => {
@@ -11,8 +7,8 @@
 	};
 </script>
 
-<header class="">
-	<div class="relative z-50 w-full h-12 bg-no_darkblue grid content-center">
+<header id="header">
+	<div class="fixed top-0 z-50 w-full h-12 bg-no_darkblue grid content-center">
 		<div class="menu hidden lg:block ">
 			<div class="flex flex-row justify-center">
 				<a href="{base}/" class="relative mx-3">
@@ -65,24 +61,6 @@
 			</button>
 		</div>
 	</div>
-
-	{#if $page.url.pathname == '/bilder'}
-		<!-- -->
-	{:else}
-		<div
-			class="absolute z-40 left-0 right-0 w-full max-w-screen-xl mx-auto"
-			style="top:calc(3rem + 3vw)"
-		>
-			<div class="w-6/12 mx-auto">
-				<a
-					sveltekit:prefetch
-					href="{base}/"
-					class="text-no_darkblue focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
-					><Logo /></a
-				>
-			</div>
-		</div>
-	{/if}
 </header>
 
 <aside

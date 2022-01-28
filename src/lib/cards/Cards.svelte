@@ -17,7 +17,7 @@
 				<span class="h1 fontsize_lg block mb-4 text-no_lightblue px-4">Lage & Ausstattung</span>
 				<a
 					href="{base}/lage"
-					class="bg-no_darkblue text-sm block w-9/12 py-2 mx-auto uppercase font-bold tracking-widest text-white no-underline hover:bg-no_lightblue hover:text-no_darkblue transition duration-300 ease-in-out"
+					class="bg-no_darkblue text-sm block w-9/12 py-4 mx-auto uppercase font-bold tracking-widest text-white no-underline hover:bg-no_lightblue hover:text-no_darkblue transition duration-300 ease-in-out"
 					>Mehr erfahren</a
 				>
 			</div>
@@ -34,7 +34,7 @@
 
 				<a
 					href="{base}/bilder"
-					class="bg-no_darkblue text-sm block w-9/12 py-2 mx-auto uppercase font-bold tracking-widest text-white no-underline hover:bg-no_lightblue hover:text-no_darkblue transition duration-300 ease-in-out"
+					class="bg-no_darkblue text-sm block w-9/12 py-4 mx-auto uppercase font-bold tracking-widest text-white no-underline hover:bg-no_lightblue hover:text-no_darkblue transition duration-300 ease-in-out"
 					>Mehr erfahren</a
 				>
 			</div>
