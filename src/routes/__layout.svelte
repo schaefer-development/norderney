@@ -46,12 +46,39 @@
 		style="transform: translate(0, {y < 2 ? y * 1 : y * paraEffect}px)"
 	>
 		{#if $page.url.pathname == '/lage'}
-			<Logo />
+			<div
+				class="absolute z-40 left-0 right-0 w-full max-w-screen-xl mx-auto"
+				style="top:calc(3rem + 3vw);"
+			>
+				<div class="w-6/12 mx-auto">
+					<a
+						sveltekit:prefetch
+						href="{base}/"
+						class="text-no_darkblue focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
+					>
+						<Logo />
+					</a>
+				</div>
+			</div>
 			<Map {mapAttributes} />
 		{:else if $page.url.pathname == '/bilder'}
 			<Slideshow />
 		{:else}
-			<Logo />
+			<div
+				class="absolute z-40 left-0 right-0 w-full max-w-screen-xl mx-auto"
+				style="top:calc(3rem + 3vw);"
+			>
+				<div class="w-6/12 mx-auto">
+					<a
+						sveltekit:prefetch
+						href="{base}/"
+						class="text-no_darkblue focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
+					>
+						<Logo />
+					</a>
+				</div>
+			</div>
+
 			<Hero />
 		{/if}
 	</div>
@@ -63,9 +90,7 @@
 		</div>
 	</main>
 
-	<footer>
-		<Footer />
-	</footer>
+	<Footer />
 </div>
 
 <style>

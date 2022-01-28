@@ -78,7 +78,10 @@
 		margin-bottom: -23vh;
 	}
 
-	.splide__pagination__page {
+	/* purgecss start ignore */
+	.your-class-next {
 		border: 1px solid red !important;
 	}
+
+	/* purgecss end ignore */
 </style>
