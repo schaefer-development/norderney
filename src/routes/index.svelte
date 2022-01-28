@@ -13,7 +13,7 @@
 
 <div class="main">
 	<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-16 edge">
-		<h1 class="h1 text-no_darkblue pb-6">Mehr Meer sehen!</h1>
+		<h1 class="h1 text-no_darkblue pb-4">Mehr Meer sehen!</h1>
 		<h2>
 			Ankommen und sich wohlfühlen ist das Motto unserer Ferienwohnung „Am Meer Norderneys“! In
 			unserer vollständig sanierten und mit neuen Möbeln ausgestatteten Ferienwohnung bieten wir

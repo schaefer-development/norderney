@@ -5,11 +5,12 @@
 	import '@fontsource/bad-script';
 
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 
 	import Header from '$lib/header/Header.svelte';
 	import Footer from '$lib/footer/Footer.svelte';
 	import '../app.css';
-	import Index from './index.svelte';
+
 	import Hero from '$lib/hero/Hero.svelte';
 
 	import Map from '$lib/map/Map.svelte';
@@ -32,11 +33,29 @@
 	<Header />
 
 	{#if $page.url.pathname == '/lage'}
-		<Map {mapAttributes} />
+		<div class="relative">
+			<div class="w-full bottom-0 -mb-14 absolute h-10v z-30">
+				<div
+					class="bg_layer w-full h-10v bg-cover"
+					style="background-image: url({base}/wave_border.svg)"
+				/>
+			</div>
+
+			<Map {mapAttributes} />
+		</div>
 	{:else if $page.url.pathname == '/bilder'}
 		<Slideshow />
 	{:else}
-		<Hero />
+		<div class="relative">
+			<div class="w-full bottom-0 -mb-14 absolute h-10v z-30">
+				<div
+					class="bg_layer w-full h-10v bg-cover"
+					style="background-image: url({base}/wave_border.svg)"
+				/>
+			</div>
+
+			<Hero />
+		</div>
 	{/if}
 
 	<main

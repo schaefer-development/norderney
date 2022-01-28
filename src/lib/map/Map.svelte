@@ -33,7 +33,7 @@
 		L.marker(coordinates, { icon }).addTo(map);
 		L.control
 			.zoom({
-				position: 'bottomleft'
+				position: 'topleft'
 			})
 			.addTo(map);
 
@@ -50,4 +50,4 @@
 	/>
 </svelte:head>
 
-<div id="map" {...mapAttributes} class="mod_map z-10" />
+<div id="map" {...mapAttributes} class="top-12 mod_map z-10" />

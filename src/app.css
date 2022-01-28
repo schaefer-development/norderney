@@ -111,7 +111,7 @@ ul.no_style li:before {
 }
 
 .main {
-	@apply relative z-50 w-full max-w-screen-lg px-12 mx-auto -mt-12;
+	@apply relative z-50 w-full max-w-screen-lg px-4 md:px-8 lg:px-12 mx-auto -mt-20;
 }
 
 .edge:after {
@@ -141,7 +141,7 @@ h1 {
 }
 
 h2 {
-	@apply font-semibold text-no_brown break-words text-center lg:px-8 fontsize_md;
+	@apply font-semibold text-no_brown break-words fontsize_md;
 }
 
 h3 {
@@ -155,7 +155,7 @@ h3 {
 }
 
 .fontsize_lg {
-	font-size: calc(18px + (45 - 18) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(18px + (40 - 18) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .fontsize_md {

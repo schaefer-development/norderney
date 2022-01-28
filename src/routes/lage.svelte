@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import '../app.css';
 </script>
 
@@ -12,15 +11,13 @@
 <div class="flex flex-col justify-center">
 	<div class="main">
 		<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-12 edge">
-			<h1 class="h1 text-no_darkblue pb-8">Kaiserstraße 17<br />26548 Norderney</h1>
-			<h2 class="no_h2 pb-12">
+			<h1 class="h1 text-no_darkblue pb-4">Kaiserstraße 17<br />26548 Norderney</h1>
+			<h2 class="pb-12">
 				Direkt an der Promenade, im Haus Nordseeblick A in der zweiten Etage, mit seitlichem
 				Meerblick. Das Haus hat einen Aufzug und alle Zugänge sind behindertengerecht ausgestattet.
 				Das Stadtzentrum mit allen Geschäften ist von hier aus in zwei Minuten zu erreichen, noch
-				schneller sind Sie am Meer.
-				<br />
-
-				Die Ferienwohnung "Am Meer Norderneys" (ca. 44qm) verfügt über die folgende Ausstattung:
+				schneller sind Sie am Meer. Die Ferienwohnung "Am Meer Norderneys" (ca. 44qm) verfügt über
+				die folgende Ausstattung:
 			</h2>
 
 			<div class="grid grid-cols-2 gap-12">
