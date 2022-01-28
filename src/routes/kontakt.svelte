@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Hero from '$lib/hero/Hero.svelte';
 	import '../app.css';
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -16,7 +16,10 @@
 		<h2 class="pb-2">
 			Möchten Sie uns eine Anfrage für einen bestimmten Zeitraum senden oder haben Sie noch weitere
 			Fragen zu unserer Ferienwohnung "Am Meer Norderneys"? <br />Dann prüfen Sie unseren
-			Belegungskalender und
+
+			<a href="{base}/termine">Belegungskalender</a>
+
+			und
 			<a href="mailto:m.bertgen@t-online.de">schreiben Sie uns!</a> <br />Wir geben gerne Auskunft
 			und freuen uns auf Ihren Besuch auf Norderney!
 		</h2>

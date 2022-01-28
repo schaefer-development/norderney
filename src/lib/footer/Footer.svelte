@@ -6,7 +6,7 @@
 <footer class="-mt-12 w-screen overflow-x-hidden">
 	<!--- -->
 
-	<div class="beach">
+	<div class="beach relative z-10">
 		<svg
 			class="wave"
 			version="1.1"

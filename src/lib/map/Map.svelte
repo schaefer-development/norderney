@@ -49,5 +49,12 @@
 		crossorigin=""
 	/>
 </svelte:head>
-
-<div id="map" {...mapAttributes} class="top-12 mod_map z-10" />
+<div class="relative">
+	<div class="w-full bottom-0 -mb-14 absolute h-10v z-30">
+		<div
+			class="bg_layer w-full h-10v bg-cover"
+			style="background-image: url({base}/wave_border.svg)"
+		/>
+	</div>
+	<div id="map" {...mapAttributes} class="top-12 mod_map z-10" />
+</div>
