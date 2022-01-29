@@ -1,5 +1,12 @@
 <script lang="ts">
 	import '../app.css';
+	import { onMount } from 'svelte';
+	let calendar = null;
+	const props = {};
+	onMount(async () => {
+		const { InlineCalendar } = await import('svelte-calendar');
+		calendar = InlineCalendar;
+	});
 </script>
 
 <svelte:head>
@@ -18,8 +25,11 @@
 				>m.bertgen@t-online.de</a
 			> mit Ihren Wunschdaten.
 		</h2>
+
 		<p class="text-red border-2 border-no_red text-no_red px-4 py-4 mt-6">
 			Hier fehlt noch der Belegungskalender
 		</p>
+
+		<svelte:component this={calendar} {...props} />
 	</section>
 </div>
