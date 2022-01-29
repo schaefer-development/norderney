@@ -48,9 +48,9 @@
 		{#if $page.url.pathname == '/lage'}
 			<div
 				class="absolute z-40 left-0 right-0 w-full max-w-screen-xl mx-auto"
-				style="top:calc(3rem + 3vw);"
+				style="top:calc(1rem + 1vw);"
 			>
-				<div class="w-6/12 mx-auto">
+				<div class="w-7/12 mx-auto">
 					<a
 						sveltekit:prefetch
 						href="{base}/"
@@ -66,9 +66,9 @@
 		{:else}
 			<div
 				class="absolute z-40 left-0 right-0 w-full max-w-screen-xl mx-auto"
-				style="top:calc(3rem + 3vw);"
+				style="top:calc(1rem + 1vw);"
 			>
-				<div class="w-6/12 mx-auto">
+				<div class="w-7/12 mx-auto">
 					<a
 						sveltekit:prefetch
 						href="{base}/"
@@ -85,18 +85,7 @@
 
 	<main style="position:relative; " id="main" class="relative pb-12 z-40">
 		<slot />
-		<div class="coordinates relative z-50 max-w-screen-lg px-4 md:px-8 lg:px-12 mx-auto text-right">
-			N53.70985, E7.14347
-		</div>
 	</main>
 
 	<Footer />
 </div>
-
-<style>
-	.coordinates {
-		font-size: 2vw;
-		color: #9e7548;
-		opacity: 0.1;
-	}
-</style>
