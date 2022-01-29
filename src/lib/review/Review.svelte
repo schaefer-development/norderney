@@ -78,7 +78,7 @@
 
 	<!-- row 2-->
 	<div class="flex flex-row justify-center font-bold text-no_darkblue fontsize_md py-2">
-		<a href="https://www.traum-ferienwohnungen.de/162863/?tp=1" target="_blank">
+		<a href="https://www.traum-ferienwohnungen.de/162863/?tp=1" rel="external" target="_blank">
 			5.0/5 Gesamtwertung auf<br /><svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="h-5 w-5 inline mx-1 -mt-0.5"

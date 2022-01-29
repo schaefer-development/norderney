@@ -78,7 +78,9 @@
 
 				<h3>Gestaltung und technische Umsetzung</h3>
 				<p>
-					<a href="https://joschaefer.com/" target="_blank">Jo Schäfer – Digital Media Design</a>
+					<a href="https://joschaefer.com/" rel="external" target="_blank"
+						>Jo Schäfer – Digital Media Design</a
+					>
 				</p>
 				<!-- -->
 			</div>

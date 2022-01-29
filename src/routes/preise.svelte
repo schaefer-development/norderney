@@ -118,8 +118,9 @@
 					Zahlungen umgehend zurück erstattet oder den Gästen auf Wunsch neue Termine angeboten.
 				</p>
 				<p>
-					Haben wir Ihr Interesse geweckt? Dann schauen Sie in unseren <a href="{base}/termine"
-						>Belegungskalender</a
+					Haben wir Ihr Interesse geweckt? Dann schauen Sie in unseren <a
+						sveltekit:prefetch
+						href="{base}/termine">Belegungskalender</a
 					>, ob Ihre Wunschtermine verfügbar sind und schreiben Sie uns gerne eine E-Mail an
 					<a href="mailto:m.bertgen@t-online.de">m.bertgen@t-online.de</a> oder rufen einfach an.
 				</p>

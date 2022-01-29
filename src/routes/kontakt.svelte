@@ -17,7 +17,7 @@
 			Möchten Sie uns eine Anfrage für einen bestimmten Zeitraum senden oder haben Sie noch weitere
 			Fragen zu unserer Ferienwohnung "Am Meer Norderneys"? <br />Dann prüfen Sie unseren
 
-			<a href="{base}/termine">Belegungskalender</a>
+			<a sveltekit:prefetch href="{base}/termine">Belegungskalender</a>
 
 			und
 			<a href="mailto:m.bertgen@t-online.de">schreiben Sie uns!</a> <br />Wir geben gerne Auskunft
