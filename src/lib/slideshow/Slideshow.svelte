@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import '@splidejs/splide/dist/css/splide.min.css';
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 
 	Splide.defaults = {
@@ -21,7 +20,7 @@
 	>
 		<div class="splide__arrows" slot="before-track">
 			<button
-				class="splide__arrow splide__arrow--prev custom_arrow custom_arrow_prev"
+				class="splide__arrow splide__arrow--prev opacity-100 bg-white w-24 h-24"
 				type="button"
 				aria-controls="splide01-track"
 				aria-label="Go to last slide"
@@ -35,7 +34,7 @@
 			</button>
 
 			<button
-				class="splide__arrow splide__arrow--next custom_arrow custom_arrow_next"
+				class="splide__arrow splide__arrow--next opacity-100 bg-white w-24 h-24"
 				type="button"
 				aria-controls="splide01-track"
 				aria-label="Next slide"
