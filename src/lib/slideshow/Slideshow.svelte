@@ -20,7 +20,7 @@
 	>
 		<div class="splide__arrows" slot="before-track">
 			<button
-				class="splide__arrow splide__arrow--prev opacity-100 bg-white w-24 h-24"
+				class="splide__arrow splide__arrow--prev opacity-100 bg-no_darkblue text-white w-14 lg:w-20 h-14 lg:h-20 rounded-none left-0 hover:text-no_darkblue-lighter hover:opacity-100 ease-in-out transition-all duration-300"
 				type="button"
 				aria-controls="splide01-track"
 				aria-label="Go to last slide"
@@ -34,7 +34,7 @@
 			</button>
 
 			<button
-				class="splide__arrow splide__arrow--next opacity-100 bg-white w-24 h-24"
+				class="splide__arrow splide__arrow--next opacity-100 bg-no_darkblue text-white w-14 lg:w-20 h-14 lg:h-20 rounded-none right-0 hover:text-no_darkblue-lighter hover:opacity-100 ease-in-out transition-all duration-300"
 				type="button"
 				aria-controls="splide01-track"
 				aria-label="Next slide"
@@ -50,7 +50,7 @@
 		<SplideSlide>
 			<img src="{base}/aus_wohnung02.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 			<div class="textbox">
-				<span>Das Wohnzimmer:</span>
+				<span class="font-semibold block tracking-wider pb-1">Das Wohnzimmer:</span>
 				Ausgestattet mit einem erklärenden Text kann sich der Besucher einen guten Überblick verschaffen.
 			</div>
 		</SplideSlide>
@@ -96,15 +96,6 @@
 		-webkit-clip-path: polygon(100% 0, 0 0, 0 100%);
 		clip-path: polygon(100% 0, 0 0, 0 100%);
 	}
-
-	.textbox span {
-		display: block;
-		text-transform: uppercase;
-		letter-spacing: 0.15em;
-		font-size: 0.8em;
-		padding-bottom: 0.2em;
-	}
-
 	.push_up_footer {
 		margin-bottom: -15vh;
 	}
