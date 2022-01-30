@@ -1,5 +1,30 @@
+<script context="module" lang="ts">
+	/** @type {import('@sveltejs/kit').Load} */
+	export async function load({ fetch }) {
+		const url = '/termine.json';
+		const res = await fetch(url);
+
+		if (res.ok) {
+			const { events } = await res.json();
+			return {
+				props: {
+					events
+				}
+			};
+		}
+
+		return {
+			status: res.status,
+			error: new Error(`Could not load ${url}`)
+		};
+	}
+</script>
+
 <script lang="ts">
 	import '../app.css';
+	import Calendar from '$lib/Calendar/Calendar.svelte';
+	const today = new Date();
+	export let events = [];
 </script>
 
 <svelte:head>
@@ -21,5 +46,7 @@
 		<p class="text-red border-2 border-no_red text-no_red px-4 py-4 mt-6">
 			Hier fehlt noch der Belegungskalender
 		</p>
+
+		<Calendar {today} {events} />
 	</section>
 </div>
