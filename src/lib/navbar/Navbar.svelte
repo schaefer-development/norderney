@@ -8,7 +8,7 @@
 </script>
 
 <header id="header">
-	<div class="fixed top-0 z-50 w-full h-12 bg-no_darkblue grid content-center">
+	<div class="fixed top-0 z-50 w-full h-12 bg-darkblue grid content-center">
 		<div class="menu hidden lg:block ">
 			<div class="flex flex-row justify-center">
 				<a href="{base}/" class="relative mx-3">
@@ -47,7 +47,7 @@
 		<div class="menu_mobile block lg:hidden mx-auto">
 			<button
 				on:click={toggleMenu}
-				class="text-white hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-no_darkblue ease-in-out transition-all duration-300"
+				class="text-white hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-darkblue ease-in-out transition-all duration-300"
 			>
 				<svg
 					class="fill-current h-6 w-6 inline"
@@ -72,10 +72,10 @@
 		: 'translate-x-full'} transform fixed lg:hidden top-0 left-0 w-full h-full overflow-auto ease-in-out transition-all duration-300 "
 >
 	<!-- styling drawer starts here -->
-	<div class="drawer_outer h-screen grid content-center bg-no_darkblue">
+	<div class="drawer_outer h-screen grid content-center bg-darkblue">
 		<div class="drawer_inner mx-12 text-center">
 			<button
-				class="text-white hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-no_darkblue ease-in-out transition-all duration-300"
+				class="text-white hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-darkblue ease-in-out transition-all duration-300"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -102,42 +102,42 @@
 				<a
 					sveltekit:prefetch
 					href="{base}/"
-					class="bad-script mt-4 mb-2 text-2xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script mt-4 mb-2 text-2xl textlightblue hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Start</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/lage"
-					class="bad-script my-2 text-2xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script my-2 text-2xl text-lightblue hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Lage & Ausstattung</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/bilder"
-					class="bad-script my-2 mb-2 text-2xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script my-2 mb-2 text-2xl text-lightblue hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Bilder</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/preise"
-					class="bad-script my-2 mb-2 text-2xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script my-2 mb-2 text-2xl text-lightblue hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Preise</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/termine"
-					class="bad-script my-2 mb-2 text-2xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script my-2 mb-2 text-2xl text-lightblue hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Freie Termine</a
 				>
 
 				<a
 					sveltekit:prefetch
 					href="{base}/kontakt"
-					class="bad-script mt-2 text-2xl text-no_lightblue hover:text-no_darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script mt-2 text-2xl text-lightblue hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Kontakt</a
 				>
 			</div>

@@ -54,7 +54,7 @@
 					<a
 						sveltekit:prefetch
 						href="{base}/"
-						class="text-no_darkblue focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
+						class="text-darkblue focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
 					>
 						<Logo />
 					</a>
@@ -72,7 +72,7 @@
 					<a
 						sveltekit:prefetch
 						href="{base}/"
-						class="text-no_darkblue focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
+						class="text-darkblue focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
 					>
 						<Logo />
 					</a>

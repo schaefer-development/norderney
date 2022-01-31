@@ -22,18 +22,21 @@ const config = {
 				no_bg_hero: '50% 10%'
 			},
 			colors: {
-				no_darkblue: {
+				darkblue: {
 					DEFAULT: '#1f3947',
 					lighter: '#327194'
 				},
-				no_lightblue: {
+				lightblue: {
 					DEFAULT: '#e6f5ff'
 				},
-				no_brown: {
+				brown: {
 					DEFAULT: '#51402d',
 					lighter: '#9e7548'
 				},
-				no_red: {
+				beige: {
+					DEFAULT: '#fcf1e0'
+				},
+				red: {
 					DEFAULT: '#f92200'
 				}
 			}

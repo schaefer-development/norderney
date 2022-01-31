@@ -60,11 +60,11 @@
 	}
 
 	function normalizeDate(day) {
-			const normalized = new Date('2022-01-01T00:00:00.000Z')
-			normalized.setFullYear(year)
-			normalized.setMonth(month)
-			normalized.setDate(day)
-			return normalized
+		const normalized = new Date('2022-01-01T00:00:00.000Z');
+		normalized.setFullYear(year);
+		normalized.setMonth(month);
+		normalized.setDate(day);
+		return normalized;
 	}
 
 	function isToday(day) {

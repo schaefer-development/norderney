@@ -11,7 +11,7 @@
 
 <div class="main">
 	<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-12 edge">
-		<h1 class="h1 text-no_darkblue pb-4">Preise</h1>
+		<h1 class="h1 text-darkblue pb-4">Preise</h1>
 		<h2 class="text-center pb-6">Ferienwohnung "am Meer Norderneys"</h2>
 		<div class="divider h-1 w-3/12 mx-auto my-10" />
 
@@ -23,14 +23,14 @@
 				3. Januar - 28. Feburar 2022
 				<p>85€/ Tag</p>
 
-				<p class="text-no_red pb-6">
+				<p class="text-red pb-6">
 					Sonderpreis vom 9. bis 14. Januar 2022, <br />für 450€ komplett inkl. aller Kosten
 				</p>
 
 				<h3>Vorsaison:</h3>
 				1. März - 31. März 2022
 				<p>90€/ Tag</p>
-				<p class="text-no_red pb-6">
+				<p class="text-red pb-6">
 					Sonderpreis 6. bis 12. März 2022, <br />für 550€ komplett inkl. aller Kosten
 				</p>
 
@@ -38,7 +38,7 @@
 				1. April - 31. Mai 2022
 				<p>100€/ Tag</p>
 
-				<p class="text-no_red pb-6">
+				<p class="text-red pb-6">
 					Buchungslücke 8. bis 10. Mai 2022,<br /> 200€ komplett, inkl. aller Kosten.
 				</p>
 

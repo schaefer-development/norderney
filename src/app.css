@@ -70,7 +70,7 @@ main a {
 }
 
 main a {
-	@apply text-no_darkblue-lighter hover:text-no_darkblue font-bold focus:ring-0 focus:outline-none focus:text-no_darkblue-lighter;
+	@apply text-darkblue-lighter hover:text-darkblue font-bold focus:ring-0 focus:outline-none focus:text-darkblue-lighter;
 }
 
 input,
@@ -142,11 +142,11 @@ h1 {
 }
 
 h2 {
-	@apply font-semibold text-no_brown break-words fontsize_md;
+	@apply font-semibold text-brown break-words fontsize_md;
 }
 
 h3 {
-	@apply font-bold tracking-wider text-base uppercase break-words text-no_darkblue pb-3 fontsize_sm;
+	@apply font-bold tracking-wider text-base uppercase break-words text-darkblue pb-3 fontsize_sm;
 }
 
 /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/

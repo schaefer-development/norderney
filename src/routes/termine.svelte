@@ -26,7 +26,6 @@
 	import Calendar from '$lib/Calendar/Calendar.svelte';
 	const today = new Date();
 	export let events = [];
-
 </script>
 
 <svelte:head>
@@ -51,6 +50,5 @@
 		</p>
 
 		<Calendar {today} {events} />
-
 	</section>
 </div>

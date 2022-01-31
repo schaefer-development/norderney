@@ -13,11 +13,11 @@
 					alt="Lage & Ausstattung"
 				/>
 			</div>
-			<div class="relative text-center px-4 pt-6 pb-8 bg-no_darkblue-lighter -mt-1">
-				<span class="h1 fontsize_lg block mb-4 text-no_lightblue px-4">Lage & Ausstattung</span>
+			<div class="relative text-center px-4 pt-6 pb-8 bg-darkblue-lighter -mt-1">
+				<span class="h1 fontsize_lg block mb-4 text-lightblue px-4">Lage & Ausstattung</span>
 				<a
 					href="{base}/lage"
-					class="bg-no_darkblue text-sm block w-9/12 py-4 mx-auto uppercase font-bold tracking-widest text-white no-underline hover:bg-no_lightblue hover:text-no_darkblue transition duration-300 ease-in-out"
+					class="bg-darkblue text-sm block w-9/12 py-4 mx-auto uppercase font-bold tracking-widest text-white no-underline hover:bg-lightblue hover:text-darkblue transition duration-300 ease-in-out"
 					>Mehr erfahren</a
 				>
 			</div>
@@ -29,12 +29,12 @@
 			<div class="overflow-hidden">
 				<img class="relative w-full bg-cover" src="{base}/lage.jpg" alt="Lage & Ausstattung" />
 			</div>
-			<div class="relative text-center px-4 pt-6 pb-8 bg-no_darkblue-lighter -mt-1">
-				<span class="h1 fontsize_lg block mb-4 text-no_lightblue px-4">Bilder</span>
+			<div class="relative text-center px-4 pt-6 pb-8 bg-darkblue-lighter -mt-1">
+				<span class="h1 fontsize_lg block mb-4 text-lightblue px-4">Bilder</span>
 
 				<a
 					href="{base}/bilder"
-					class="bg-no_darkblue text-sm block w-9/12 py-4 mx-auto uppercase font-bold tracking-widest text-white no-underline hover:bg-no_lightblue hover:text-no_darkblue transition duration-300 ease-in-out"
+					class="bg-darkblue text-sm block w-9/12 py-4 mx-auto uppercase font-bold tracking-widest text-white no-underline hover:bg-lightblue hover:text-darkblue transition duration-300 ease-in-out"
 					>Mehr erfahren</a
 				>
 			</div>
