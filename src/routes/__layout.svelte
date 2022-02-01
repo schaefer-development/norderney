@@ -22,6 +22,8 @@
 	import Slideshow from '$lib/slideshow/Slideshow.svelte';
 
 	let y;
+	let introHeight;
+
 	let paraEffect = 0.5;
 
 	let open_intro = false;
@@ -33,12 +35,12 @@
 <svelte:window bind:scrollY={y} />
 
 {#if $page.url.pathname == '/'}
-	<div class="w-full h-12 border" />
+	<!--	<div class="relative w-full h-40v border bg-brown" bind:clientHeight={introHeight}/>-->
 {:else}
 	<p />
 {/if}
 
-<div class="relative flex flex-col w-screen justify-between min-h-screen">
+<div id="main" class="relative flex flex-col w-screen justify-between min-h-screen">
 	<Navbar />
 
 	<div
@@ -84,6 +86,10 @@
 	</div>
 
 	<main style="position:relative; " id="main" class="relative pb-12 z-40">
+		<!--	<p>{introHeight}</p>
+
+		<p>{y}</p>-->
+
 		<slot />
 	</main>
 

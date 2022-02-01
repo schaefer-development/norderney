@@ -13,20 +13,20 @@
 	let year = 2022;
 	let month = 1;
 
-	export let labels = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+	export let labels = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
 	export let months = [
-		'Jan',
-		'Feb',
-		'Mar',
-		'Apr',
-		'May',
-		'Jun',
-		'July',
-		'Aug',
-		'Sep',
-		'Oct',
-		'Nov',
-		'Dec'
+		'Januar',
+		'Februar',
+		'März',
+		'April',
+		'Mai',
+		'Juni',
+		'Juli',
+		'August',
+		'September',
+		'Oktober',
+		'November',
+		'Dezember'
 	];
 
 	$: today_month = today && today.getMonth();
@@ -82,15 +82,17 @@
 	}
 </script>
 
-<header>
+<header class="flex py-4 mx-auto items-center justify-center ">
 	<Arrow left on:click={toPrev} />
-	<h4>{months[month]} {year}</h4>
+	<h2 class="grow text-center fontsize_lg">{months[month]} {year}</h2>
 	<Arrow on:click={toNext} />
 </header>
 
-<div class="month">
+<div class="grid grid-cols-7 gap-1 text-right">
 	{#each labels as txt, idx (txt)}
-		<span class="label">{labels[(idx + offset) % 7]}</span>
+		<span class="text-center uppercase text-darkblue font-bold text-md lg:text_xl "
+			>{labels[(idx + offset) % 7]}</span
+		>
 	{/each}
 
 	{#each { length: 6 } as w, idxw (idxw)}
@@ -98,18 +100,18 @@
 			{#each { length: 7 } as d, idxd (idxd)}
 				{#if current[idxw][idxd] != 0}
 					<span
-						class="date"
+						class="date date_height"
 						class:today={isToday(current[idxw][idxd])}
-						class:bg-red-500={isStart(normalizeDate(current[idxw][idxd]))}
-						class:bg-green-500={isBetween(normalizeDate(current[idxw][idxd]))}
-						class:bg-blue-500={isEnd(normalizeDate(current[idxw][idxd]))}
+						class:isStart={isStart(normalizeDate(current[idxw][idxd]))}
+						class:isBetween={isBetween(normalizeDate(current[idxw][idxd]))}
+						class:isEnd={isEnd(normalizeDate(current[idxw][idxd]))}
 					>
 						{current[idxw][idxd]}
 					</span>
 				{:else if idxw < 1}
-					<span class="date other">{prev[prev.length - 1][idxd]}</span>
+					<span class="date date_height other">{prev[prev.length - 1][idxd]}</span>
 				{:else}
-					<span class="date other">{next[0][idxd]}</span>
+					<span class="date date_height other">{next[0][idxd]}</span>
 				{/if}
 			{/each}
 		{/if}
@@ -117,54 +119,56 @@
 </div>
 
 <style>
-	header {
-		display: flex;
-		margin: 2rem auto;
-		align-items: center;
-		justify-content: center;
-		user-select: none;
+	/* calendar */
+
+	.date.isStart {
+		@apply bg-red text-white relative overflow-hidden z-10;
 	}
 
-	h4 {
-		display: block;
-		text-align: center;
-		text-transform: uppercase;
-		font-size: 140%;
-		margin: 0 1rem;
+	.date.isStart::after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: #339933;
+		clip-path: polygon(100% 0, 0 0, 0 100%);
+		z-index: 1;
 	}
 
-	.month {
-		display: grid;
-		grid-template-columns: repeat(7, 1fr);
-		text-align: right;
-		grid-gap: 4px;
+	.date.isBetween {
+		@apply bg-red text-white;
 	}
 
-	.label {
-		font-weight: 300;
-		text-align: center;
-		text-transform: uppercase;
-		margin-bottom: 0.5rem;
-		opacity: 0.6;
+	.date.isEnd {
+		@apply bg-green text-white relative;
 	}
 
+	.date.isEnd::after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: #f92200;
+		clip-path: polygon(100% 100%, 0 0, 0 100%);
+	}
+
+	.date_height {
+		height: 11.2vw;
+		max-height: 120px;
+	}
 	.date {
-		height: 50px;
-		font-size: 16px;
-		letter-spacing: -1px;
-		border: 1px solid #e6e4e4;
-		padding-right: 4px;
-		font-weight: 700;
-		padding: 0.5rem;
+		@apply border pr-3 text-white bg-green grid content-center text-xl;
 	}
 
 	.date.today {
-		color: #5286fa;
-		background: #c4d9fd;
-		border-color: currentColor;
+		@apply bg-darkblue;
 	}
 
 	.date.other {
-		opacity: 0.2;
+		@apply bg-white text-black opacity-50;
 	}
 </style>

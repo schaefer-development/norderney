@@ -38,6 +38,9 @@ const config = {
 				},
 				red: {
 					DEFAULT: '#f92200'
+				},
+				green: {
+					DEFAULT: '#339933'
 				}
 			}
 		}
