@@ -26,16 +26,33 @@
 
 	let paraEffect = 0.5;
 
-	let open_intro = false;
+	let openIntro = false;
 	const toggleIntro = () => {
-		open_intro = !open_intro;
+		openIntro = !openIntro;
 	};
 </script>
 
 <svelte:window bind:scrollY={y} />
 
 {#if $page.url.pathname == '/'}
-	<!--	<div class="relative w-full h-40v border bg-brown" bind:clientHeight={introHeight}/>-->
+	<div
+		class="hidden w-full h-90v border bg-brown"
+		style="z-index:9999999"
+		bind:clientHeight={introHeight}
+	>
+		<div
+			id="Intro"
+			style="opacity:1; z-index:999;"
+			class="{openIntro
+				? 'h-0 border-2' // translate-x-0
+				: 'h-auto'} w-6/12 border bg-red overflow-hidden"
+		>
+			öfldfm
+				<!-- anchorlink  -->
+			<button on:click={toggleIntro} class="border text-white px-2 py-2 mx-6 my-6"> Click me </button>
+		</div>
+		
+	</div>
 {:else}
 	<p />
 {/if}
