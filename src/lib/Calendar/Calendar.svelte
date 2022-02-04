@@ -84,7 +84,7 @@
 
 <header class="flex py-4 mx-auto items-center justify-center ">
 	<Arrow left on:click={toPrev} />
-	<h2 class="grow text-center fontsize_lg">{months[month]} {year}</h2>
+	<h1 class="grow text-center h1 text-darkblue pb-4">{months[month]} {year}</h1>
 	<Arrow on:click={toNext} />
 </header>
 
@@ -157,15 +157,14 @@
 	}
 
 	.date_height {
-		height: 11.2vw;
-		max-height: 120px;
+		aspect-ratio: 1;
 	}
 	.date {
 		@apply border pr-3 text-white bg-green grid content-center text-xl;
 	}
 
 	.date.today {
-		@apply bg-darkblue;
+		border: 6px solid #1f3947;
 	}
 
 	.date.other {

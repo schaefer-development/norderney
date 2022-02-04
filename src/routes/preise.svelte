@@ -11,12 +11,9 @@
 
 <div class="main">
 	<section class="relative first_section bg-white px-6 lg:px-12 py-6 lg:py-12 edge">
-		<h1 class="h1 text-darkblue pb-4">Preise</h1>
-		<h2 class="text-center pb-6">Ferienwohnung "am Meer Norderneys"</h2>
-		<div class="divider h-1 w-3/12 mx-auto my-10" />
-
 		<div class="grid grid-cols-2 gap-x-12 gap-y-10">
-			<h2 class="col-span-2 text-center fontsize_lg ">2022</h2>
+			<h1 class="col-span-2 h1 text-darkblue pb-4">Preise 2022</h1>
+
 			<div class="left text-left sm:text-right col-span-2 sm:col-span-1">
 				<!-- -->
 				<h3>Nebensaison:</h3>
@@ -69,8 +66,8 @@
 			</div>
 
 			<div class="col-span-2">
-				<div class="divider h-1 w-3/12 mx-auto my-10" />
-				<h2 class="fontsize_lg text-center">2023</h2>
+				<div class="divider h-1 w-3/12 mx-auto my-16" />
+				<h1 class="col-span-2 h1 text-darkblue pb-4">Preise 2023</h1>
 			</div>
 
 			<div class="left text-left sm:text-right col-span-2 sm:col-span-1">

@@ -14,7 +14,7 @@
 -->
 
 <svg
-	class="flex-none bg-darkblue text-white hover:text-lightblue w-8 h-8 px-2 py-2  ease-in-out transition-all duration-300"
+	class="flex-none bg-darkblue-lighter text-white hover:bg-darkblue cursor-pointer w-8 h-8 px-2 py-2  ease-in-out transition-all duration-300"
 	class:left
 	on:click
 	xmlns="http://www.w3.org/2000/svg"
