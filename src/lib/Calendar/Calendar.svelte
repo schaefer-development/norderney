@@ -137,7 +137,7 @@
 		z-index: 1;
 	}
 
-	.date.isBetween {
+	.date.isBetween,.date.isStart.isEnd{
 		@apply bg-red text-white;
 	}
 
