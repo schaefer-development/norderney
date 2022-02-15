@@ -1,16 +1,12 @@
 import { google } from 'googleapis';
-import fs from 'fs'
-import { GOOGLE_KEYFILE } from '$lib/env';
 
-const GOOGLE_KEYFILE_PATH = './keyfile.json'
-fs.writeFileSync(GOOGLE_KEYFILE_PATH, Buffer.from(GOOGLE_KEYFILE, 'base64').toString())
-
+const GOOGLE_APPLICATION_CREDENTIALS = './keyfile.json'
 
 /** @type {import('@sveltejs/kit').RequestHandler} */
 export async function get() {
 	const SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
 	const auth = new google.auth.GoogleAuth({
-		keyFile: GOOGLE_KEYFILE_PATH,
+		keyFile: GOOGLE_APPLICATION_CREDENTIALS,
 		scopes: SCOPES
 	});
 	const calendar = google.calendar({
