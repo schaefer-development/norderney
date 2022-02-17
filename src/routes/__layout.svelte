@@ -57,11 +57,9 @@
 				: 'h-100v -mb-12'} transform relative top-0 left-0 w-full ease-in-out transition-all duration-300 "
 		/>
 
-		<div
-			class="absolute w-full h-screen top-0 left-0 border-2 bg-darkblue grid content-center text-center"
-		>
+		<div class="absolute w-full h-screen top-0 left-0 bg-darkblue grid content-center text-center">
 			<SlideshowIntro />
-			<h2 class="relative h1 text-8xl text-white w-auto mx-auto" style="z-index:48;">
+			<h2 class="relative h1 text-8xl text-white w-auto mx-auto drop-shadow-md" style="z-index:48;">
 				Mehr Meer sehen
 			</h2>
 		</div>
