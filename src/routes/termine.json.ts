@@ -1,5 +1,6 @@
-import { GOOGLE_APPLICATION_CREDENTIALS } from '$lib/env';
 import { google } from 'googleapis';
+
+const GOOGLE_APPLICATION_CREDENTIALS = './keyfile.json'
 
 /** @type {import('@sveltejs/kit').RequestHandler} */
 export async function get() {

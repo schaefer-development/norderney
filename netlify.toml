@@ -1,0 +1,5 @@
+[functions]
+  included_files = ["keyfile.json"]
+[build]
+  command = "echo $GOOGLE_KEYFILE | base64 -d > keyfile.json && npm run build"
+  publish = "build"

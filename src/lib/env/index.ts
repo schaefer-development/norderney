@@ -1,2 +1,0 @@
-export const GOOGLE_APPLICATION_CREDENTIALS = import.meta.env
-	.VITE_GOOGLE_APPLICATION_CREDENTIALS as string;
