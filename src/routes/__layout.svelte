@@ -70,7 +70,7 @@
 	on:click={toggleIntro}
 	class="{open
 		? 'translate-y-0' // translate-x-0
-		: '-translate-y-full'} transform absolute top-0 left-0 w-full bg-red h-50v overflow-auto ease-in-out transition-all duration-300 "
+		: '-translate-y-full'} transform relative top-0 left-0 w-full bg-red h-50v overflow-auto ease-in-out transition-all duration-300 "
 >
 
 Hier kommt der content
@@ -116,7 +116,7 @@ Hier kommt der content
 				</div>
 			<!-- end page lage -->
 		{:else}
-			<!-- end page default -->
+			<!-- start page default -->
 				<div class="absolute top-20 left-0 right-0 mx-auto max-w-screen-lg z-40 calc_logo_width">
 					<div class="w-10/12 mx-auto">
 						<a
