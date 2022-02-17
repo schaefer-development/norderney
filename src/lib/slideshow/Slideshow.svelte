@@ -21,7 +21,7 @@
 	>
 		<div class="splide__arrows" slot="before-track">
 			<button
-				class="splide__arrow splide__arrow--prev opacity-10 bg-darkblue-lighter text-white w-14 lg:w-20 h-14 lg:h-20 rounded-none left-0 hover:bg-darkblue hover:opacity-100 ease-in-out transition-all duration-300"
+				class="splide__arrow splide__arrow--prev opacity-100 bg-darkblue-lighter text-white w-14 lg:w-20 h-14 lg:h-20 rounded-none left-0 hover:bg-darkblue hover:opacity-100 ease-in-out transition-all duration-300"
 				type="button"
 				aria-controls="splide01-track"
 				aria-label="Go to last slide"

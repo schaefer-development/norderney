@@ -111,10 +111,6 @@ ul.no_style li:before {
 	max-height: 80vh;
 }
 
-.main {
-	@apply relative z-50 w-full max-w-screen-lg px-4 md:px-8 lg:px-12 mx-auto -mt-20;
-}
-
 .edge:after {
 	content: '';
 	position: absolute;

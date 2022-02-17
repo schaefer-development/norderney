@@ -8,7 +8,7 @@
 </script>
 
 <header id="header">
-	<div class="fixed top-0 z-50 w-full h-12 bg-darkblue grid content-center">
+	<div class="relative top-0 z-50 w-full h-12 bg-darkblue grid content-center">
 		<div class="menu hidden lg:block ">
 			<div class="flex flex-row justify-center">
 				<a href="{base}/" class="relative mx-3">
@@ -102,7 +102,7 @@
 				<a
 					sveltekit:prefetch
 					href="{base}/"
-					class="bad-script mt-4 mb-2 text-2xl textlightblue hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
+					class="bad-script mt-4 mb-2 text-2xl text-lightblue hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-white "
 					>Start</a
 				>
 

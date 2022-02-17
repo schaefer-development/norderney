@@ -30,46 +30,35 @@
 	const toggleIntro = () => {
 		openIntro = !openIntro;
 	};
+
+	import { onMount } from 'svelte';
+	import { fade } from 'svelte/transition';
+	let ready = false;
+	onMount(() => (ready = true));
 </script>
 
 <svelte:window bind:scrollY={y} />
 
 {#if $page.url.pathname == '/'}
-	<div
-		class="hidden w-full h-90v border bg-brown"
-		style="z-index:9999999"
-		bind:clientHeight={introHeight}
-	>
-		<div
-			id="Intro"
-			style="opacity:1; z-index:999;"
-			class="{openIntro
-				? 'h-0 border-2' // translate-x-0
-				: 'h-auto'} w-6/12 border bg-red overflow-hidden"
-		>
-			öfldfm
-				<!-- anchorlink  -->
-			<button on:click={toggleIntro} class="border text-white px-2 py-2 mx-6 my-6"> Click me </button>
-		</div>
-		
+	<div id="intro">
+		<div class="w-full h-90v relative border" style="z-index:999999;">hier ist das intro</div>
 	</div>
-{:else}
-	<p />
 {/if}
 
-<div id="main" class="relative flex flex-col w-screen justify-between min-h-screen">
-	<Navbar />
+<div class="relative flex flex-col min-h-screen justify-between">
+	<header>
+		<Navbar />
+	</header>
+	<main class="mb-auto">
+		{#if $page.url.pathname == '/bilder'}
+			<!-- start page bilder -->
+			<Slideshow />
+			<!-- end page bilder -->
+		{:else if $page.url.pathname == '/lage'}
+			<!-- start page lage -->
 
-	<div
-		class="relative parallax top-12"
-		style="transform: translate(0, {y < 2 ? y * 1 : y * paraEffect}px)"
-	>
-		{#if $page.url.pathname == '/lage'}
-			<div
-				class="absolute z-40 left-0 right-0 w-full max-w-screen-xl mx-auto"
-				style="top:calc(1rem + 1vw);"
-			>
-				<div class="w-7/12 mx-auto">
+			<div class="absolute top-20 left-0 right-0 mx-auto max-w-screen-lg z-40 calc_logo_width">
+				<div class="w-10/12 mx-auto">
 					<a
 						sveltekit:prefetch
 						href="{base}/"
@@ -80,14 +69,18 @@
 				</div>
 			</div>
 			<Map {mapAttributes} />
-		{:else if $page.url.pathname == '/bilder'}
-			<Slideshow />
+			<div class="main_content px-4 lg:px10 pb-10 -mt-10">
+				<div
+					class="relative w-full max-w-screen-lg bg-white z-30 px-4 md:px-8 lg:px-12 py-6 lg:py-12 mx-auto edge"
+				>
+					<slot />
+				</div>
+			</div>
+			<!-- end page lage -->
 		{:else}
-			<div
-				class="absolute z-40 left-0 right-0 w-full max-w-screen-xl mx-auto"
-				style="top:calc(1rem + 1vw);"
-			>
-				<div class="w-7/12 mx-auto">
+			<!-- end page default -->
+			<div class="absolute top-20 left-0 right-0 mx-auto max-w-screen-lg z-40 calc_logo_width">
+				<div class="w-10/12 mx-auto">
 					<a
 						sveltekit:prefetch
 						href="{base}/"
@@ -97,18 +90,22 @@
 					</a>
 				</div>
 			</div>
-
 			<Hero />
+			<div class="main_content px-4 lg:px10 pb-10 -mt-10">
+				<div
+					class="relative w-full max-w-screen-lg bg-white z-30 px-4 md:px-8 lg:px-12 py-6 lg:py-12 mx-auto edge"
+				>
+					<slot />
+				</div>
+			</div>
+			<!-- end page default -->
 		{/if}
-	</div>
-
-	<main style="position:relative; " id="main" class="relative pb-12 z-40">
-		<!--	<p>{introHeight}</p>
-
-		<p>{y}</p>-->
-
-		<slot />
 	</main>
-
 	<Footer />
 </div>
+
+<style>
+	.calc_logo_width {
+		width: calc(100% - 8em);
+	}
+</style>
