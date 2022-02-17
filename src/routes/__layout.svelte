@@ -18,7 +18,7 @@
 		style: 'width: 100%; height:80vw; max-height:80vh;'
 	};
 	export const prerender = true;
-
+	import SlideshowIntro from '$lib/slideshow/SlideshowIntro.svelte';
 	import Slideshow from '$lib/slideshow/Slideshow.svelte';
 
 	let y;
@@ -33,6 +33,7 @@
 
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
+
 	let ready = false;
 	onMount(() => (ready = true));
 </script>
@@ -40,22 +41,31 @@
 <svelte:window bind:scrollY={y} />
 
 {#if $page.url.pathname == '/'}
-	<button
-		style="z-index:49;"
-		on:click={toggleIntro}
-		class="absolute left-0 right-0 mx-auto h1 text-4xl bg-darkblue-lighter text-white px-4 py-2 hover:text-darkblue-lighter focus:ring-0 focus:outline-none focus:text-darkblue ease-in-out transition-all duration-300"
-	>
-		Start
-	</button>
+	<div id="Intro" class="relative h-auto overflow-hidden">
+		<button
+			style="z-index:49; bottom:18vh;"
+			on:click={toggleIntro}
+			class="absolute left-0 right-0 mx-auto bottom-0 bg-darkblue text-sm px-4 py-4 mx-auto uppercase font-bold tracking-widest text-white no-underline hover:bg-lightblue hover:text-darkblue transition duration-300 ease-in-out"
+		>
+			Start
+		</button>
 
-	<div
-		id="Intro"
-		style="opacity:1; z-index:48;"
-		on:click={toggleIntro}
-		class="{open
-			? 'h-0 mb-0' // translate-x-0
-			: 'h-100v -mb-10'} transform relative top-0 left-0 w-full bg-red overflow-auto ease-in-out transition-all duration-300 "
-	/>
+		<div
+			style="opacity:1; z-index:47;"
+			class="{open
+				? 'h-0 mb-0' // translate-x-0
+				: 'h-100v -mb-12'} transform relative top-0 left-0 w-full ease-in-out transition-all duration-300 "
+		/>
+
+		<div
+			class="absolute w-full h-screen top-0 left-0 border-2 bg-darkblue grid content-center text-center"
+		>
+			<SlideshowIntro />
+			<h2 class="relative h1 text-8xl text-white w-auto mx-auto" style="z-index:48;">
+				Mehr Meer sehen
+			</h2>
+		</div>
+	</div>
 {/if}
 
 <div class="relative flex flex-col min-h-screen justify-between z-50">

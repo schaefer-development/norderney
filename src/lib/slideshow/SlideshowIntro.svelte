@@ -7,20 +7,21 @@
 	};
 </script>
 
-<div class="relative w-full">
+<div class="absolute top-0 w-full">
 	<Splide
 		options={{
 			autoplay: true,
 			rewind: true,
 			type: 'fade',
-			speed: 2000,
+			speed: 1000,
 			fixedHeight: '100vh',
 			gap: '1rem',
 			cover: true,
-			pagination: false
+			pagination: false,
+			arrows: false
 		}}
 	>
-		<div class="splide__arrows" slot="before-track">
+		<!--<div class="splide__arrows" slot="before-track">
 			<button
 				class="splide__arrow splide__arrow--prev opacity-100 bg-darkblue-lighter text-white w-14 lg:w-20 h-14 lg:h-20 rounded-none left-0 hover:bg-darkblue hover:opacity-100 ease-in-out transition-all duration-300"
 				type="button"
@@ -47,7 +48,7 @@
 					/></svg
 				></button
 			>
-		</div>
+		</div>-->
 
 		<SplideSlide>
 			<img src="{base}/aus_wohnung02.jpg" alt="Ferienwohnung Am Meer Norderneys" />
