@@ -1,6 +1,6 @@
 import { google } from 'googleapis';
 
-const GOOGLE_APPLICATION_CREDENTIALS = './keyfile.json'
+const GOOGLE_APPLICATION_CREDENTIALS = './keyfile.json';
 
 /** @type {import('@sveltejs/kit').RequestHandler} */
 export async function get() {
