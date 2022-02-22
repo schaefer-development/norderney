@@ -24,11 +24,13 @@
 		<SplideSlide>
 			<img src="{base}/sunset.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 		</SplideSlide>
+
 		<SplideSlide>
-			<img src="{base}/aus_wohnung01.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img src="{base}/04.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 		</SplideSlide>
+
 		<SplideSlide>
-			<img src="{base}/aus_schlafen.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img src="{base}/02.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 		</SplideSlide>
 	</Splide>
 </div>
