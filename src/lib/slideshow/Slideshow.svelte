@@ -49,7 +49,16 @@
 		</div>
 
 		<SplideSlide>
-			<img src="{base}/ausstattung/01.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/01.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/01.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/01.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/01.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
 
 			<div class="textbox">
 				<span class="font-semibold block tracking-wider pb-1">Das Wohnzimmer:</span>
@@ -57,10 +66,28 @@
 			</div>
 		</SplideSlide>
 		<SplideSlide>
-			<img src="{base}/ausstattung/02.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/02.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/02.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/02.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/02.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
 		</SplideSlide>
 		<SplideSlide>
-			<img src="{base}/ausstattung/03.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/03.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/03.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/03.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/03.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
 			<div class="textbox">
 				Diese Slideshow ist natürlich nicht vollständig, sondern wird final noch entsprechend
 				erweitert.
@@ -68,21 +95,66 @@
 		</SplideSlide>
 
 		<SplideSlide>
-			<img src="{base}/ausstattung/04.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/04.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/04.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/04.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/04.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
 		</SplideSlide>
 
 		<SplideSlide>
-			<img src="{base}/ausstattung/05.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/05.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/05.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/05.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/05.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
 		</SplideSlide>
 
 		<SplideSlide>
-			<img src="{base}/ausstattung/07.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/07.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/07.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/07.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/07.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
 		</SplideSlide>
 		<SplideSlide>
-			<img src="{base}/ausstattung/09.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/09.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/09.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/09.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/09.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
 		</SplideSlide>
 		<SplideSlide>
-			<img src="{base}/ausstattung/10.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/10.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/10.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/10.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/10.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>>
 		</SplideSlide>
 	</Splide>
 </div>

@@ -145,11 +145,20 @@
 	}
 
 	.mms_button svg {
-		margin-top: -0.2em;
+		animation: arrow ease-in-out 1s infinite;
 		transition: all;
 		transition-duration: 0.25s;
 	}
-	.mms_button:hover svg {
-		margin-top: 0.1em;
+
+	@keyframes arrow {
+		0% {
+			margin-top: -0.2em;
+		}
+		50% {
+			margin-top: 0.15em;
+		}
+		100% {
+			margin-top: -0.2em;
+		}
 	}
 </style>
