@@ -44,7 +44,15 @@
 				? 'h-0 mb-0 z-0' // translate-x-0
 				: 'h-100v -mb-12 z-50'} transform relative top-0 left-0 w-full ease-in-out transition-all duration-300"
 		/>
-
+		<div class="absolute top-28 left-0 right-0 mx-auto max-w-screen-lg z-40 calc_logo_width">
+			<div class="w-10/12 mx-auto">
+				<span
+					class="text-white focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
+				>
+					<Logo />
+				</span>
+			</div>
+		</div>
 		<div class="absolute w-full h-screen top-0 left-0 bg-darkblue text-center">
 			<SlideshowIntro />
 		</div>
