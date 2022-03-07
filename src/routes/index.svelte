@@ -1,5 +1,4 @@
 <script lang="ts">
-	import '../app.css';
 	import { base } from '$app/paths';
 	import Review from '$lib/review/Review.svelte';
 	import Cards from '$lib/cards/Cards.svelte';

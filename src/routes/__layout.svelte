@@ -1,8 +1,4 @@
 <script lang="ts">
-	import '@fontsource/catamaran/400.css';
-	import '@fontsource/catamaran/600.css';
-	import '@fontsource/catamaran/700.css';
-	import '@fontsource/bad-script';
 	import '../app.css';
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
