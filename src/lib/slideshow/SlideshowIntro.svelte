@@ -118,17 +118,5 @@
 				alt="Ferienwohnung Am Meer Norderney"
 			/>
 		</SplideSlide>
-		<SplideSlide>
-			<img
-				class="object-cover hero_height"
-				src="{base}/impressionen/impressionen1920-assets/10.jpg"
-				srcset="
-			{base}/impressionen/impressionen780-assets/10.jpg 780w,
-			{base}/impressionen/impressionen1280-assets/10.jpg 1280w,
-			{base}/impressionen/impressionen1920-assets/10.jpg 1920w"
-				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
-				alt="Ferienwohnung Am Meer Norderney"
-			/>
-		</SplideSlide>
 	</Splide>
 </div>
