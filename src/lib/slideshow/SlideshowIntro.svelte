@@ -22,15 +22,32 @@
 		}}
 	>
 		<SplideSlide>
-			<img src="{base}/sunset.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img src="{base}/impressionen/02.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 		</SplideSlide>
 
 		<SplideSlide>
-			<img src="{base}/04.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img src="{base}/impressionen/03.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 		</SplideSlide>
-
 		<SplideSlide>
-			<img src="{base}/02.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img src="{base}/impressionen/04.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+		</SplideSlide>
+		<SplideSlide>
+			<img src="{base}/impressionen/05.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+		</SplideSlide>
+		<SplideSlide>
+			<img src="{base}/impressionen/06.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+		</SplideSlide>
+		<SplideSlide>
+			<img src="{base}/impressionen/07.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+		</SplideSlide>
+		<SplideSlide>
+			<img src="{base}/impressionen/08.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+		</SplideSlide>
+		<SplideSlide>
+			<img src="{base}/impressionen/09.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+		</SplideSlide>
+		<SplideSlide>
+			<img src="{base}/impressionen/10.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 		</SplideSlide>
 	</Splide>
 </div>

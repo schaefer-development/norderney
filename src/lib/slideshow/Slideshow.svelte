@@ -49,10 +49,7 @@
 		</div>
 
 		<SplideSlide>
-			<img src="{base}/01.jpg" alt="Ferienwohnung Am Meer Norderneys" />
-
-
-
+			<img src="{base}/ausstattung/01.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 
 			<div class="textbox">
 				<span class="font-semibold block tracking-wider pb-1">Das Wohnzimmer:</span>
@@ -60,33 +57,32 @@
 			</div>
 		</SplideSlide>
 		<SplideSlide>
-			<img src="{base}/02.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img src="{base}/ausstattung/02.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 		</SplideSlide>
 		<SplideSlide>
-			<img src="{base}/03.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img src="{base}/ausstattung/03.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 			<div class="textbox">
 				Diese Slideshow ist natürlich nicht vollständig, sondern wird final noch entsprechend
 				erweitert.
 			</div>
 		</SplideSlide>
 
-
 		<SplideSlide>
-			<img src="{base}/04.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img src="{base}/ausstattung/04.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 		</SplideSlide>
 
 		<SplideSlide>
-			<img src="{base}/05.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img src="{base}/ausstattung/05.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 		</SplideSlide>
 
 		<SplideSlide>
-			<img src="{base}/07.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img src="{base}/ausstattung/07.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 		</SplideSlide>
 		<SplideSlide>
-			<img src="{base}/09.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img src="{base}/ausstattung/09.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 		</SplideSlide>
 		<SplideSlide>
-			<img src="{base}/10.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img src="{base}/ausstattung/10.jpg" alt="Ferienwohnung Am Meer Norderneys" />
 		</SplideSlide>
 	</Splide>
 </div>

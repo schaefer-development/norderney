@@ -1,25 +1,3 @@
-<!--<div class="cite grid grid-cols-4 mx-auto max-w-screen-lg pt-8">
-	<div class="left col-span-4 md:col-span-1 ">
-		<div
-			class=" block bg-pink-800 rounded-full text-center text-white font-semibold grid content-center tracking-wide text-3xl mx-auto"
-			style="width:3em; height:3em"
-		>
-			BM
-		</div>
-	</div>
-
-	<div class="right col-span-4 md:col-span-3">
-		<span class="font-bold block">Barbara Manthey</span>
-
-		<p class="opacity-90">
-			Wir waren schon mehrmals in der Wohnung "Am Meer Norderneys". Jedes mal haben wir uns sehr
-			wohl gefühlt. Die Wohnung ist modern eingerichtet, sehr gepflegt und zentral gelegen.In
-			wenigen Schritten ist man am Meer, im Ort und auch zahlreiche Restaurants sind fußläufig zu
-			erreichen. Besser geht es nach unserem Empfinden nicht!
-		</p>
-	</div>
-</div>-->
-
 <div class="w-full text-center pt-14">
 	<!-- row 1 -->
 	<div class="text-amber-400 flex flex-row justify-center">
@@ -108,7 +86,7 @@
 
 <div class="divider h-1 w-3/12 mx-auto my-10" />
 
-<div class="text-center  w-9/12 mx-auto">
+<div class="text-center  w-9/12 mx-auto pb-12">
 	<p>
 		Wir waren schon mehrmals in der Wohnung "Am Meer Norderneys". Jedes mal haben wir uns sehr wohl
 		gefühlt. Die Wohnung ist modern eingerichtet, sehr gepflegt und zentral gelegen.<br />
@@ -116,7 +94,7 @@
 		Besser geht es nach unserem Empfinden nicht!
 	</p>
 	<div
-		class="mt-3 mb-2 block bg-pink-800 rounded-full text-center text-white font-semibold grid content-center tracking-wide mx-auto"
+		class="mt-6 mb-2 block bg-pink-800 rounded-full text-center text-white font-semibold grid content-center tracking-wide mx-auto"
 		style="width:3em; height:3em"
 	>
 		BM
