@@ -21,8 +21,6 @@
 </script>
 
 <script lang="ts">
-	import '../app.css';
-
 	import Calendar from '$lib/Calendar/Calendar.svelte';
 	const today = new Date();
 	export let events = [];
