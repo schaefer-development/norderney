@@ -92,8 +92,8 @@
 				alt="Ferienwohnung Am Meer Norderney"
 			/>
 			<div class="textbox">
-				<span class="font-semibold block tracking-wider pb-1">Fehlender Text</span>
-				Position 1
+				<span class="font-semibold block tracking-wider pb-1">Wohnzimmer</span>
+				Wohnbereich mit Sofa
 			</div>
 		</SplideSlide>
 
@@ -126,8 +126,8 @@
 				alt="Ferienwohnung Am Meer Norderney"
 			/>
 			<div class="textbox">
-				<span class="font-semibold block tracking-wider pb-1">Fehlender Text</span>
-				Position 2
+				<span class="font-semibold block tracking-wider pb-1">Wohnzimmer</span>
+				Blick in den Wohnbereich
 			</div>
 		</SplideSlide>
 		<SplideSlide>
@@ -158,8 +158,8 @@
 				alt="Ferienwohnung Am Meer Norderney"
 			/>
 			<div class="textbox">
-				<span class="font-semibold block tracking-wider pb-1">Fehlender Text</span>
-				Position 3
+				<span class="font-semibold block tracking-wider pb-1">Balkon</span>
+				(seitlicher) Meerblick vom Balkon
 			</div>
 		</SplideSlide>
 		<SplideSlide>
