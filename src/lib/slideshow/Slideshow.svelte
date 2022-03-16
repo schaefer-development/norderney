@@ -49,20 +49,166 @@
 		</div>
 
 		<SplideSlide>
-			<img src="{base}/aus_wohnung02.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/01.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/01.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/01.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/01.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
 			<div class="textbox">
-				<span class="font-semibold block tracking-wider pb-1">Das Wohnzimmer:</span>
-				Ausgestattet mit einem erklärenden Text kann sich der Besucher einen guten Überblick verschaffen.
+				<span class="font-semibold block tracking-wider pb-1">Essecke</span>
+				Mit (seitlichem) Meerblick
 			</div>
 		</SplideSlide>
 		<SplideSlide>
-			<img src="{base}/aus_wohnung01.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/02.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/02.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/02.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/02.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
+			<div class="textbox">
+				<span class="font-semibold block tracking-wider pb-1">Küche</span>
+				Alles was man braucht, Spülmaschine, Backofen mit Mikrowelle ...
+			</div>
 		</SplideSlide>
 		<SplideSlide>
-			<img src="{base}/aus_schlafen.jpg" alt="Ferienwohnung Am Meer Norderneys" />
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/03.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/03.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/03.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/03.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
 			<div class="textbox">
-				Diese Slideshow ist natürlich nicht vollständig, sondern wird final noch entsprechend
-				erweitert.
+				<span class="font-semibold block tracking-wider pb-1">Wohnzimmer</span>
+				Wohnbereich mit Sofa
+			</div>
+		</SplideSlide>
+
+		<SplideSlide>
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/04.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/04.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/04.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/04.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
+			<div class="textbox">
+				<span class="font-semibold block tracking-wider pb-1">Wohnzimmer</span>
+				Mit zusätzlicher Schlafgelegenheit für gemütliche Abende
+			</div>
+		</SplideSlide>
+
+		<SplideSlide>
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/05.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/05.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/05.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/05.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
+			<div class="textbox">
+				<span class="font-semibold block tracking-wider pb-1">Wohnzimmer</span>
+				Blick in den Wohnbereich
+			</div>
+		</SplideSlide>
+		<SplideSlide>
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/06.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/06.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/06.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/06.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
+			<div class="textbox">
+				<span class="font-semibold block tracking-wider pb-1">Balkon</span>
+				Überdachter Balkon mit (seitlichem) Meerblick
+			</div>
+		</SplideSlide>
+		<SplideSlide>
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/07.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/07.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/07.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/07.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
+			<div class="textbox">
+				<span class="font-semibold block tracking-wider pb-1">Balkon</span>
+				(seitlicher) Meerblick vom Balkon
+			</div>
+		</SplideSlide>
+		<SplideSlide>
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/08.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/08.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/08.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/08.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
+			<div class="textbox">
+				<span class="font-semibold block tracking-wider pb-1">Schlafzimmer</span>
+				Neben zwei sehr bequemen Betten finden Sie einen zweiten Fernseher
+			</div>
+		</SplideSlide>
+		<SplideSlide>
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/09.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/09.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/09.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/09.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
+			<div class="textbox">
+				<span class="font-semibold block tracking-wider pb-1">Badezimmer</span>
+				Frisch renoviert 2021
+			</div>
+		</SplideSlide>
+		<SplideSlide>
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/10.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/10.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/10.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/10.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
+
+			<div class="textbox">
+				<span class="font-semibold block tracking-wider pb-1">Diele</span>
+				Viel Stauraum für Ihre Garderobe und Schuhe
 			</div>
 		</SplideSlide>
 	</Splide>
@@ -78,8 +224,7 @@
 		bottom: 22vh;
 		margin: auto;
 		padding: 1em 1.75em;
-		background-color: #327194;
-		/*background-color:rgba(31,57,71,0.9);*/
+		background-color: rgba(31, 57, 71, 0.5);
 		color: #fff;
 		font-weight: normal;
 		font-size: 1.15em;
@@ -90,7 +235,7 @@
 		content: '';
 		position: absolute;
 		left: 25px;
-		bottom: -25px;
+		bottom: -30px;
 		width: 30px;
 		height: 30px;
 		background-color: inherit;

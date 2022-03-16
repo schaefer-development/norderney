@@ -47,7 +47,7 @@
 					<a
 						href="{base}/lage"
 						class="text-sm uppercase tracking-widest block hover:text-darkblue-lighter py-1"
-						>Lage & Ausbildung</a
+						>Lage & Ausstattung</a
 					>
 
 					<a

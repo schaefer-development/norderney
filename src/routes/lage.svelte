@@ -1,7 +1,3 @@
-<script lang="ts">
-	import '../app.css';
-</script>
-
 <svelte:head>
 	<title>Lage: Am Meer Norderneys</title>
 	<meta name="robots" content="noindex nofollow" />

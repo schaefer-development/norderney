@@ -9,7 +9,7 @@
 			<div class="overflow-hidden">
 				<img
 					class="relative w-full bg-cover"
-					src="{base}/ausstattung.jpg"
+					src="{base}/ausstattung/ausstattung_thumbnail.jpg"
 					alt="Lage & Ausstattung"
 				/>
 			</div>

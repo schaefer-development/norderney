@@ -1,8 +1,4 @@
 <script lang="ts">
-	import '@fontsource/catamaran/400.css';
-	import '@fontsource/catamaran/600.css';
-	import '@fontsource/catamaran/700.css';
-	import '@fontsource/bad-script';
 	import '../app.css';
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
@@ -32,37 +28,51 @@
 	};
 
 	import { onMount } from 'svelte';
-	import { fade } from 'svelte/transition';
-
-	let ready = false;
-	onMount(() => (ready = true));
 </script>
 
 <svelte:window bind:scrollY={y} />
 
 {#if $page.url.pathname == '/'}
 	<div id="Intro" class="relative h-auto overflow-hidden">
-		<button
-			style="z-index:49; bottom:18vh;"
-			on:click={toggleIntro}
-			class="absolute left-0 right-0 mx-auto bottom-0 bg-darkblue text-sm px-4 py-4 mx-auto uppercase font-bold tracking-widest text-white no-underline hover:bg-lightblue hover:text-darkblue transition duration-300 ease-in-out"
-		>
-			Start
-		</button>
-
 		<div
 			style="opacity:1; z-index:47;"
 			class="{open
-				? 'h-0 mb-0' // translate-x-0
-				: 'h-100v -mb-12'} transform relative top-0 left-0 w-full ease-in-out transition-all duration-300 "
+				? 'h-0 mb-0 z-0' // translate-x-0
+				: 'h-100v -mb-12 z-50'} transform relative top-0 left-0 w-full ease-in-out transition-all duration-300"
 		/>
-
-		<div class="absolute w-full h-screen top-0 left-0 bg-darkblue grid content-center text-center">
-			<SlideshowIntro />
-			<h2 class="relative h1 text-8xl text-white w-auto mx-auto drop-shadow-md" style="z-index:48;">
-				Mehr Meer sehen
-			</h2>
+		<div class="absolute top-28 left-0 right-0 mx-auto max-w-screen-lg z-40 calc_logo_width">
+			<div class="w-10/12 mx-auto">
+				<span
+					class="text-white focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
+				>
+					<Logo />
+				</span>
+			</div>
 		</div>
+		<div class="absolute w-full h-screen top-0 left-0 bg-darkblue text-center">
+			<SlideshowIntro />
+		</div>
+
+		<button
+			style="z-index:49; bottom:10vh;"
+			on:click={toggleIntro}
+			class="absolute h1 text-3xl lg:text-5xl left-0 right-0 mx-auto bottom-0 bg-darkblue pl-6 lg:p-8 pr-4 lg:pr-6 pt-5 lg:pt7 pb-3 lg:pb-5 mx-auto text-white no-underline hover:bg-lightblue hover:text-darkblue transition duration-300 ease-in-out mms_button"
+		>
+			<div class="flex flex-row items-center ">
+				<span class="pr-2">Mehr Meer sehen</span>
+
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="w-6 h-6 lg:w-8 lg:h-8 "
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+					stroke-width="2"
+				>
+					<path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+				</svg>
+			</div>
+		</button>
 	</div>
 {/if}
 
@@ -78,7 +88,7 @@
 		{:else if $page.url.pathname == '/lage'}
 			<!-- start page lage -->
 
-			<div class="absolute top-20 left-0 right-0 mx-auto max-w-screen-lg z-40 calc_logo_width">
+			<div class="absolute top-28 left-0 right-0 mx-auto max-w-screen-lg z-40 calc_logo_width">
 				<div class="w-10/12 mx-auto">
 					<a
 						sveltekit:prefetch
@@ -100,12 +110,12 @@
 			<!-- end page lage -->
 		{:else}
 			<!-- start page default -->
-			<div class="absolute top-20 left-0 right-0 mx-auto max-w-screen-lg z-40 calc_logo_width">
+			<div class="absolute top-28 left-0 right-0 mx-auto max-w-screen-lg z-40 calc_logo_width">
 				<div class="w-10/12 mx-auto">
 					<a
 						sveltekit:prefetch
 						href="{base}/"
-						class="text-darkblue focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
+						class="text-white focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
 					>
 						<Logo />
 					</a>
@@ -128,5 +138,23 @@
 <style>
 	.calc_logo_width {
 		width: calc(100% - 8em);
+	}
+
+	.mms_button svg {
+		animation: arrow ease-in-out 1s infinite;
+		transition: all;
+		transition-duration: 0.25s;
+	}
+
+	@keyframes arrow {
+		0% {
+			margin-top: -0.2em;
+		}
+		50% {
+			margin-top: 0.15em;
+		}
+		100% {
+			margin-top: -0.2em;
+		}
 	}
 </style>
