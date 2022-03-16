@@ -8,10 +8,8 @@
 
 	export let offset = 1; // Monday
 	export let today = null; // Date
-	// let year = today ? today.getFullYear() : 2022;
-	// let month = today ? today.getMonth() : 0;
-	let year = 2022;
-	let month = 1;
+	let year = today ? today.getFullYear() : 2022;
+	let month = today ? today.getMonth() : 0;
 
 	export let labels = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
 	export let months = [
