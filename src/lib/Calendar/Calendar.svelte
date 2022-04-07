@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { DateTime } from 'luxon';
 	import CalendarEvent from './CalendarEvent';
 	import calendarize from 'calendarize';
 	import Arrow from './Arrow.svelte';
@@ -57,12 +58,8 @@
 		next = calendarize(new Date(year, month + 1), offset);
 	}
 
-	function normalizeDate(day) {
-		const normalized = new Date('2022-01-01T00:00:00.000Z');
-		normalized.setFullYear(year);
-		normalized.setMonth(month);
-		normalized.setDate(day);
-		return normalized;
+	function createDate(day) {
+		return DateTime.fromObject({ year, month: month + 1, day });
 	}
 
 	function isToday(day) {
@@ -100,9 +97,9 @@
 					<span
 						class="date date_height"
 						class:today={isToday(current[idxw][idxd])}
-						class:isStart={isStart(normalizeDate(current[idxw][idxd]))}
-						class:isBetween={isBetween(normalizeDate(current[idxw][idxd]))}
-						class:isEnd={isEnd(normalizeDate(current[idxw][idxd]))}
+						class:isStart={isStart(createDate(current[idxw][idxd]))}
+						class:isBetween={isBetween(createDate(current[idxw][idxd]))}
+						class:isEnd={isEnd(createDate(current[idxw][idxd]))}
 					>
 						{current[idxw][idxd]}
 					</span>
