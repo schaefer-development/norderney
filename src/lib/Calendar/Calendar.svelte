@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { DateTime } from 'luxon';
 	import CalendarEvent from './CalendarEvent';
 	import calendarize from 'calendarize';
 	import Arrow from './Arrow.svelte';
@@ -57,12 +58,8 @@
 		next = calendarize(new Date(year, month + 1), offset);
 	}
 
-	function normalizeDate(day) {
-		const normalized = new Date('2022-01-01T00:00:00.000Z');
-		normalized.setFullYear(year);
-		normalized.setMonth(month);
-		normalized.setDate(day);
-		return normalized;
+	function createDate(day) {
+		return DateTime.fromObject({ year, month: month + 1, day });
 	}
 
 	function isToday(day) {
@@ -86,9 +83,9 @@
 	<Arrow on:click={toNext} />
 </header>
 
-<div class="grid grid-cols-7 gap-1 text-right">
+<div class="grid grid-cols-7 gap-1">
 	{#each labels as txt, idx (txt)}
-		<span class="text-center uppercase text-darkblue font-bold text-md lg:text_xl "
+		<span class="text-center uppercase text-darkblue font-bold text-md lg:text-xl "
 			>{labels[(idx + offset) % 7]}</span
 		>
 	{/each}
@@ -98,18 +95,24 @@
 			{#each { length: 7 } as d, idxd (idxd)}
 				{#if current[idxw][idxd] != 0}
 					<span
-						class="date date_height"
+						class="date date_height relative border w-full grid content-center text-center text-lg lg:text-xl"
 						class:today={isToday(current[idxw][idxd])}
-						class:isStart={isStart(normalizeDate(current[idxw][idxd]))}
-						class:isBetween={isBetween(normalizeDate(current[idxw][idxd]))}
-						class:isEnd={isEnd(normalizeDate(current[idxw][idxd]))}
+						class:isStart={isStart(createDate(current[idxw][idxd]))}
+						class:isBetween={isBetween(createDate(current[idxw][idxd]))}
+						class:isEnd={isEnd(createDate(current[idxw][idxd]))}
 					>
 						{current[idxw][idxd]}
 					</span>
 				{:else if idxw < 1}
-					<span class="date date_height other">{prev[prev.length - 1][idxd]}</span>
+					<span
+						class="date date_height other relative border w-full grid content-center text-center text-lg lg:text-xl"
+						>{prev[prev.length - 1][idxd]}</span
+					>
 				{:else}
-					<span class="date date_height other">{next[0][idxd]}</span>
+					<span
+						class="date date_height other relative border w-full grid content-center text-center text-lg lg:text-xl"
+						>{next[0][idxd]}</span
+					>
 				{/if}
 			{/each}
 		{/if}
@@ -119,54 +122,60 @@
 <style>
 	/* calendar */
 
-	.date.isStart {
-		@apply bg-red text-white relative overflow-hidden z-10;
+	.date.isStart::before,
+	.date.isStart::after,
+	.date.isBetween::before,
+	.date.isEnd::before,
+	.date.isEnd::after,
+	.date::before {
+		content: '';
+		position: absolute;
+		height: 12%;
+		bottom: 0;
+	}
+
+	.date.isStart::before {
+		@apply w-6/12 left-0 bg-green rounded-r-full;
 	}
 
 	.date.isStart::after {
-		content: '';
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		background-color: #339933;
-		clip-path: polygon(100% 0, 0 0, 0 100%);
-		z-index: 1;
+		@apply w-6/12 right-0 bg-red rounded-l-full;
 	}
 
-	.date.isBetween,
-	.date.isStart.isEnd {
-		@apply bg-red text-white;
+	.date.isBetween::before {
+		@apply w-full left-0 bg-red;
 	}
 
-	.date.isEnd {
-		@apply bg-green text-white relative;
+	.date.isEnd::before {
+		@apply w-6/12 left-0 bg-red  rounded-r-full;
 	}
-
 	.date.isEnd::after {
-		content: '';
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		background-color: #f92200;
-		clip-path: polygon(100% 100%, 0 0, 0 100%);
+		@apply w-6/12 right-0 bg-green  rounded-l-full;
 	}
 
 	.date_height {
 		aspect-ratio: 1;
 	}
 	.date {
-		@apply border pr-3 text-white bg-green grid content-center text-xl;
+	}
+
+	.date {
+		@apply bg-gray-50;
+	}
+
+	.date::before {
+		@apply w-full left-0 bg-green;
 	}
 
 	.date.today {
-		border: 6px solid #1f3947;
+		@apply bg-darkblue-lighter text-white;
 	}
 
 	.date.other {
 		@apply bg-white text-black opacity-50;
+	}
+
+	.date.other:before {
+		@apply hidden;
 	}
 </style>

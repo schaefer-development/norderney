@@ -1,22 +1,28 @@
+import { DateTime } from 'luxon';
+
+const format = 'yyyy-MM-dd';
+
 export default class CalendarEvent {
-	start: Date;
-	end: Date;
+	start: DateTime;
+	end: DateTime;
 
 	constructor(event: { start: { date: string }; end: { date: string } }) {
-		this.start = new Date(event.start.date);
-		this.end = new Date(event.end.date);
-		this.end.setDate(this.end.getDate() - 1);
+		this.start = DateTime.fromFormat(event.start.date, format);
+		this.end = DateTime.fromFormat(event.end.date, format);
 	}
 
-	startsAt(date: Date): boolean {
-		return this.start.getTime() === date.getTime();
+	startsAt(date: DateTime): boolean {
+		return +this.start === +date
 	}
 
-	contains(date: Date): boolean {
-		return this.start.getTime() < date.getTime() && date.getTime() < this.end.getTime();
+	contains(date: DateTime): boolean {
+		return this.start < date && date < this.end;
 	}
 
-	endsAt(date: Date): boolean {
-		return this.end.getTime() === date.getTime();
+	endsAt(date: DateTime): boolean {
+		// For events spanning multiple whole days, Google sets the end to midnight
+		// on the following day
+		const limit = this.end.minus({ days: 1 });
+		return +limit === +date
 	}
 }
