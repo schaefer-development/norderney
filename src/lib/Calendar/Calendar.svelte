@@ -83,7 +83,7 @@
 	<Arrow on:click={toNext} />
 </header>
 
-<div class="grid grid-cols-7 gap-1 text-right">
+<div class="grid grid-cols-7 gap-1">
 	{#each labels as txt, idx (txt)}
 		<span class="text-center uppercase text-darkblue font-bold text-md lg:text_xl "
 			>{labels[(idx + offset) % 7]}</span
@@ -116,54 +116,61 @@
 <style>
 	/* calendar */
 
-	.date.isStart {
-		@apply bg-red text-white relative overflow-hidden z-10;
+	.date.isStart::before,
+	.date.isStart::after,
+	.date.isBetween::before,
+	.date.isEnd::before,
+	.date.isEnd::after,
+	.date::before {
+		content: '';
+		position: absolute;
+		height: 15%;
+		bottom: 0;
+	}
+
+	.date.isStart::before {
+		@apply w-6/12 left-0 bg-green  rounded-r-full;
 	}
 
 	.date.isStart::after {
-		content: '';
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		background-color: #339933;
-		clip-path: polygon(100% 0, 0 0, 0 100%);
-		z-index: 1;
+		@apply w-6/12 right-0 bg-red  rounded-l-full;
 	}
 
-	.date.isBetween,
-	.date.isStart.isEnd {
-		@apply bg-red text-white;
+	.date.isBetween::before {
+		@apply w-full left-0 bg-red;
 	}
 
-	.date.isEnd {
-		@apply bg-green text-white relative;
+	.date.isEnd::before {
+		@apply w-6/12 left-0 bg-red  rounded-r-full;
 	}
-
 	.date.isEnd::after {
-		content: '';
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		background-color: #f92200;
-		clip-path: polygon(100% 100%, 0 0, 0 100%);
+		@apply w-6/12 right-0 bg-green  rounded-l-full;
 	}
 
 	.date_height {
 		aspect-ratio: 1;
 	}
 	.date {
-		@apply border pr-3 text-white bg-green grid content-center text-xl;
+		@apply border w-full grid content-center text-center text-xl relative;
+	}
+
+	.date {
+		@apply bg-gray-50;
+	}
+
+	.date::before {
+		@apply w-full left-0 bg-green;
 	}
 
 	.date.today {
-		border: 6px solid #1f3947;
+		@apply bg-darkblue-lighter text-white;
 	}
 
 	.date.other {
 		@apply bg-white text-black opacity-50;
+	}
+
+	.date.other:before {
+		@apply hidden;
 	}
 </style>
