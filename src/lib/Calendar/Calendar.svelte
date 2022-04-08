@@ -147,10 +147,10 @@
 	}
 
 	.date.isEnd::before {
-		@apply w-6/12 left-0 bg-red rounded-r-full;
+		@apply w-6/12 left-0 bg-red  rounded-r-full;
 	}
 	.date.isEnd::after {
-		@apply w-6/12 right-0 bg-green rounded-l-full;
+		@apply w-6/12 right-0 bg-green  rounded-l-full;
 	}
 
 	.date_height {
