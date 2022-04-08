@@ -12,7 +12,7 @@ export default class CalendarEvent {
 	}
 
 	startsAt(date: DateTime): boolean {
-		return this.start.hasSame(date, 'day');
+		return +this.start === +date
 	}
 
 	contains(date: DateTime): boolean {
@@ -20,6 +20,9 @@ export default class CalendarEvent {
 	}
 
 	endsAt(date: DateTime): boolean {
-		return this.end.hasSame(date, 'day');
+		// For events spanning multiple whole days, Google sets the end to midnight
+		// on the following day
+		const limit = this.end.minus({ days: 1 });
+		return +limit === +date
 	}
 }
