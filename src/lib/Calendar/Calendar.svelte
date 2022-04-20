@@ -142,7 +142,7 @@
 	}
 
 	.date.isStart {
-		@apply bg-green;
+		@apply bg-green overflow-hidden;
 	}
 
 	.date.isBetween {
@@ -150,15 +150,15 @@
 	}
 
 	.date.isEnd {
-		@apply bg-red;
+		@apply bg-red overflow-hidden;
 	}
 
 	.date.isStart::before,
 	.date.isEnd::before {
 		content: '';
 		position: absolute;
-		width: 100%;
-		height: 100%;
+		width: 101%;
+		height: 101%;
 		clip-path: polygon(100% 0, 0% 100%, 100% 100%);
 		z-index: 1;
 	}
