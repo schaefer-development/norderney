@@ -93,21 +93,23 @@ ul.no_style {
 	padding: 0.25em 1em 2em 0;
 }
 ul.no_style li {
-	padding-left: 2em;
-	padding-bottom: 0.75em;
+	padding-left: 2.5em;
+	padding-bottom: 1em;
 	position: relative;
 }
 ul.no_style li:before {
 	content: '';
-	width: 21px;
-	transform: rotate(-45deg);
-	border-left: 4px solid #339d40;
-	border-bottom: 4px solid #339d40;
 	display: inline-block;
 	position: absolute;
+	top: -0;
 	margin-left: -1.75em;
-	top: 2px;
-	padding-bottom: 0.5em;
+	width: calc(4px + 1vw);
+	max-width: 12px;
+	height: calc(10px + 1vw);
+	max-height: 24px;
+	border-right: 3px solid #339d40;
+	border-bottom: 3px solid #339d40;
+	transform: rotate(45deg);
 }
 
 .hero_height {
