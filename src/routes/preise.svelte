@@ -72,16 +72,16 @@
 		<div class="right col-span-2 sm:col-span-1">
 			<!-- -->
 			<h3>Hauptsaison 3:</h3>
-			1. September - 30. September 2022
+			1. September - 30. September 2023
 			<p class="pb-6">115€/ Tag</p>
 			<h3>Zwischensaison:</h3>
-			1. Oktober - 31. Oktober 2022
+			1. Oktober - 31. Oktober 2023
 			<p class="pb-6">105€/ Tag</p>
 			<h3>Nebensaison 1:</h3>
-			1. November - 22. Dezember 2022
+			1. November - 22. Dezember 2023
 			<p class="pb-6">90€/ Tag</p>
 			<h3>Hauptsaison</h3>
-			23. Dezember - 6. Januar 2023
+			23. Dezember - 6. Januar 2024
 			<p>115€/ Tag</p>
 			<!--  -->
 		</div>
