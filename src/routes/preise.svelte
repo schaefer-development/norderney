@@ -14,29 +14,10 @@
 
 		<div class="left text-left sm:text-right col-span-2 sm:col-span-1">
 			<!-- -->
-			<h3>Nebensaison:</h3>
-			3. Januar - 28. Feburar 2022
-			<p>85€/ Tag</p>
-
-			<p class="text-red pb-6">
-				Sonderpreis vom 9. bis 14. Januar 2022, <br />für 450€ komplett inkl. aller Kosten
-			</p>
-
-			<h3>Vorsaison:</h3>
-			1. März - 31. März 2022
-			<p>90€/ Tag</p>
-			<p class="text-red pb-6">
-				Sonderpreis 6. bis 12. März 2022, <br />für 550€ komplett inkl. aller Kosten
-			</p>
 
 			<h3>Zwischensaison:</h3>
 			1. April - 31. Mai 2022
-			<p>100€/ Tag</p>
-
-			<p class="text-red pb-6">
-				Buchungslücke 8. bis 10. Mai 2022,<br /> 200€ komplett, inkl. aller Kosten.
-			</p>
-
+			<p class="pb-6">100€/ Tag</p>
 			<h3>Hauptsaison 1:</h3>
 			1. Juni - 30. Juni 2022
 			<p class="pb-6">110€/ Tag</p>
@@ -71,19 +52,19 @@
 		<div class="left text-left sm:text-right col-span-2 sm:col-span-1">
 			<!-- -->
 			<h3>Nebensaison:</h3>
-			3. Januar - 28. Feburar 2022
+			3. Januar - 28. Feburar 2023
 			<p class="pb-6">90€/ Tag</p>
 			<h3>Vorsaison:</h3>
-			1. März - 31. März 2022
+			1. März - 31. März 2023
 			<p class="pb-6">95€/ Tag</p>
 			<h3>Zwischensaison:</h3>
-			1. April - 31. Mai 2022
+			1. April - 31. Mai 2023
 			<p class="pb-6">105€/ Tag</p>
 			<h3>Hauptsaison 1:</h3>
-			1. Juni - 30. Juni 2022
+			1. Juni - 30. Juni 2023
 			<p class="pb-6">115€/ Tag</p>
 			<h3>Hauptsaison 2:</h3>
-			1. Juli - 31. August 2022
+			1. Juli - 31. August 2023
 			<p>125€/ Tag</p>
 			<!-- -->
 		</div>
