@@ -47,7 +47,38 @@
 				></button
 			>
 		</div>
-
+		<SplideSlide>
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/06.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/06.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/06.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/06.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
+			<div class="textbox">
+				<span class="font-semibold block tracking-wider pb-1">Balkon</span>
+				Überdachter Balkon mit (seitlichem) Meerblick
+			</div>
+		</SplideSlide>
+		<SplideSlide>
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/07.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/07.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/07.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/07.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
+			<div class="textbox">
+				<span class="font-semibold block tracking-wider pb-1">Balkon</span>
+				(seitlicher) Meerblick vom Balkon
+			</div>
+		</SplideSlide>
 		<SplideSlide>
 			<img
 				class="object-cover hero_height"
@@ -75,6 +106,10 @@
 				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
 				alt="Ferienwohnung Am Meer Norderney"
 			/>
+			<div class="textbox">
+				<span class="font-semibold block tracking-wider pb-1">Wohnzimmer</span>
+				Wohnbereich mit Sofa
+			</div>
 		</SplideSlide>
 		<SplideSlide>
 			<img
@@ -143,38 +178,7 @@
 				Blick in den Wohnbereich
 			</div>
 		</SplideSlide>
-		<SplideSlide>
-			<img
-				class="object-cover hero_height"
-				src="{base}/ausstattung/ausstattung1920-assets/06.jpg"
-				srcset="
-			{base}/ausstattung/ausstattung780-assets/06.jpg 780w,
-			{base}/ausstattung/ausstattung1280-assets/06.jpg 1280w,
-			{base}/ausstattung/ausstattung1920-assets/06.jpg 1920w"
-				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
-				alt="Ferienwohnung Am Meer Norderney"
-			/>
-			<div class="textbox">
-				<span class="font-semibold block tracking-wider pb-1">Balkon</span>
-				Überdachter Balkon mit (seitlichem) Meerblick
-			</div>
-		</SplideSlide>
-		<SplideSlide>
-			<img
-				class="object-cover hero_height"
-				src="{base}/ausstattung/ausstattung1920-assets/07.jpg"
-				srcset="
-			{base}/ausstattung/ausstattung780-assets/07.jpg 780w,
-			{base}/ausstattung/ausstattung1280-assets/07.jpg 1280w,
-			{base}/ausstattung/ausstattung1920-assets/07.jpg 1920w"
-				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
-				alt="Ferienwohnung Am Meer Norderney"
-			/>
-			<div class="textbox">
-				<span class="font-semibold block tracking-wider pb-1">Balkon</span>
-				(seitlicher) Meerblick vom Balkon
-			</div>
-		</SplideSlide>
+
 		<SplideSlide>
 			<img
 				class="object-cover hero_height"
