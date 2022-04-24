@@ -89,7 +89,7 @@
 			/>
 			<div class="textbox">
 				<span class="font-semibold block tracking-wider pb-1">Küche</span>
-				Alles was man braucht, Spülmaschine, Backofen mit Mikrowelle ...
+				Küchenzeile mit Spülmaschine, Herd, Mikrowelle/Backofen, Kaffeemaschine
 			</div>
 		</SplideSlide>
 
