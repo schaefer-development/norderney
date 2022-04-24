@@ -95,22 +95,22 @@
 			{#each { length: 7 } as d, idxd (idxd)}
 				{#if current[idxw][idxd] != 0}
 					<span
-						class="date date_height relative border w-full grid content-center text-center text-lg lg:text-xl"
+						class="date date_height relative border w-full grid content-center text-center text-xl"
 						class:today={isToday(current[idxw][idxd])}
 						class:isStart={isStart(createDate(current[idxw][idxd]))}
 						class:isBetween={isBetween(createDate(current[idxw][idxd]))}
 						class:isEnd={isEnd(createDate(current[idxw][idxd]))}
 					>
-						{current[idxw][idxd]}
+						<div class="label">{current[idxw][idxd]}</div>
 					</span>
 				{:else if idxw < 1}
 					<span
-						class="date date_height other relative border w-full grid content-center text-center text-lg lg:text-xl"
+						class="date date_height other relative border w-full grid content-center text-center text-xl"
 						>{prev[prev.length - 1][idxd]}</span
 					>
 				{:else}
 					<span
-						class="date date_height other relative border w-full grid content-center text-center text-lg lg:text-xl"
+						class="date date_height other relative border w-full grid content-center text-center text-xl"
 						>{next[0][idxd]}</span
 					>
 				{/if}
@@ -121,61 +121,57 @@
 
 <style>
 	/* calendar */
-
-	.date.isStart::before,
-	.date.isStart::after,
-	.date.isBetween::before,
-	.date.isEnd::before,
-	.date.isEnd::after,
-	.date::before {
-		content: '';
-		position: absolute;
-		height: 12%;
-		bottom: 0;
-	}
-
-	.date.isStart::before {
-		@apply w-6/12 left-0 bg-green rounded-r-full;
-	}
-
-	.date.isStart::after {
-		@apply w-6/12 right-0 bg-red rounded-l-full;
-	}
-
-	.date.isBetween::before {
-		@apply w-full left-0 bg-red;
-	}
-
-	.date.isEnd::before {
-		@apply w-6/12 left-0 bg-red  rounded-r-full;
-	}
-	.date.isEnd::after {
-		@apply w-6/12 right-0 bg-green  rounded-l-full;
-	}
-
 	.date_height {
 		aspect-ratio: 1;
-	}
-	.date {
-	}
-
-	.date {
-		@apply bg-gray-50;
-	}
-
-	.date::before {
-		@apply w-full left-0 bg-green;
-	}
-
-	.date.today {
-		@apply bg-darkblue-lighter text-white;
 	}
 
 	.date.other {
 		@apply bg-white text-black opacity-50;
 	}
 
-	.date.other:before {
-		@apply hidden;
+	.date {
+		@apply bg-green text-white relative;
+	}
+
+	.date .label {
+		@apply relative z-10;
+	}
+
+	.date .label {
+		text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+	}
+
+	.date.isStart {
+		@apply bg-green overflow-hidden;
+	}
+
+	.date.isBetween {
+		@apply bg-red;
+	}
+
+	.date.isEnd {
+		@apply bg-red overflow-hidden;
+	}
+
+	.date.isStart::before,
+	.date.isEnd::before {
+		content: '';
+		position: absolute;
+		width: 101%;
+		height: 101%;
+		clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+		z-index: 1;
+	}
+
+	.date.isStart::before {
+		@apply bg-red;
+	}
+
+	.date.isEnd::before {
+		@apply bg-green;
+	}
+
+	.date.today {
+		border: 6px solid #1f3947;
 	}
 </style>

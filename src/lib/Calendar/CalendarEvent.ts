@@ -12,7 +12,8 @@ export default class CalendarEvent {
 	}
 
 	startsAt(date: DateTime): boolean {
-		return +this.start === +date;
+		const limitstart = this.start.minus({ days: 0 });
+		return +limitstart === +date;
 	}
 
 	contains(date: DateTime): boolean {
