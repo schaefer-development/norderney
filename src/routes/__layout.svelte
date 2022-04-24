@@ -57,7 +57,7 @@
 <svelte:window bind:scrollY={y} />
 
 {#if $page.url.pathname == '/'}
-	<div id="Intro" class="relative h-auto overflow-hidden">
+	<div id="Intro" class="relative h-auto overflow-hidden flex justify-center">
 		<div
 			style="opacity:1; z-index:47;"
 			class="{open
@@ -73,16 +73,16 @@
 				</span>
 			</div>
 		</div>
-		<div class="absolute w-full h-screen top-0 left-0 bg-darkblue text-center">
+		<div class="absolute w-full h-screen top-0 left-0 bg-darkblue">
 			<SlideshowIntro />
 		</div>
 
 		<button
 			style="z-index:49; bottom:10vh;"
 			on:click={toggleIntro}
-			class="absolute h1 text-3xl lg:text-5xl left-0 right-0 mx-auto bottom-0 bg-darkblue pl-6 lg:p-8 pr-4 lg:pr-6 pt-5 lg:pt7 pb-3 lg:pb-5 mx-auto text-white no-underline hover:bg-lightblue hover:text-darkblue transition duration-300 ease-in-out mms_button"
+			class="absolute h1 text-3xl lg:text-5xl bottom-0 bg-darkblue pl-6 lg:p-8 pr-4 lg:pr-6 pt-5 lg:pt7 pb-3 lg:pb-5 mx-auto text-white no-underline hover:bg-lightblue hover:text-darkblue transition duration-300 ease-in-out  mms_button"
 		>
-			<div class="flex flex-row items-center ">
+			<div class="relative w-auto flex flex-row">
 				<span class="pr-2">Mehr Meer sehen</span>
 
 				<svg
@@ -139,7 +139,7 @@
 					<a
 						sveltekit:prefetch
 						href="{base}/"
-						class="text-white focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
+						class="text-white hover:text-white focus:ring-0 focus:outline-none focus:text-white transition-all duration-300"
 					>
 						<Logo />
 					</a>
