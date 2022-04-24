@@ -111,22 +111,6 @@
 				Wohnbereich mit Sofa
 			</div>
 		</SplideSlide>
-		<SplideSlide>
-			<img
-				class="object-cover hero_height"
-				src="{base}/ausstattung/ausstattung1920-assets/11.jpg"
-				srcset="
-			{base}/ausstattung/ausstattung780-assets/11.jpg 780w,
-			{base}/ausstattung/ausstattung1280-assets/11.jpg 1280w,
-			{base}/ausstattung/ausstattung1920-assets/11.jpg 1920w"
-				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
-				alt="Ferienwohnung Am Meer Norderney"
-			/>
-			<div class="textbox">
-				<span class="font-semibold block tracking-wider pb-1">Küche</span>
-				Küchenzeile mit Spülmaschine, Herd, Mikrowelle/Backofen, Kaffeemaschine
-			</div>
-		</SplideSlide>
 
 		<SplideSlide>
 			<img
@@ -178,7 +162,22 @@
 				Blick in den Wohnbereich
 			</div>
 		</SplideSlide>
-
+		<SplideSlide>
+			<img
+				class="object-cover hero_height"
+				src="{base}/ausstattung/ausstattung1920-assets/11.jpg"
+				srcset="
+			{base}/ausstattung/ausstattung780-assets/11.jpg 780w,
+			{base}/ausstattung/ausstattung1280-assets/11.jpg 1280w,
+			{base}/ausstattung/ausstattung1920-assets/11.jpg 1920w"
+				sizes="(min-width: 1600px) 1600px, (min-width: 1400px) 1400px, (min-width:1000px) 1000px, 100vw"
+				alt="Ferienwohnung Am Meer Norderney"
+			/>
+			<div class="textbox">
+				<span class="font-semibold block tracking-wider pb-1">Küche</span>
+				Küchenzeile mit Spülmaschine, Herd, Mikrowelle/Backofen, Kaffeemaschine
+			</div>
+		</SplideSlide>
 		<SplideSlide>
 			<img
 				class="object-cover hero_height"
