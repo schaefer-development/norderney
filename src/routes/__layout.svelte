@@ -52,6 +52,7 @@
 	<meta name="msapplication-TleColor" content="#ffffff" />
 	<meta name="msapplication-TileImage" content="{base}/icons/ms-icon-144x144.png" />
 	<meta name="theme-color" content="#ffffff" />
+	<meta name="google-site-verification" content="vx5hgaFBcR4iIDafx_1SJW1d5SPlvec9ZvD9y_PqN6U" />
 </svelte:head>
 
 <svelte:window bind:scrollY={y} />
