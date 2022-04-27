@@ -171,6 +171,12 @@
 		@apply bg-green;
 	}
 
+	.isEnd.isStart::before {
+		/* overlapping events */
+		content: '';
+		display: none;
+	}
+
 	.date.today {
 		border: 6px solid #1f3947;
 	}
