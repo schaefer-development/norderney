@@ -1,11 +1,13 @@
 <script lang="ts">
 	import { DateTime } from 'luxon';
-	import CalendarEvent from './CalendarEvent';
+	import CalendarEvent, { isValid } from './CalendarEvent';
 	import calendarize from 'calendarize';
 	import Arrow from './Arrow.svelte';
 
 	export let events = [];
-	const calendarEvents: CalendarEvent[] = events.map((event) => new CalendarEvent(event));
+	const calendarEvents: CalendarEvent[] = events
+		.filter(isValid)
+		.map((event) => new CalendarEvent(event));
 
 	export let offset = 1; // Monday
 	export let today = null; // Date
