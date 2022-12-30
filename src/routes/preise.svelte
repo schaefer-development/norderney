@@ -87,7 +87,7 @@
 			<p class="pb-6">90€/ Tag</p>
 			<h3>Hauptsaison</h3>
 			23. Dezember 2024 - 6. Januar 2025
-			<p>115€/ Tag</p>
+			<p>115€/ Taag</p>
 			<!--  -->
 		</div>
 
