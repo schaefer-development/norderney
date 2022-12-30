@@ -187,4 +187,6 @@ h3 {
 
 .divider {
 	background-image: url('underline_pattern.svg');
+	height: 1px;
+	border-bottom: 4px dotted #327194;
 }
