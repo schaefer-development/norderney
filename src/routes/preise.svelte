@@ -99,7 +99,8 @@
 			<p class="pb-4">
 				Kinderbett und Kinderstuhl auf Anfrage, jeweils einmalig 10 Euro.<br />
 				Hunde auf Anfrage, einmalig 10 bis 20 Euro.<br />
-				Endreinigung, Wäschepakete, Schlüsselübergabe vor Ort, Energiekosten einmalig 80 Euro.<br />
+				Endreinigung, Wäschepakete, Schlüsselübergabe vor Ort, Energiekosten einmalig 100 Euro.<br
+				/>
 			</p>
 
 			<p class="pb-4">
