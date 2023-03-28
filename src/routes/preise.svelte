@@ -57,20 +57,20 @@
 		<div class="left text-left sm:text-right col-span-2 sm:col-span-1">
 			<!-- -->
 			<h3>Nebensaison:</h3>
-			7. Januar - 28. Feburar 2024
+			1. Januar - 29. Feburar 2024
 			<p class="pb-6">90€/ Tag</p>
 			<h3>Vorsaison:</h3>
 			1. März - 31. März 2024
-			<p class="pb-6">95€/ Tag</p>
+			<p class="pb-6">100€/ Tag</p>
 			<h3>Zwischensaison:</h3>
 			1. April - 31. Mai 2024
-			<p class="pb-6">105€/ Tag</p>
+			<p class="pb-6">110€/ Tag</p>
 			<h3>Hauptsaison 1:</h3>
 			1. Juni - 30. Juni 2024
-			<p class="pb-6">115€/ Tag</p>
+			<p class="pb-6">120€/ Tag</p>
 			<h3>Hauptsaison 2:</h3>
 			1. Juli - 31. August 2024
-			<p>125€/ Tag</p>
+			<p>130€/ Tag</p>
 			<!-- -->
 		</div>
 
@@ -78,16 +78,16 @@
 			<!-- -->
 			<h3>Hauptsaison 3:</h3>
 			1. September - 30. September 2024
-			<p class="pb-6">115€/ Tag</p>
+			<p class="pb-6">120€/ Tag</p>
 			<h3>Zwischensaison:</h3>
 			1. Oktober - 31. Oktober 2024
-			<p class="pb-6">105€/ Tag</p>
+			<p class="pb-6">110€/ Tag</p>
 			<h3>Nebensaison 1:</h3>
 			1. November - 22. Dezember 2024
 			<p class="pb-6">90€/ Tag</p>
 			<h3>Hauptsaison</h3>
 			23. Dezember 2024 - 6. Januar 2025
-			<p>115€/ Tag</p>
+			<p>125€/ Tag</p>
 			<!--  -->
 		</div>
 
