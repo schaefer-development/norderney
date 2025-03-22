@@ -39,7 +39,7 @@
 		"@splidejs/splide": "^3.6.9",
 		"@splidejs/svelte-splide": "^0.1.15",
 		"leaflet": "^1.7.1",
-		"luxon": "^2.3.1",
+		"luxon": "^2.5.2",
 		"svelte-calendar": "^3.1.6"
 	}
 }
