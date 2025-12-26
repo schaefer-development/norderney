@@ -11,51 +11,8 @@
 <section>
 	<div class="grid grid-cols-2 gap-x-12 gap-y-10">
 		<div class="col-span-2">
-			<h1 class="col-span-2 h1 text-darkblue pb-4">Preise 2025</h1>
-		</div>
-
-		<div class="left text-left sm:text-right col-span-2 sm:col-span-1">
-			<!-- -->
-			<h3>Nebensaison:</h3>
-			7. Januar - 28. Februar 2025
-			<p class="pb-6">90€/ Tag</p>
-			<h3>Vorsaison:</h3>
-			1. März - 31. März 2025
-			<p class="pb-6">100€/ Tag</p>
-			<h3>Zwischensaison:</h3>
-			1. April - 31. Mai 2025
-			<p class="pb-6">110€/ Tag</p>
-			<h3>Hauptsaison 1:</h3>
-			1. Juni - 30. Juni 2025
-			<p class="pb-6">120€/ Tag</p>
-			<h3>Hauptsaison 2:</h3>
-			1. Juli - 31. August 2025
-			<p>130€/ Tag</p>
-			<!-- -->
-		</div>
-
-		<div class="right col-span-2 sm:col-span-1">
-			<!-- -->
-			<h3>Hauptsaison 3:</h3>
-			1. September - 30. September 2025
-			<p class="pb-6">120€/ Tag</p>
-			<h3>Zwischensaison:</h3>
-			1. Oktober - 31. Oktober 2025
-			<p class="pb-6">110€/ Tag</p>
-			<h3>Nebensaison 1:</h3>
-			1. November - 22. Dezember 2025
-			<p class="pb-6">90€/ Tag</p>
-			<h3>Hauptsaison</h3>
-			23. Dezember 2025 - 6. Januar 2026
-			<p>125€/ Tag</p>
-			<!--  -->
-		</div>
-
-		<div class="col-span-2">
-			<div class="divider h-1 w-3/12 mx-auto my-16" />
 			<h1 class="col-span-2 h1 text-darkblue pb-4">Preise 2026</h1>
 		</div>
-
 		<div class="left text-left sm:text-right col-span-2 sm:col-span-1">
 			<!-- -->
 			<h3>Nebensaison:</h3>
@@ -89,6 +46,48 @@
 			<p class="pb-6">90€/ Tag</p>
 			<h3>Hauptsaison</h3>
 			23. Dezember 2026 - 3. Januar 2027
+			<p>125€/ Tag</p>
+			<!--  -->
+		</div>
+
+		<div class="col-span-2">
+			<div class="divider h-1 w-3/12 mx-auto my-16" />
+			<h1 class="col-span-2 h1 text-darkblue pb-4">Preise 2027</h1>
+		</div>
+
+		<div class="left text-left sm:text-right col-span-2 sm:col-span-1">
+			<!-- -->
+			<h3>Nebensaison:</h3>
+			7. Januar - 28. Februar 2027
+			<p class="pb-6">90€/ Tag</p>
+			<h3>Vorsaison:</h3>
+			1. März - 31. März 2027
+			<p class="pb-6">100€/ Tag</p>
+			<h3>Zwischensaison:</h3>
+			1. April - 31. Mai 2027
+			<p class="pb-6">110€/ Tag</p>
+			<h3>Hauptsaison 1:</h3>
+			1. Juni - 30. Juni 2027
+			<p class="pb-6">120€/ Tag</p>
+			<h3>Hauptsaison 2:</h3>
+			1. Juli - 31. August 2027
+			<p>130€/ Tag</p>
+			<!-- -->
+		</div>
+
+		<div class="right col-span-2 sm:col-span-1">
+			<!-- -->
+			<h3>Hauptsaison 3:</h3>
+			1. September - 30. September 2027
+			<p class="pb-6">120€/ Tag</p>
+			<h3>Zwischensaison:</h3>
+			1. Oktober - 31. Oktober 2027
+			<p class="pb-6">110€/ Tag</p>
+			<h3>Nebensaison 1:</h3>
+			1. November - 22. Dezember 2027
+			<p class="pb-6">90€/ Tag</p>
+			<h3>Hauptsaison</h3>
+			23. Dezember 2027 - 3. Januar 2028
 			<p>125€/ Tag</p>
 			<!--  -->
 		</div>
